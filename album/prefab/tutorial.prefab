@@ -1,0 +1,2278 @@
+[
+  {
+    "id": "048825eb-3497-4ac1-8ce4-2d4b149e3a6e",
+    "type": "Sunlight",
+    "parent": "d4859eed-809f-4f4a-a05f-24b9f77ab125",
+    "dimension": "G3D",
+    "color": "#ffffff",
+    "intensity": 7,
+    "dynamic": true
+  },
+  {
+    "id": "d4859eed-809f-4f4a-a05f-24b9f77ab125",
+    "name": "light",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 2.951239570094139,
+        "z": 3.1986749417099443
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "30cd4679-a0ce-4e78-aefe-00a3e315747d",
+    "children": [],
+    "components": [
+      "048825eb-3497-4ac1-8ce4-2d4b149e3a6e"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "ec2cfb86-17cb-464e-9fe3-e03afaa2cdfb",
+    "type": "Mesh",
+    "parent": "0c9d7584-1766-4275-a923-5c2d299d2092",
+    "dimension": "G3D",
+    "meshType": "Plane",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      {
+        "textures": {
+          "map": "res\\img\\01_backstrretboy.png"
+        },
+        "depthTest": true
+      }
+    ]
+  },
+  {
+    "id": "77764545-79c6-4abd-8e69-22789f9611a6",
+    "type": "Action",
+    "parent": "0c9d7584-1766-4275-a923-5c2d299d2092",
+    "dimension": "G3D",
+    "path": "src/album.h",
+    "className": "album",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "properties": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      },
+      {
+        "name": "album1_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album2_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album3_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album4_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album5_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum1_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum2_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum3_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum4_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum5_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "positions_",
+        "type": "glm::vec3[5]"
+      },
+      {
+        "name": "rotations_",
+        "type": "glm::vec3[5]"
+      },
+      {
+        "name": "album1_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album2_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album3_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album4_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album5_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album1_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album2_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album3_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album4_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album5_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album1_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album2_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album3_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album4_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album5_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "animation_time_",
+        "type": "float"
+      },
+      {
+        "name": "animation_duration_",
+        "type": "float"
+      },
+      {
+        "name": "is_animating_",
+        "type": "bool"
+      },
+      {
+        "name": "bg_color_",
+        "type": "glm::vec4"
+      },
+      {
+        "name": "left_key_pressed_",
+        "type": "bool"
+      },
+      {
+        "name": "right_key_pressed_",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "id": "0c9d7584-1766-4275-a923-5c2d299d2092",
+    "name": "album1",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 4,
+        "y": 3,
+        "z": 1
+      }
+    },
+    "parent": "6871db32-3705-48e8-8869-776b5f06b6c2",
+    "children": [],
+    "components": [
+      "ec2cfb86-17cb-464e-9fe3-e03afaa2cdfb",
+      "77764545-79c6-4abd-8e69-22789f9611a6"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "58e1cf6a-800d-415b-85de-e3402a2fcaf6",
+    "type": "Mesh",
+    "parent": "9307109e-8f01-4573-b286-e1b1b70d5fa4",
+    "dimension": "G3D",
+    "meshType": "Plane",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      {
+        "textures": {
+          "map": "res\\img\\08_u2.png"
+        },
+        "depthTest": true
+      }
+    ]
+  },
+  {
+    "id": "6c66b10d-c462-468b-b091-b68445dfeb56",
+    "type": "Action",
+    "parent": "9307109e-8f01-4573-b286-e1b1b70d5fa4",
+    "dimension": "G3D",
+    "path": "src/album.h",
+    "className": "album",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "properties": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      },
+      {
+        "name": "album1_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album2_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album3_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album4_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album5_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum1_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum2_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum3_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum4_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum5_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "positions_",
+        "type": "glm::vec3[5]"
+      },
+      {
+        "name": "rotations_",
+        "type": "glm::vec3[5]"
+      },
+      {
+        "name": "album1_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album2_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album3_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album4_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album5_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album1_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album2_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album3_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album4_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album5_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album1_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album2_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album3_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album4_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album5_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "animation_time_",
+        "type": "float"
+      },
+      {
+        "name": "animation_duration_",
+        "type": "float"
+      },
+      {
+        "name": "is_animating_",
+        "type": "bool"
+      },
+      {
+        "name": "bg_color_",
+        "type": "glm::vec4"
+      },
+      {
+        "name": "left_key_pressed_",
+        "type": "bool"
+      },
+      {
+        "name": "right_key_pressed_",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "id": "9307109e-8f01-4573-b286-e1b1b70d5fa4",
+    "name": "album2",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 3,
+        "y": 0,
+        "z": -3
+      },
+      "rotation": {
+        "x": 0,
+        "y": -0.6108652381980153,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": -0.3007057995042731,
+        "z": 0,
+        "w": 0.9537169507482269
+      },
+      "scale": {
+        "x": 4,
+        "y": 3,
+        "z": 1
+      }
+    },
+    "parent": "6871db32-3705-48e8-8869-776b5f06b6c2",
+    "children": [],
+    "components": [
+      "58e1cf6a-800d-415b-85de-e3402a2fcaf6",
+      "6c66b10d-c462-468b-b091-b68445dfeb56"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "d5852cab-4332-4a10-9d02-d027b1a42e29",
+    "type": "Mesh",
+    "parent": "c96f3a52-bce3-41f5-b49d-95b84797682e",
+    "dimension": "G3D",
+    "meshType": "Plane",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      {
+        "textures": {
+          "map": "res\\img\\03_beyonce.png"
+        },
+        "depthTest": true,
+        "transparent": true
+      }
+    ]
+  },
+  {
+    "id": "ab1353f9-b939-4aa4-8b9f-416176c20d6e",
+    "type": "Action",
+    "parent": "c96f3a52-bce3-41f5-b49d-95b84797682e",
+    "dimension": "G3D",
+    "path": "src/album.h",
+    "className": "album",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "properties": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      },
+      {
+        "name": "album1_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album2_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album3_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album4_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album5_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum1_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum2_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum3_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum4_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum5_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "positions_",
+        "type": "glm::vec3[5]"
+      },
+      {
+        "name": "rotations_",
+        "type": "glm::vec3[5]"
+      },
+      {
+        "name": "album1_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album2_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album3_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album4_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album5_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album1_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album2_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album3_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album4_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album5_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album1_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album2_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album3_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album4_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album5_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "animation_time_",
+        "type": "float"
+      },
+      {
+        "name": "animation_duration_",
+        "type": "float"
+      },
+      {
+        "name": "is_animating_",
+        "type": "bool"
+      },
+      {
+        "name": "bg_color_",
+        "type": "glm::vec4"
+      },
+      {
+        "name": "left_key_pressed_",
+        "type": "bool"
+      },
+      {
+        "name": "right_key_pressed_",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "id": "c96f3a52-bce3-41f5-b49d-95b84797682e",
+    "name": "album3",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 5,
+        "y": 0,
+        "z": -4
+      },
+      "rotation": {
+        "x": 0,
+        "y": -0.6108652381980153,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": -0.3007057995042731,
+        "z": 0,
+        "w": 0.9537169507482269
+      },
+      "scale": {
+        "x": 4,
+        "y": 3,
+        "z": 1
+      }
+    },
+    "parent": "6871db32-3705-48e8-8869-776b5f06b6c2",
+    "children": [],
+    "components": [
+      "d5852cab-4332-4a10-9d02-d027b1a42e29",
+      "ab1353f9-b939-4aa4-8b9f-416176c20d6e"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "e941df43-8bfe-4178-bc60-257ff8c3d3af",
+    "type": "Mesh",
+    "parent": "43ac9302-c4e1-40d6-9538-6c4df5d67507",
+    "dimension": "G3D",
+    "meshType": "Plane",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      {
+        "textures": {
+          "map": "res\\img\\04_brian_mcknight.png"
+        },
+        "depthTest": true
+      }
+    ]
+  },
+  {
+    "id": "a1de6b32-1d1a-4ea1-b21e-e24bc6890d3b",
+    "type": "Action",
+    "parent": "43ac9302-c4e1-40d6-9538-6c4df5d67507",
+    "dimension": "G3D",
+    "path": "src/album.h",
+    "className": "album",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "properties": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      },
+      {
+        "name": "album1_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album2_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album3_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album4_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album5_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum1_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum2_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum3_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum4_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum5_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "positions_",
+        "type": "glm::vec3[5]"
+      },
+      {
+        "name": "rotations_",
+        "type": "glm::vec3[5]"
+      },
+      {
+        "name": "album1_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album2_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album3_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album4_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album5_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album1_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album2_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album3_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album4_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album5_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album1_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album2_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album3_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album4_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album5_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "animation_time_",
+        "type": "float"
+      },
+      {
+        "name": "animation_duration_",
+        "type": "float"
+      },
+      {
+        "name": "is_animating_",
+        "type": "bool"
+      },
+      {
+        "name": "bg_color_",
+        "type": "glm::vec4"
+      },
+      {
+        "name": "left_key_pressed_",
+        "type": "bool"
+      },
+      {
+        "name": "right_key_pressed_",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "id": "43ac9302-c4e1-40d6-9538-6c4df5d67507",
+    "name": "album4",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -5,
+        "y": 0,
+        "z": -4
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0.6108652381980153,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0.3007057995042731,
+        "z": 0,
+        "w": 0.9537169507482269
+      },
+      "scale": {
+        "x": 4,
+        "y": 3,
+        "z": 1
+      }
+    },
+    "parent": "6871db32-3705-48e8-8869-776b5f06b6c2",
+    "children": [],
+    "components": [
+      "e941df43-8bfe-4178-bc60-257ff8c3d3af",
+      "a1de6b32-1d1a-4ea1-b21e-e24bc6890d3b"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "70ce4bb7-f80e-479a-9601-9ee184a20065",
+    "type": "Mesh",
+    "parent": "0ddb1b58-4c88-4ce6-b1e3-3fc58dbdbbfc",
+    "dimension": "G3D",
+    "meshType": "Plane",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      {
+        "textures": {
+          "map": "res\\img\\flow_01.png"
+        },
+        "depthTest": true
+      }
+    ]
+  },
+  {
+    "id": "856b6cf5-e50a-49e1-a585-244a25c41764",
+    "type": "Action",
+    "parent": "0ddb1b58-4c88-4ce6-b1e3-3fc58dbdbbfc",
+    "dimension": "G3D",
+    "path": "src/album.h",
+    "className": "album",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "properties": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      },
+      {
+        "name": "album1_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album2_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album3_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album4_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album5_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum1_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum2_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum3_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum4_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum5_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "positions_",
+        "type": "glm::vec3[5]"
+      },
+      {
+        "name": "rotations_",
+        "type": "glm::vec3[5]"
+      },
+      {
+        "name": "album1_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album2_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album3_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album4_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album5_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album1_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album2_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album3_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album4_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album5_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album1_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album2_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album3_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album4_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album5_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "animation_time_",
+        "type": "float"
+      },
+      {
+        "name": "animation_duration_",
+        "type": "float"
+      },
+      {
+        "name": "is_animating_",
+        "type": "bool"
+      },
+      {
+        "name": "bg_color_",
+        "type": "glm::vec4"
+      },
+      {
+        "name": "left_key_pressed_",
+        "type": "bool"
+      },
+      {
+        "name": "right_key_pressed_",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "id": "0ddb1b58-4c88-4ce6-b1e3-3fc58dbdbbfc",
+    "name": "album5",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -3,
+        "y": 0,
+        "z": -3
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0.6108652381980153,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0.3007057995042731,
+        "z": 0,
+        "w": 0.9537169507482269
+      },
+      "scale": {
+        "x": 4,
+        "y": 3,
+        "z": 1
+      }
+    },
+    "parent": "6871db32-3705-48e8-8869-776b5f06b6c2",
+    "children": [],
+    "components": [
+      "70ce4bb7-f80e-479a-9601-9ee184a20065",
+      "856b6cf5-e50a-49e1-a585-244a25c41764"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "6871db32-3705-48e8-8869-776b5f06b6c2",
+    "name": "album",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "30cd4679-a0ce-4e78-aefe-00a3e315747d",
+    "children": [
+      "0c9d7584-1766-4275-a923-5c2d299d2092",
+      "9307109e-8f01-4573-b286-e1b1b70d5fa4",
+      "c96f3a52-bce3-41f5-b49d-95b84797682e",
+      "43ac9302-c4e1-40d6-9538-6c4df5d67507",
+      "0ddb1b58-4c88-4ce6-b1e3-3fc58dbdbbfc"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "77236fa0-15b3-446e-a9da-d62097ef16c4",
+    "type": "Camera",
+    "parent": "0c4639c5-4adf-433e-a61b-b7fdd8ea0ac5",
+    "dimension": "G3D",
+    "cameraType": "Perspective",
+    "fov": 50,
+    "aspect": 2.6666666666666665,
+    "left": -2.6666666666666665,
+    "right": 2.6666666666666665,
+    "top": 1,
+    "bottom": -1,
+    "near": 1,
+    "far": 1000
+  },
+  {
+    "id": "0c4639c5-4adf-433e-a61b-b7fdd8ea0ac5",
+    "name": "camera",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": -0.15824803995855818,
+        "z": 6.119566179573326
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "30cd4679-a0ce-4e78-aefe-00a3e315747d",
+    "children": [],
+    "components": [
+      "77236fa0-15b3-446e-a9da-d62097ef16c4"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "f86b8141-a5b3-40ec-babd-581187e40ad0",
+    "type": "Mesh",
+    "parent": "0aae56fb-07ac-4f52-aa47-97c04158080d",
+    "dimension": "G3D",
+    "meshType": "Plane",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      {
+        "textures": {
+          "map": "res\\img\\01_backstrretboy_sh.png"
+        },
+        "depthTest": true,
+        "transparent": true
+      }
+    ]
+  },
+  {
+    "id": "727375e9-c087-4eaf-bff1-41271a45437c",
+    "type": "Action",
+    "parent": "0aae56fb-07ac-4f52-aa47-97c04158080d",
+    "dimension": "G3D",
+    "path": "src/album.h",
+    "className": "album",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "properties": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      },
+      {
+        "name": "album1_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album2_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album3_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album4_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album5_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum1_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum2_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum3_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum4_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum5_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "positions_",
+        "type": "glm::vec3[5]"
+      },
+      {
+        "name": "rotations_",
+        "type": "glm::vec3[5]"
+      },
+      {
+        "name": "album1_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album2_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album3_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album4_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album5_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album1_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album2_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album3_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album4_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album5_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album1_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album2_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album3_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album4_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album5_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "animation_time_",
+        "type": "float"
+      },
+      {
+        "name": "animation_duration_",
+        "type": "float"
+      },
+      {
+        "name": "is_animating_",
+        "type": "bool"
+      },
+      {
+        "name": "bg_color_",
+        "type": "glm::vec4"
+      },
+      {
+        "name": "left_key_pressed_",
+        "type": "bool"
+      },
+      {
+        "name": "right_key_pressed_",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "id": "0aae56fb-07ac-4f52-aa47-97c04158080d",
+    "name": "reflectedAlbum1",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": -3.5,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 4,
+        "y": 3,
+        "z": 1
+      }
+    },
+    "parent": "d13c00a8-549c-4433-a95e-c5454f62f2e2",
+    "children": [],
+    "components": [
+      "f86b8141-a5b3-40ec-babd-581187e40ad0",
+      "727375e9-c087-4eaf-bff1-41271a45437c"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "c09fd709-f508-49e5-a1cf-f6f55ecad24b",
+    "type": "Mesh",
+    "parent": "45812a21-c410-4e5d-847a-0dd93c540f8b",
+    "dimension": "G3D",
+    "meshType": "Plane",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      {
+        "textures": {
+          "map": "res\\img\\08_u2_sh.png"
+        },
+        "depthTest": true,
+        "transparent": true
+      }
+    ]
+  },
+  {
+    "id": "09340c03-5a47-4fc4-96fe-cdae5c5d265d",
+    "type": "Action",
+    "parent": "45812a21-c410-4e5d-847a-0dd93c540f8b",
+    "dimension": "G3D",
+    "path": "src/album.h",
+    "className": "album",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "properties": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      },
+      {
+        "name": "album1_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album2_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album3_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album4_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album5_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum1_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum2_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum3_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum4_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum5_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "positions_",
+        "type": "glm::vec3[5]"
+      },
+      {
+        "name": "rotations_",
+        "type": "glm::vec3[5]"
+      },
+      {
+        "name": "album1_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album2_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album3_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album4_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album5_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album1_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album2_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album3_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album4_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album5_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album1_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album2_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album3_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album4_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album5_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "animation_time_",
+        "type": "float"
+      },
+      {
+        "name": "animation_duration_",
+        "type": "float"
+      },
+      {
+        "name": "is_animating_",
+        "type": "bool"
+      },
+      {
+        "name": "bg_color_",
+        "type": "glm::vec4"
+      },
+      {
+        "name": "left_key_pressed_",
+        "type": "bool"
+      },
+      {
+        "name": "right_key_pressed_",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "id": "45812a21-c410-4e5d-847a-0dd93c540f8b",
+    "name": "reflectedAlbum2",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 3,
+        "y": -3.5,
+        "z": -3
+      },
+      "rotation": {
+        "x": 0,
+        "y": -0.6108652381980153,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": -0.3007057995042731,
+        "z": 0,
+        "w": 0.9537169507482269
+      },
+      "scale": {
+        "x": 4,
+        "y": 3,
+        "z": 1
+      }
+    },
+    "parent": "d13c00a8-549c-4433-a95e-c5454f62f2e2",
+    "children": [],
+    "components": [
+      "c09fd709-f508-49e5-a1cf-f6f55ecad24b",
+      "09340c03-5a47-4fc4-96fe-cdae5c5d265d"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "996f45f9-04c0-4a59-945d-94c613527fd0",
+    "type": "Mesh",
+    "parent": "75395ad4-29b6-45be-a61e-eb5cc02583ad",
+    "dimension": "G3D",
+    "meshType": "Plane",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      {
+        "textures": {
+          "map": "res\\img\\03_beyonce_sh.png"
+        },
+        "depthTest": true,
+        "transparent": true
+      }
+    ]
+  },
+  {
+    "id": "310ca42e-9ebe-400d-aad8-de3f5edb49db",
+    "type": "Action",
+    "parent": "75395ad4-29b6-45be-a61e-eb5cc02583ad",
+    "dimension": "G3D",
+    "path": "src/album.h",
+    "className": "album",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "properties": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      },
+      {
+        "name": "album1_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album2_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album3_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album4_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album5_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum1_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum2_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum3_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum4_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum5_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "positions_",
+        "type": "glm::vec3[5]"
+      },
+      {
+        "name": "rotations_",
+        "type": "glm::vec3[5]"
+      },
+      {
+        "name": "album1_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album2_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album3_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album4_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album5_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album1_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album2_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album3_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album4_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album5_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album1_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album2_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album3_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album4_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album5_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "animation_time_",
+        "type": "float"
+      },
+      {
+        "name": "animation_duration_",
+        "type": "float"
+      },
+      {
+        "name": "is_animating_",
+        "type": "bool"
+      },
+      {
+        "name": "bg_color_",
+        "type": "glm::vec4"
+      },
+      {
+        "name": "left_key_pressed_",
+        "type": "bool"
+      },
+      {
+        "name": "right_key_pressed_",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "id": "75395ad4-29b6-45be-a61e-eb5cc02583ad",
+    "name": "reflectedAlbum3",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 5,
+        "y": -3.5,
+        "z": -4
+      },
+      "rotation": {
+        "x": 0,
+        "y": -0.6108652381980153,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": -0.3007057995042731,
+        "z": 0,
+        "w": 0.9537169507482269
+      },
+      "scale": {
+        "x": 4,
+        "y": 3,
+        "z": 1
+      }
+    },
+    "parent": "d13c00a8-549c-4433-a95e-c5454f62f2e2",
+    "children": [],
+    "components": [
+      "996f45f9-04c0-4a59-945d-94c613527fd0",
+      "310ca42e-9ebe-400d-aad8-de3f5edb49db"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "9a2cabc3-3a34-4b41-8e4f-171581a2793b",
+    "type": "Mesh",
+    "parent": "3b5b5afb-6ced-4c82-8265-9370ded77286",
+    "dimension": "G3D",
+    "meshType": "Plane",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      {
+        "textures": {
+          "map": "res\\img\\04_brian_mcknight_sh.png"
+        },
+        "depthTest": true,
+        "transparent": true
+      }
+    ]
+  },
+  {
+    "id": "fb34a007-276b-4dab-ba22-e9923c57fa60",
+    "type": "Action",
+    "parent": "3b5b5afb-6ced-4c82-8265-9370ded77286",
+    "dimension": "G3D",
+    "path": "src/album.h",
+    "className": "album",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "properties": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      },
+      {
+        "name": "album1_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album2_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album3_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album4_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album5_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum1_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum2_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum3_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum4_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum5_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "positions_",
+        "type": "glm::vec3[5]"
+      },
+      {
+        "name": "rotations_",
+        "type": "glm::vec3[5]"
+      },
+      {
+        "name": "album1_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album2_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album3_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album4_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album5_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album1_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album2_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album3_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album4_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album5_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album1_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album2_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album3_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album4_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album5_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "animation_time_",
+        "type": "float"
+      },
+      {
+        "name": "animation_duration_",
+        "type": "float"
+      },
+      {
+        "name": "is_animating_",
+        "type": "bool"
+      },
+      {
+        "name": "bg_color_",
+        "type": "glm::vec4"
+      },
+      {
+        "name": "left_key_pressed_",
+        "type": "bool"
+      },
+      {
+        "name": "right_key_pressed_",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "id": "3b5b5afb-6ced-4c82-8265-9370ded77286",
+    "name": "reflectedAlbum4",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -5,
+        "y": -3.5,
+        "z": -4
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0.6108652381980153,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0.3007057995042731,
+        "z": 0,
+        "w": 0.9537169507482269
+      },
+      "scale": {
+        "x": 4,
+        "y": 3,
+        "z": 1
+      }
+    },
+    "parent": "d13c00a8-549c-4433-a95e-c5454f62f2e2",
+    "children": [],
+    "components": [
+      "9a2cabc3-3a34-4b41-8e4f-171581a2793b",
+      "fb34a007-276b-4dab-ba22-e9923c57fa60"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "56166541-6c34-4f6d-812a-80ee4d920890",
+    "type": "Mesh",
+    "parent": "a28b6307-98e3-453a-8af4-b48c6553fb46",
+    "dimension": "G3D",
+    "meshType": "Plane",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      {
+        "textures": {
+          "map": "res\\img\\flow_01_sh.png"
+        },
+        "depthTest": true,
+        "transparent": true
+      }
+    ]
+  },
+  {
+    "id": "ced8da4a-eefa-476d-bd3f-86f7fe45afa4",
+    "type": "Action",
+    "parent": "a28b6307-98e3-453a-8af4-b48c6553fb46",
+    "dimension": "G3D",
+    "path": "src/album.h",
+    "className": "album",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "properties": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      },
+      {
+        "name": "album1_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album2_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album3_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album4_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "album5_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum1_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum2_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum3_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum4_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "reflectedAlbum5_",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "positions_",
+        "type": "glm::vec3[5]"
+      },
+      {
+        "name": "rotations_",
+        "type": "glm::vec3[5]"
+      },
+      {
+        "name": "album1_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album2_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album3_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album4_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album5_position_index_",
+        "type": "int"
+      },
+      {
+        "name": "album1_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album2_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album3_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album4_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album5_current_pos_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album1_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album2_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album3_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album4_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "album5_current_rot_",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "animation_time_",
+        "type": "float"
+      },
+      {
+        "name": "animation_duration_",
+        "type": "float"
+      },
+      {
+        "name": "is_animating_",
+        "type": "bool"
+      },
+      {
+        "name": "bg_color_",
+        "type": "glm::vec4"
+      },
+      {
+        "name": "left_key_pressed_",
+        "type": "bool"
+      },
+      {
+        "name": "right_key_pressed_",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "id": "a28b6307-98e3-453a-8af4-b48c6553fb46",
+    "name": "reflectedAlbum5",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -3,
+        "y": -3.5,
+        "z": -3
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0.6108652381980153,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0.3007057995042731,
+        "z": 0,
+        "w": 0.9537169507482269
+      },
+      "scale": {
+        "x": 4,
+        "y": 3,
+        "z": 1
+      }
+    },
+    "parent": "d13c00a8-549c-4433-a95e-c5454f62f2e2",
+    "children": [],
+    "components": [
+      "56166541-6c34-4f6d-812a-80ee4d920890",
+      "ced8da4a-eefa-476d-bd3f-86f7fe45afa4"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "d13c00a8-549c-4433-a95e-c5454f62f2e2",
+    "name": "reflectedAlbum",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "30cd4679-a0ce-4e78-aefe-00a3e315747d",
+    "children": [
+      "0aae56fb-07ac-4f52-aa47-97c04158080d",
+      "45812a21-c410-4e5d-847a-0dd93c540f8b",
+      "75395ad4-29b6-45be-a61e-eb5cc02583ad",
+      "3b5b5afb-6ced-4c82-8265-9370ded77286",
+      "a28b6307-98e3-453a-8af4-b48c6553fb46"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "30cd4679-a0ce-4e78-aefe-00a3e315747d",
+    "name": "tutorial",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": null,
+    "children": [
+      "d4859eed-809f-4f4a-a05f-24b9f77ab125",
+      "6871db32-3705-48e8-8869-776b5f06b6c2",
+      "0c4639c5-4adf-433e-a61b-b7fdd8ea0ac5",
+      "d13c00a8-549c-4433-a95e-c5454f62f2e2"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  }
+]

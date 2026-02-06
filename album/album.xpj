@@ -1,0 +1,13 @@
+{
+  "ProjectName": "album",
+  "ScreenWidth": 1280,
+  "ScreenHeight": 480,
+  "StartScene": "",
+  "OutPath": "",
+  "IncludePaths": [],
+  "Runtime": "cpp",
+  "RenderBackend": "Vulkan",
+  "LocalizationPath": "",
+  "LocalizationLanguage": "",
+  "Modified": "2026-02-06T06:15:46.262Z"
+}
