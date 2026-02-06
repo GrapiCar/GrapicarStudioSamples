@@ -1,0 +1,46 @@
+[
+  {
+    "class": "EcoSpeed",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "members": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      },
+      {
+        "name": "object",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "maxSpeedText",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "gauge",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "ecoMixer",
+        "type": "grapi::runtime::Animator*"
+      },
+      {
+        "name": "previousMode",
+        "type": "int"
+      },
+      {
+        "name": "animationFinished",
+        "type": "bool"
+      },
+      {
+        "name": "currentAngle",
+        "type": "float"
+      },
+      {
+        "name": "isFirstUpdate",
+        "type": "bool"
+      }
+    ]
+  }
+]

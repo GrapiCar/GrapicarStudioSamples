@@ -1,0 +1,30 @@
+[
+  {
+    "class": "AnimatorStateMachine",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "members": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      },
+      {
+        "name": "state",
+        "type": "int"
+      },
+      {
+        "name": "animator",
+        "type": "grapi::runtime::Animator*"
+      },
+      {
+        "name": "isMusic",
+        "type": "bool*"
+      },
+      {
+        "name": "isNAv",
+        "type": "bool*"
+      }
+    ]
+  }
+]

@@ -1,0 +1,115 @@
+{
+  "name": "transition",
+  "path": "animation/transition.controller",
+  "animations": [
+    "animation/music.animation",
+    "animation/nav.animation"
+  ],
+  "nodes": [
+    {
+      "id": "fe0cb1a8-f7e7-440d-a11c-8a7090487656",
+      "type": "entry",
+      "data": {
+        "label": "Entry"
+      },
+      "position": {
+        "x": 270,
+        "y": 20
+      }
+    },
+    {
+      "id": "144d5d4a-6af0-48a7-b37d-26216c07a741",
+      "type": "any",
+      "data": {
+        "label": "Any State"
+      },
+      "position": {
+        "x": 100,
+        "y": 125
+      }
+    },
+    {
+      "id": "9c3de1fc-2694-4e78-bc0d-a8ac76d11b79",
+      "type": "exit",
+      "data": {
+        "label": "Exit"
+      },
+      "position": {
+        "x": 250,
+        "y": 250
+      }
+    },
+    {
+      "id": "370feab4-d5b2-4780-a2d8-d24943a03d45",
+      "data": {
+        "label": "music",
+        "clip": "87d6d03d-4c82-4840-81d3-5f590439c76f"
+      },
+      "position": {
+        "x": 580,
+        "y": 40
+      },
+      "type": "action"
+    },
+    {
+      "id": "7436e768-4d67-471d-9367-8e1517db36b5",
+      "data": {
+        "label": "nav",
+        "clip": "d9de8eca-cd91-4ddf-bc9c-2827a1a36b14"
+      },
+      "position": {
+        "x": 470,
+        "y": 150
+      },
+      "type": "action"
+    }
+  ],
+  "edges": [
+    {
+      "source": "fe0cb1a8-f7e7-440d-a11c-8a7090487656",
+      "target": "7436e768-4d67-471d-9367-8e1517db36b5",
+      "conditions": [],
+      "hasExitTime": false
+    },
+    {
+      "source": "7436e768-4d67-471d-9367-8e1517db36b5",
+      "target": "370feab4-d5b2-4780-a2d8-d24943a03d45",
+      "conditions": [
+        {
+          "uuid": "4aa63675-4f8d-49e7-a8ca-2178c9197e3a",
+          "variable": "38eae21a-59a9-439c-882d-d99b006dbe29",
+          "target": "true"
+        }
+      ],
+      "hasExitTime": false
+    },
+    {
+      "source": "370feab4-d5b2-4780-a2d8-d24943a03d45",
+      "target": "7436e768-4d67-471d-9367-8e1517db36b5",
+      "conditions": [
+        {
+          "uuid": "462a269b-54bd-4e94-a869-ed3001d3f01b",
+          "variable": "26c73c5d-90ae-4cd7-8ba9-c2044f1ee309",
+          "target": "true"
+        }
+      ],
+      "hasExitTime": false
+    }
+  ],
+  "variables": [
+    {
+      "uuid": "26c73c5d-90ae-4cd7-8ba9-c2044f1ee309",
+      "name": "isNav",
+      "type": "boolean",
+      "value": false,
+      "listeners": []
+    },
+    {
+      "uuid": "38eae21a-59a9-439c-882d-d99b006dbe29",
+      "name": "isMusic",
+      "type": "boolean",
+      "value": false,
+      "listeners": []
+    }
+  ]
+}

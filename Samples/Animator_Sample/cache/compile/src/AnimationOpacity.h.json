@@ -1,0 +1,14 @@
+[
+  {
+    "class": "AnimationOpacity",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "members": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      }
+    ]
+  }
+]

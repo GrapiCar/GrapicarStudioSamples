@@ -1,0 +1,31 @@
+{
+  "id": "87d6d03d-4c82-4840-81d3-5f590439c76f",
+  "tag": "music",
+  "keyframes": {
+    "music.opacity": {
+      "times": [
+        0,
+        0.667
+      ],
+      "values": [
+        0,
+        1
+      ]
+    },
+    "nav.opacity": {
+      "times": [
+        0,
+        0.333
+      ],
+      "values": [
+        1,
+        0
+      ]
+    }
+  },
+  "duration": 0.667,
+  "blendMode": 2500,
+  "fromGLB": false,
+  "loop": "Once",
+  "clampWhenFinished": true
+}

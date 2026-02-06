@@ -1,0 +1,716 @@
+[
+  {
+    "id": "0f122a77-62fb-4dbd-979e-48932898e94c",
+    "type": "Image",
+    "parent": "2fa56fb7-27ba-45d4-9d36-5e0d0f5a8fd1",
+    "dimension": "G2D",
+    "name": "",
+    "path": "res/img/gagues/레이어_4.png",
+    "width": 1536,
+    "height": 1024,
+    "depthTest": false,
+    "priority": 0
+  },
+  {
+    "id": "2fa56fb7-27ba-45d4-9d36-5e0d0f5a8fd1",
+    "name": "Background",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -7.68,
+        "y": 5.12,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "46c65e4f-30f5-4788-867a-6dc4ca844729",
+    "children": [],
+    "components": [
+      "0f122a77-62fb-4dbd-979e-48932898e94c"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G2D",
+    "isBone": false
+  },
+  {
+    "id": "59ee91cb-fa73-4db6-897b-5d883292064c",
+    "type": "Image",
+    "parent": "d4b110c4-eb9c-4f86-88d7-17861da7658f",
+    "dimension": "G2D",
+    "name": "",
+    "path": "res/img/gagues/right_empty_gauge.png",
+    "width": 566,
+    "height": 378,
+    "depthTest": false,
+    "priority": 0
+  },
+  {
+    "id": "d4b110c4-eb9c-4f86-88d7-17861da7658f",
+    "name": "right_empty_gauge",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 1.1099999999999994,
+        "y": 1.2200000000000002,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "46c65e4f-30f5-4788-867a-6dc4ca844729",
+    "children": [],
+    "components": [
+      "59ee91cb-fa73-4db6-897b-5d883292064c"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G2D",
+    "isBone": false
+  },
+  {
+    "id": "af80cd24-15d9-4349-9689-18e892fe06db",
+    "type": "Image",
+    "parent": "0a10472e-3513-45f8-821b-84177fa02faf",
+    "dimension": "G2D",
+    "name": "",
+    "path": "res/img/gagues/left_empty_gauge.png",
+    "width": 623,
+    "height": 452,
+    "depthTest": false,
+    "priority": 0
+  },
+  {
+    "id": "0a10472e-3513-45f8-821b-84177fa02faf",
+    "name": "left_empty_gauge",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -7.5,
+        "y": 1.6100000000000003,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "46c65e4f-30f5-4788-867a-6dc4ca844729",
+    "children": [],
+    "components": [
+      "af80cd24-15d9-4349-9689-18e892fe06db"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G2D",
+    "isBone": false
+  },
+  {
+    "id": "729b6406-6263-4174-8a8a-3beb469e52aa",
+    "type": "CanvasBorder",
+    "parent": "46c65e4f-30f5-4788-867a-6dc4ca844729",
+    "dimension": "G2D"
+  },
+  {
+    "id": "46c65e4f-30f5-4788-867a-6dc4ca844729",
+    "name": "cluster",
+    "type": "Canvas2D",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "ae1c2f48-fff0-4b57-97c9-9e945add8d6e",
+    "children": [
+      "2fa56fb7-27ba-45d4-9d36-5e0d0f5a8fd1",
+      "d4b110c4-eb9c-4f86-88d7-17861da7658f",
+      "0a10472e-3513-45f8-821b-84177fa02faf"
+    ],
+    "components": [
+      "729b6406-6263-4174-8a8a-3beb469e52aa"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G2D",
+    "isBone": false,
+    "scaleFactor": 100,
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "id": "dfc56644-a780-46f0-8237-bd30dbb27959",
+    "type": "Image",
+    "parent": "e5437071-24a8-466d-926f-879590305db0",
+    "dimension": "G2D",
+    "name": "",
+    "path": "res/img/gagues/레이어_3.png",
+    "width": 648,
+    "height": 376,
+    "depthTest": false,
+    "priority": 0
+  },
+  {
+    "id": "e5437071-24a8-466d-926f-879590305db0",
+    "name": "left_gauge",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -7.76,
+        "y": 1.08,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "dc318acc-bf45-41de-a7ec-d066cf00c8d0",
+    "children": [],
+    "components": [
+      "dfc56644-a780-46f0-8237-bd30dbb27959"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G2D",
+    "isBone": false
+  },
+  {
+    "id": "3ef491bd-40f2-471e-91a0-75e5cbf7d735",
+    "type": "Image",
+    "parent": "04d375c0-3b15-410b-92d6-19a25ae3d704",
+    "dimension": "G2D",
+    "name": "",
+    "path": "res/img/gagues/레이어_2.png",
+    "width": 628,
+    "height": 365,
+    "depthTest": false,
+    "priority": 0
+  },
+  {
+    "id": "04d375c0-3b15-410b-92d6-19a25ae3d704",
+    "name": "right_gauge",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 1.0999999999999996,
+        "y": 1.0099999999999998,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "dc318acc-bf45-41de-a7ec-d066cf00c8d0",
+    "children": [],
+    "components": [
+      "3ef491bd-40f2-471e-91a0-75e5cbf7d735"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G2D",
+    "isBone": false
+  },
+  {
+    "id": "34e7cc89-b1ee-4e74-9041-697acad3e467",
+    "type": "CanvasBorder",
+    "parent": "dc318acc-bf45-41de-a7ec-d066cf00c8d0",
+    "dimension": "G2D"
+  },
+  {
+    "id": "d31237a2-c1af-42c0-9029-708999cf7759",
+    "type": "ImageMaskTarget",
+    "parent": "dc318acc-bf45-41de-a7ec-d066cf00c8d0",
+    "dimension": "G2D",
+    "maskObjId": "b69d6c83-1dc9-4970-8481-9711db07238f",
+    "targetId": "dc318acc-bf45-41de-a7ec-d066cf00c8d0",
+    "connectedMaskId": "b69d6c83-1dc9-4970-8481-9711db07238f",
+    "stencilBufferNumber": 1,
+    "alphaTest": 0.5,
+    "childrenIds": [
+      "e5437071-24a8-466d-926f-879590305db0",
+      "04d375c0-3b15-410b-92d6-19a25ae3d704"
+    ]
+  },
+  {
+    "id": "dc318acc-bf45-41de-a7ec-d066cf00c8d0",
+    "name": "gauges",
+    "type": "Canvas2D",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "ae1c2f48-fff0-4b57-97c9-9e945add8d6e",
+    "children": [
+      "e5437071-24a8-466d-926f-879590305db0",
+      "04d375c0-3b15-410b-92d6-19a25ae3d704"
+    ],
+    "components": [
+      "34e7cc89-b1ee-4e74-9041-697acad3e467",
+      "d31237a2-c1af-42c0-9029-708999cf7759"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G2D",
+    "isBone": false,
+    "scaleFactor": 100,
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "id": "14c5a389-9af1-4f0f-811c-4448670c1e55",
+    "type": "Image",
+    "parent": "1db179ba-e924-4c69-ac42-31c5653f4a1e",
+    "dimension": "G2D",
+    "name": "",
+    "path": "res/img/gagues/leftMask.png",
+    "width": 508,
+    "height": 241,
+    "depthTest": false,
+    "priority": 0
+  },
+  {
+    "id": "57a3e6ed-ebe1-4f4b-9f6f-98e72dfc65f7",
+    "type": "Action",
+    "parent": "1db179ba-e924-4c69-ac42-31c5653f4a1e",
+    "dimension": "G2D",
+    "path": "src/LeftGauge.h",
+    "className": "LeftGauge",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "properties": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      },
+      {
+        "name": "left",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "baseY_",
+        "type": "vfloat"
+      },
+      {
+        "name": "currentSpeed_",
+        "type": "vfloat"
+      },
+      {
+        "name": "speedTarget_",
+        "type": "vfloat"
+      }
+    ]
+  },
+  {
+    "id": "1db179ba-e924-4c69-ac42-31c5653f4a1e",
+    "name": "leftMask",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -18.907001495361328,
+        "y": 5.891780624717338,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -0.47052518448651665
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": -0.2330983522041659,
+        "w": 0.9724531650417426
+      },
+      "scale": {
+        "x": 4.310827485023124,
+        "y": 4.310827485023124,
+        "z": 1
+      }
+    },
+    "parent": "14c01713-5525-47bf-b7bf-3617600d3918",
+    "children": [],
+    "components": [
+      "14c5a389-9af1-4f0f-811c-4448670c1e55",
+      "57a3e6ed-ebe1-4f4b-9f6f-98e72dfc65f7"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G2D",
+    "isBone": false
+  },
+  {
+    "id": "462fbdb4-7983-4328-a489-e538f2687631",
+    "type": "Image",
+    "parent": "68168715-1a5b-4053-beb3-5ad92500ba98",
+    "dimension": "G2D",
+    "name": "",
+    "path": "res/img/gagues/rightMask.png",
+    "width": 495,
+    "height": 248,
+    "depthTest": false,
+    "priority": 0
+  },
+  {
+    "id": "e79cf4c1-e258-4ca1-bd26-441df09d0493",
+    "type": "Action",
+    "parent": "68168715-1a5b-4053-beb3-5ad92500ba98",
+    "dimension": "G2D",
+    "path": "src/RightGauge.h",
+    "className": "RightGauge",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "properties": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      },
+      {
+        "name": "right",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "baseY_",
+        "type": "vfloat"
+      },
+      {
+        "name": "simTime_",
+        "type": "vfloat"
+      }
+    ]
+  },
+  {
+    "id": "68168715-1a5b-4053-beb3-5ad92500ba98",
+    "name": "rightMask",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 1.0838299989700317,
+        "y": -1.8581288665816356,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -6.307187788163887
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0.01200095240490022,
+        "w": -0.999927985977678
+      },
+      "scale": {
+        "x": 8.566674026642524,
+        "y": 8.566674026642524,
+        "z": 1
+      }
+    },
+    "parent": "14c01713-5525-47bf-b7bf-3617600d3918",
+    "children": [],
+    "components": [
+      "462fbdb4-7983-4328-a489-e538f2687631",
+      "e79cf4c1-e258-4ca1-bd26-441df09d0493"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G2D",
+    "isBone": false
+  },
+  {
+    "id": "14c01713-5525-47bf-b7bf-3617600d3918",
+    "name": "Group",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "b69d6c83-1dc9-4970-8481-9711db07238f",
+    "children": [
+      "1db179ba-e924-4c69-ac42-31c5653f4a1e",
+      "68168715-1a5b-4053-beb3-5ad92500ba98"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G2D",
+    "isBone": false
+  },
+  {
+    "id": "a88f6ddc-b04b-494b-9b27-0f8a3c710a75",
+    "type": "CanvasBorder",
+    "parent": "b69d6c83-1dc9-4970-8481-9711db07238f",
+    "dimension": "G2D"
+  },
+  {
+    "id": "e86c9087-76bb-461d-8d7e-329db48e9d07",
+    "type": "ImageMaskMask",
+    "parent": "b69d6c83-1dc9-4970-8481-9711db07238f",
+    "dimension": "G2D",
+    "targetObjId": "dc318acc-bf45-41de-a7ec-d066cf00c8d0",
+    "maskId": "b69d6c83-1dc9-4970-8481-9711db07238f",
+    "childrenIds": [
+      "14c01713-5525-47bf-b7bf-3617600d3918"
+    ]
+  },
+  {
+    "id": "b69d6c83-1dc9-4970-8481-9711db07238f",
+    "name": "gauges_mask",
+    "type": "Canvas2D",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 3.1998317916983785,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "ae1c2f48-fff0-4b57-97c9-9e945add8d6e",
+    "children": [
+      "14c01713-5525-47bf-b7bf-3617600d3918"
+    ],
+    "components": [
+      "a88f6ddc-b04b-494b-9b27-0f8a3c710a75",
+      "e86c9087-76bb-461d-8d7e-329db48e9d07"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G2D",
+    "isBone": false,
+    "scaleFactor": 100,
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "id": "a5926fa7-60c7-438d-bc24-4f412f723f0c",
+    "type": "ImageMaskTarget",
+    "parent": "ae1c2f48-fff0-4b57-97c9-9e945add8d6e",
+    "dimension": "G3D",
+    "maskObjId": "",
+    "targetId": "ae1c2f48-fff0-4b57-97c9-9e945add8d6e",
+    "connectedMaskId": "",
+    "stencilBufferNumber": 0,
+    "alphaTest": 0.5,
+    "childrenIds": [
+      "46c65e4f-30f5-4788-867a-6dc4ca844729",
+      "dc318acc-bf45-41de-a7ec-d066cf00c8d0",
+      "b69d6c83-1dc9-4970-8481-9711db07238f"
+    ]
+  },
+  {
+    "id": "7f8dac29-a005-4dc1-8598-31adf23e6456",
+    "type": "SkyBox",
+    "parent": "ae1c2f48-fff0-4b57-97c9-9e945add8d6e",
+    "dimension": "G3D",
+    "path": "",
+    "isActive": false,
+    "visible": true
+  },
+  {
+    "id": "ae1c2f48-fff0-4b57-97c9-9e945add8d6e",
+    "name": "Scene",
+    "type": "Scene",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "",
+    "children": [
+      "46c65e4f-30f5-4788-867a-6dc4ca844729",
+      "dc318acc-bf45-41de-a7ec-d066cf00c8d0",
+      "b69d6c83-1dc9-4970-8481-9711db07238f"
+    ],
+    "components": [
+      "a5926fa7-60c7-438d-bc24-4f412f723f0c",
+      "7f8dac29-a005-4dc1-8598-31adf23e6456"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false,
+    "backgroundColor": "#000000",
+    "grid": {
+      "size": 1000,
+      "divisions": 1000,
+      "color": "bbbbbb",
+      "opacity": 0.5,
+      "p_history": [
+        false,
+        true,
+        false
+      ],
+      "o_history": [
+        true,
+        false,
+        false
+      ],
+      "isRender": false
+    },
+    "camera": {
+      "acceleration": false,
+      "speed": 1,
+      "far": 1000,
+      "fov": 50,
+      "near": 0.01
+    },
+    "viewSettings": "",
+    "formatVersion": 2
+  }
+]

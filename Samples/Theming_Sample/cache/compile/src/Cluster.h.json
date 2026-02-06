@@ -1,0 +1,62 @@
+[
+  {
+    "class": "Cluster",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "members": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      },
+      {
+        "name": "currentMode",
+        "type": "int"
+      },
+      {
+        "name": "previousMode",
+        "type": "int"
+      },
+      {
+        "name": "modeTransitionTimer",
+        "type": "double"
+      },
+      {
+        "name": "modeTransitionDuration",
+        "type": "const double"
+      },
+      {
+        "name": "isTransitioning",
+        "type": "bool"
+      },
+      {
+        "name": "prev_m_",
+        "type": "bool"
+      },
+      {
+        "name": "ecoMode",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "normalMode",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "sportMode",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "ecoModeAnimator",
+        "type": "grapi::runtime::Animator*"
+      },
+      {
+        "name": "normalModeAnimator",
+        "type": "grapi::runtime::Animator*"
+      },
+      {
+        "name": "sportModeAnimator",
+        "type": "grapi::runtime::Animator*"
+      }
+    ]
+  }
+]

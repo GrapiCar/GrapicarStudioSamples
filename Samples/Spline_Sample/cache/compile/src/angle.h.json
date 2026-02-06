@@ -1,0 +1,22 @@
+[
+  {
+    "class": "angle",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "members": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      },
+      {
+        "name": "arc_",
+        "type": "grapi::runtime::Arc*"
+      },
+      {
+        "name": "delay_time_",
+        "type": "vfloat"
+      }
+    ]
+  }
+]

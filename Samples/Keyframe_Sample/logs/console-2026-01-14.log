@@ -1,0 +1,24 @@
+[2026-01-14 17:14:49] [ERROR] [RunTime][stderr]: Precondition
+in class filament::Texture *__cdecl filament::Texture::Builder::build(class filament::Engine &):164
+in file C:\Git\dev\grapi-base-release\external\filament\filament\src\details\Texture.cpp
+reason: Texture format 38 not supported on this platform
+
+
+[2026-01-14 17:26:02] [ERROR] [RunTime][stderr]: Precondition
+in class filament::Texture *__cdecl filament::Texture::Builder::build(class filament::Engine &):164
+in file C:\Git\dev\grapi-base-release\external\filament\filament\src\details\Texture.cpp
+reason: Texture format 38 not supported on this platform
+
+
+[2026-01-14 17:35:55] [ERROR] [RunTime][stderr]: Precondition
+in class filament::Texture *__cdecl filament::Texture::Builder::build(class filament::Engine &):164
+in file C:\Git\dev\grapi-base-release\external\filament\filament\src\details\Texture.cpp
+reason: Texture format 38 not supported on this platform
+
+
+[2026-01-14 17:42:56] [ERROR] [RunTime][stderr]: Precondition
+in class filament::Texture *__cdecl filament::Texture::Builder::build(class filament::Engine &):164
+in file C:\Git\dev\grapi-base-release\external\filament\filament\src\details\Texture.cpp
+reason: Texture format 38 not supported on this platform
+
+

@@ -1,0 +1,302 @@
+[
+  {
+    "id": "119c1cce-623d-427b-8c57-dfbc76eb448a",
+    "type": "Image",
+    "parent": "e3c5c292-aa79-46f5-b8d4-695bc7ec1fca",
+    "dimension": "G2D",
+    "name": "",
+    "path": "res/img/cluster_music.png",
+    "width": 399,
+    "height": 228,
+    "depthTest": false,
+    "priority": 0
+  },
+  {
+    "id": "e3c5c292-aa79-46f5-b8d4-695bc7ec1fca",
+    "name": "nav",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 146.43641900591095,
+        "y": -83.17789818706655,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "beb72eca-df8b-4200-a828-8a9eee7e0fe9",
+    "children": [],
+    "components": [
+      "119c1cce-623d-427b-8c57-dfbc76eb448a"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G2D",
+    "isBone": false
+  },
+  {
+    "id": "6193f014-b4a6-4c0d-a63b-2f0b44726950",
+    "type": "Image",
+    "parent": "ad133e86-ea00-4664-b8d1-e97e90331dd2",
+    "dimension": "G2D",
+    "name": "",
+    "path": "res/img/cluster_music2.png",
+    "width": 217,
+    "height": 287,
+    "depthTest": false,
+    "priority": 0
+  },
+  {
+    "id": "ad133e86-ea00-4664-b8d1-e97e90331dd2",
+    "name": "music",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 178.81087629888376,
+        "y": -61.16301623101508,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0.6,
+        "y": 0.6,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "beb72eca-df8b-4200-a828-8a9eee7e0fe9",
+    "children": [],
+    "components": [
+      "6193f014-b4a6-4c0d-a63b-2f0b44726950"
+    ],
+    "visible": true,
+    "opacity": 0,
+    "dimension": "G2D",
+    "isBone": false
+  },
+  {
+    "id": "8b808f4d-a628-461c-b14a-db401c346dfe",
+    "type": "Action",
+    "parent": "beb72eca-df8b-4200-a828-8a9eee7e0fe9",
+    "dimension": "G2D",
+    "path": "src/AnimatorStateMachine.h",
+    "className": "AnimatorStateMachine",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "properties": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      },
+      {
+        "name": "state",
+        "type": "int"
+      },
+      {
+        "name": "animator",
+        "type": "grapi::runtime::Animator*",
+        "variableValue": "beb72eca-df8b-4200-a828-8a9eee7e0fe9"
+      },
+      {
+        "name": "isMusic",
+        "type": "bool*"
+      },
+      {
+        "name": "isNAv",
+        "type": "bool*"
+      }
+    ]
+  },
+  {
+    "id": "5424c850-c490-4186-91cb-cc711f6dceb0",
+    "type": "Image",
+    "parent": "beb72eca-df8b-4200-a828-8a9eee7e0fe9",
+    "dimension": "G2D",
+    "name": "",
+    "path": "res/img/cluster_all.png",
+    "width": 500,
+    "height": 333,
+    "depthTest": false,
+    "priority": 0
+  },
+  {
+    "id": "5f5c6e4b-d5fa-4904-b881-15053965e690",
+    "type": "Animator",
+    "parent": "beb72eca-df8b-4200-a828-8a9eee7e0fe9",
+    "dimension": "G2D",
+    "path": "animation/transition.controller"
+  },
+  {
+    "id": "beb72eca-df8b-4200-a828-8a9eee7e0fe9",
+    "name": "container",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -500,
+        "y": 330,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "6fe2cd4e-7def-43ff-b3c9-e42bbebdd70b",
+    "children": [
+      "e3c5c292-aa79-46f5-b8d4-695bc7ec1fca",
+      "ad133e86-ea00-4664-b8d1-e97e90331dd2"
+    ],
+    "components": [
+      "8b808f4d-a628-461c-b14a-db401c346dfe",
+      "5424c850-c490-4186-91cb-cc711f6dceb0",
+      "5f5c6e4b-d5fa-4904-b881-15053965e690"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G2D",
+    "isBone": false
+  },
+  {
+    "id": "6fe2cd4e-7def-43ff-b3c9-e42bbebdd70b",
+    "name": "Cluster",
+    "type": "Canvas2D",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "cdbe4174-a1dc-4741-bb5b-fbcb632c80bb",
+    "children": [
+      "beb72eca-df8b-4200-a828-8a9eee7e0fe9"
+    ],
+    "components": [
+      "945a3dd9-50bd-4d87-b18a-fd271e0a6c48"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G2D",
+    "isBone": false,
+    "scaleFactor": 100,
+    "width": 1000,
+    "height": 666
+  },
+  {
+    "id": "4d6f27d1-9945-45f0-bf86-064b93680308",
+    "type": "ImageMaskTarget",
+    "parent": "cdbe4174-a1dc-4741-bb5b-fbcb632c80bb",
+    "dimension": "G3D",
+    "maskObjId": "",
+    "targetId": "cdbe4174-a1dc-4741-bb5b-fbcb632c80bb",
+    "connectedMaskId": "",
+    "stencilBufferNumber": 0,
+    "alphaTest": 0.5,
+    "childrenIds": [
+      "6fe2cd4e-7def-43ff-b3c9-e42bbebdd70b"
+    ]
+  },
+  {
+    "id": "bf6ba319-c8d9-4dd2-92e0-659d9438985f",
+    "type": "SkyBox",
+    "parent": "cdbe4174-a1dc-4741-bb5b-fbcb632c80bb",
+    "dimension": "G3D",
+    "path": "",
+    "isActive": true
+  },
+  {
+    "id": "cdbe4174-a1dc-4741-bb5b-fbcb632c80bb",
+    "name": "Scene",
+    "type": "Scene",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "",
+    "children": [
+      "6fe2cd4e-7def-43ff-b3c9-e42bbebdd70b"
+    ],
+    "components": [
+      "4d6f27d1-9945-45f0-bf86-064b93680308",
+      "bf6ba319-c8d9-4dd2-92e0-659d9438985f"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false,
+    "backgroundColor": "#000000",
+    "viewSettings": "",
+    "formatVersion": 2
+  }
+]

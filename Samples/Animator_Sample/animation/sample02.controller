@@ -1,0 +1,56 @@
+{
+  "name": "sample02",
+  "path": "animation/sample02.controller",
+  "animations": [
+    "animation/blink.animation"
+  ],
+  "nodes": [
+    {
+      "id": "f44e2cc0-8db7-4a01-ad68-aedbffaa6d50",
+      "type": "entry",
+      "data": {
+        "label": "Entry"
+      },
+      "position": {
+        "x": 250,
+        "y": 25
+      }
+    },
+    {
+      "id": "671c5f94-ff09-48b6-9147-c9024880107f",
+      "type": "any",
+      "data": {
+        "label": "Any State"
+      },
+      "position": {
+        "x": 100,
+        "y": 125
+      }
+    },
+    {
+      "id": "c87f9ced-c641-41c0-ba34-071bb4dbd349",
+      "type": "exit",
+      "data": {
+        "label": "Exit"
+      },
+      "position": {
+        "x": 250,
+        "y": 250
+      }
+    },
+    {
+      "id": "c88fbc42-ed10-405f-9e49-4aab03889e4e",
+      "data": {
+        "label": "blink",
+        "clip": "b3e177cd-87c2-4cd6-8de3-2abd0fc6b488"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "type": "action"
+    }
+  ],
+  "edges": [],
+  "variables": []
+}

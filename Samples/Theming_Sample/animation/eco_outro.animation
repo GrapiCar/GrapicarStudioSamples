@@ -1,0 +1,31 @@
+{
+  "id": "726a0fd7-03d8-4698-8c73-0a6d5be07e71",
+  "tag": "eco_outro",
+  "keyframes": {
+    "Km_Speed_mask_Eco_1.opacity": {
+      "times": [
+        0,
+        1
+      ],
+      "values": [
+        1,
+        0
+      ]
+    },
+    "Km_Rpm_mask_Eco_1.opacity": {
+      "times": [
+        0,
+        1
+      ],
+      "values": [
+        1,
+        0
+      ]
+    }
+  },
+  "duration": 1,
+  "blendMode": 2500,
+  "fromGLB": false,
+  "loop": "Once",
+  "clampWhenFinished": false
+}

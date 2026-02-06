@@ -1,0 +1,1488 @@
+[
+  {
+    "id": "c4306497-7880-4dbb-86af-f021d0796fde",
+    "type": "Text",
+    "parent": "59862750-300f-4b4a-80be-df3a0f4169f8",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "This  CellImage Tutorial",
+    "fontSize": 128,
+    "color": "#00ffe1",
+    "width": 24,
+    "height": 1.28,
+    "horizontalAlignment": "center",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "59862750-300f-4b4a-80be-df3a0f4169f8",
+    "name": "Toptext",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -11.908171614025127,
+        "y": 5.912160649512583,
+        "z": -3
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "280cc3de-3ba9-4849-991c-74bb3795a769",
+    "children": [],
+    "components": [
+      "c4306497-7880-4dbb-86af-f021d0796fde"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "9338d12c-ed9e-42c7-a307-3abd6f1c2182",
+    "type": "Text",
+    "parent": "aeb0a791-eff1-429c-b169-1294f701aef4",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Interval: 300",
+    "fontSize": 24,
+    "color": "#ffffff",
+    "width": 2.5,
+    "height": 1.2,
+    "horizontalAlignment": "center",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "aeb0a791-eff1-429c-b169-1294f701aef4",
+    "name": "Interval__300",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -0.6,
+        "y": -0.7258001004351421,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "fc868fa7-801e-44b1-92a3-23dfda131e83",
+    "children": [],
+    "components": [
+      "9338d12c-ed9e-42c7-a307-3abd6f1c2182"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "28c915ab-243c-4400-becd-0dbc7d6d2b1e",
+    "type": "Text",
+    "parent": "fc868fa7-801e-44b1-92a3-23dfda131e83",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Default",
+    "fontSize": 32,
+    "color": "#ffffff",
+    "width": 1.3,
+    "height": 0.5,
+    "horizontalAlignment": "center",
+    "verticalAlignment": "middle"
+  },
+  {
+    "id": "fc868fa7-801e-44b1-92a3-23dfda131e83",
+    "name": "DefaultText",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 1.5216961968262175,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "2949a63f-684e-45df-8436-a082a1ba440d",
+    "children": [
+      "aeb0a791-eff1-429c-b169-1294f701aef4"
+    ],
+    "components": [
+      "28c915ab-243c-4400-becd-0dbc7d6d2b1e"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "b81aac3d-8476-4531-b515-75cd6302ee09",
+    "type": "CellImageMixer",
+    "parent": "2949a63f-684e-45df-8436-a082a1ba440d",
+    "dimension": "G3D",
+    "paths": [
+      "res/img/cell_image_sample/walk-basic_5.png",
+      "res/img/cell_image_sample/walk-basic_6.png",
+      "res/img/cell_image_sample/walk-basic_7.png",
+      "res/img/cell_image_sample/walk-basic_8.png",
+      "res/img/cell_image_sample/walk-basic_1.png",
+      "res/img/cell_image_sample/walk-basic_2.png",
+      "res/img/cell_image_sample/walk-basic_3.png",
+      "res/img/cell_image_sample/walk-basic_4.png"
+    ],
+    "startIndex": 0,
+    "endIndex": 7,
+    "widths": [
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160
+    ],
+    "heights": [
+      292,
+      292,
+      292,
+      292,
+      292,
+      292,
+      292,
+      292
+    ],
+    "interval": 300,
+    "repeat": false,
+    "autoPlay": false
+  },
+  {
+    "id": "b50f8b78-e0d6-494d-94b5-9449118e5415",
+    "type": "Action",
+    "parent": "2949a63f-684e-45df-8436-a082a1ba440d",
+    "dimension": "G3D",
+    "path": "src/cell01.h",
+    "className": "cell01",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "properties": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      },
+      {
+        "name": "cell_mixer_",
+        "type": "grapi::runtime::CellImageMixer*"
+      },
+      {
+        "name": "current_state_",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "id": "2949a63f-684e-45df-8436-a082a1ba440d",
+    "name": "DefaultCell",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -2.8,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "0d78d8ac-72fa-428b-8b47-d5a11f32ec3a",
+    "children": [
+      "fc868fa7-801e-44b1-92a3-23dfda131e83"
+    ],
+    "components": [
+      "b81aac3d-8476-4531-b515-75cd6302ee09",
+      "b50f8b78-e0d6-494d-94b5-9449118e5415"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "49ba5013-9700-4ecd-b68c-e01525b6f4d3",
+    "type": "Text",
+    "parent": "c6994723-f497-4cc4-99f7-126e9c2967f6",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Interval: 100",
+    "fontSize": 24,
+    "color": "#ffffff",
+    "width": 2.5,
+    "height": 1.2,
+    "horizontalAlignment": "center",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "c6994723-f497-4cc4-99f7-126e9c2967f6",
+    "name": "Interval__100",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -0.6,
+        "y": -0.7745552756990236,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "96019f6b-3fba-4d06-ae3b-d35cdd11117c",
+    "children": [],
+    "components": [
+      "49ba5013-9700-4ecd-b68c-e01525b6f4d3"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "13135315-ba1a-4cfc-ac4a-b66086478f04",
+    "type": "Text",
+    "parent": "96019f6b-3fba-4d06-ae3b-d35cdd11117c",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Interval",
+    "fontSize": 32,
+    "color": "#ffffff",
+    "width": 1.5,
+    "height": 0.5,
+    "horizontalAlignment": "center",
+    "verticalAlignment": "middle"
+  },
+  {
+    "id": "96019f6b-3fba-4d06-ae3b-d35cdd11117c",
+    "name": "IntervalText",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0.047168431231279895,
+        "y": 1.5182580926542542,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "da0c3673-d576-4964-a953-beba49fa5d50",
+    "children": [
+      "c6994723-f497-4cc4-99f7-126e9c2967f6"
+    ],
+    "components": [
+      "13135315-ba1a-4cfc-ac4a-b66086478f04"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "aa33ce26-feb3-409e-bb96-6cb6d246a50e",
+    "type": "CellImageMixer",
+    "parent": "da0c3673-d576-4964-a953-beba49fa5d50",
+    "dimension": "G3D",
+    "paths": [
+      "res/img/cell_image_sample/walk-basic_5.png",
+      "res/img/cell_image_sample/walk-basic_6.png",
+      "res/img/cell_image_sample/walk-basic_7.png",
+      "res/img/cell_image_sample/walk-basic_8.png",
+      "res/img/cell_image_sample/walk-basic_1.png",
+      "res/img/cell_image_sample/walk-basic_2.png",
+      "res/img/cell_image_sample/walk-basic_3.png",
+      "res/img/cell_image_sample/walk-basic_4.png"
+    ],
+    "startIndex": 0,
+    "endIndex": 7,
+    "widths": [
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160
+    ],
+    "heights": [
+      292,
+      292,
+      292,
+      292,
+      292,
+      292,
+      292,
+      292
+    ],
+    "interval": 100,
+    "efficiencyMode": "cpu",
+    "repeat": false,
+    "autoPlay": false
+  },
+  {
+    "id": "11d13c20-3ca8-4205-b990-31671c9661d9",
+    "type": "Action",
+    "parent": "da0c3673-d576-4964-a953-beba49fa5d50",
+    "dimension": "G3D",
+    "path": "src/cell02.h",
+    "className": "cell02",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "properties": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      },
+      {
+        "name": "cell_mixer_",
+        "type": "grapi::runtime::CellImageMixer*"
+      },
+      {
+        "name": "current_state_",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "id": "da0c3673-d576-4964-a953-beba49fa5d50",
+    "name": "IntervalCell",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 1.0212948018471317,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "0d78d8ac-72fa-428b-8b47-d5a11f32ec3a",
+    "children": [
+      "96019f6b-3fba-4d06-ae3b-d35cdd11117c"
+    ],
+    "components": [
+      "aa33ce26-feb3-409e-bb96-6cb6d246a50e",
+      "11d13c20-3ca8-4205-b990-31671c9661d9"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "a96a4c10-bb3f-478e-8095-82bef4891745",
+    "type": "Text",
+    "parent": "d75c2a75-e1a2-43ce-aa2f-103587121cbd",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Start 3 ~ End 6",
+    "fontSize": 24,
+    "color": "#ffffff",
+    "width": 2.5,
+    "height": 1.2,
+    "horizontalAlignment": "center",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "d75c2a75-e1a2-43ce-aa2f-103587121cbd",
+    "name": "AverageValue",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -0.6,
+        "y": -0.7258001004351421,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "39969ebd-2dd3-40ea-90f9-e34c6b4a97de",
+    "children": [],
+    "components": [
+      "a96a4c10-bb3f-478e-8095-82bef4891745"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "de072c4a-d14b-4c97-86fa-9ec04e8ec750",
+    "type": "Text",
+    "parent": "39969ebd-2dd3-40ea-90f9-e34c6b4a97de",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Average",
+    "fontSize": 32,
+    "color": "#ffffff",
+    "width": 1.3,
+    "height": 0.5,
+    "horizontalAlignment": "center",
+    "verticalAlignment": "middle"
+  },
+  {
+    "id": "39969ebd-2dd3-40ea-90f9-e34c6b4a97de",
+    "name": "Average",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 1.5216961968262175,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "ddf63a1d-2e31-4a70-b18a-c07f841c2d70",
+    "children": [
+      "d75c2a75-e1a2-43ce-aa2f-103587121cbd"
+    ],
+    "components": [
+      "de072c4a-d14b-4c97-86fa-9ec04e8ec750"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "40196236-d2ab-4030-bad2-85cbd0962988",
+    "type": "CellImageMixer",
+    "parent": "ddf63a1d-2e31-4a70-b18a-c07f841c2d70",
+    "dimension": "G3D",
+    "paths": [
+      "res/img/cell_image_sample/walk-basic_5.png",
+      "res/img/cell_image_sample/walk-basic_6.png",
+      "res/img/cell_image_sample/walk-basic_7.png",
+      "res/img/cell_image_sample/walk-basic_8.png",
+      "res/img/cell_image_sample/walk-basic_1.png",
+      "res/img/cell_image_sample/walk-basic_2.png",
+      "res/img/cell_image_sample/walk-basic_3.png",
+      "res/img/cell_image_sample/walk-basic_4.png"
+    ],
+    "startIndex": 3,
+    "endIndex": 6,
+    "widths": [
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160
+    ],
+    "heights": [
+      292,
+      292,
+      292,
+      292,
+      292,
+      292,
+      292,
+      292
+    ],
+    "interval": 300,
+    "repeat": false,
+    "autoPlay": false
+  },
+  {
+    "id": "918258d6-86bf-4b11-a301-42e69a4384b7",
+    "type": "Action",
+    "parent": "ddf63a1d-2e31-4a70-b18a-c07f841c2d70",
+    "dimension": "G3D",
+    "path": "src/cell03.h",
+    "className": "cell03",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "properties": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      },
+      {
+        "name": "cell_mixer_",
+        "type": "grapi::runtime::CellImageMixer*"
+      },
+      {
+        "name": "current_state_",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "id": "ddf63a1d-2e31-4a70-b18a-c07f841c2d70",
+    "name": "AverageCell",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 4.999679606231716,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "0d78d8ac-72fa-428b-8b47-d5a11f32ec3a",
+    "children": [
+      "39969ebd-2dd3-40ea-90f9-e34c6b4a97de"
+    ],
+    "components": [
+      "40196236-d2ab-4030-bad2-85cbd0962988",
+      "918258d6-86bf-4b11-a301-42e69a4384b7"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "fe6e1410-c258-4c8e-b001-5a9c8665f3b4",
+    "type": "Text",
+    "parent": "39a40977-446d-4c06-8938-c5473aac8651",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "true",
+    "fontSize": 24,
+    "color": "#ffffff",
+    "width": 2.5,
+    "height": 1.2,
+    "horizontalAlignment": "center",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "39a40977-446d-4c06-8938-c5473aac8651",
+    "name": "RepeatValue",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0.27129371575548966,
+        "y": -0.7258001004351421,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "23b5bce0-9526-4911-a5be-2e41fca8c949",
+    "children": [],
+    "components": [
+      "fe6e1410-c258-4c8e-b001-5a9c8665f3b4"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "ac2d3491-8e29-480e-99bb-94afe555849b",
+    "type": "Text",
+    "parent": "23b5bce0-9526-4911-a5be-2e41fca8c949",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Repeat In Runtime",
+    "fontSize": 32,
+    "color": "#ffffff",
+    "width": 3,
+    "height": 0.5,
+    "horizontalAlignment": "center",
+    "verticalAlignment": "middle"
+  },
+  {
+    "id": "23b5bce0-9526-4911-a5be-2e41fca8c949",
+    "name": "Repeat",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -0.90513326852327,
+        "y": 1.5216961968262175,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "364b6350-2307-4dc6-aa17-6be4d5583cb3",
+    "children": [
+      "39a40977-446d-4c06-8938-c5473aac8651"
+    ],
+    "components": [
+      "ac2d3491-8e29-480e-99bb-94afe555849b"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "8d7fdb25-a1c7-4a03-a8d9-18524ba5b01f",
+    "type": "CellImageMixer",
+    "parent": "364b6350-2307-4dc6-aa17-6be4d5583cb3",
+    "dimension": "G3D",
+    "paths": [
+      "res/img/cell_image_sample/walk-basic_5.png",
+      "res/img/cell_image_sample/walk-basic_6.png",
+      "res/img/cell_image_sample/walk-basic_7.png",
+      "res/img/cell_image_sample/walk-basic_8.png",
+      "res/img/cell_image_sample/walk-basic_1.png",
+      "res/img/cell_image_sample/walk-basic_2.png",
+      "res/img/cell_image_sample/walk-basic_3.png",
+      "res/img/cell_image_sample/walk-basic_4.png"
+    ],
+    "startIndex": 0,
+    "endIndex": 7,
+    "widths": [
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160
+    ],
+    "heights": [
+      292,
+      292,
+      292,
+      292,
+      292,
+      292,
+      292,
+      292
+    ],
+    "interval": 300,
+    "repeat": true,
+    "autoPlay": true
+  },
+  {
+    "id": "364b6350-2307-4dc6-aa17-6be4d5583cb3",
+    "name": "RepeatInRuntime",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 9.13756995628441,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "0d78d8ac-72fa-428b-8b47-d5a11f32ec3a",
+    "children": [
+      "23b5bce0-9526-4911-a5be-2e41fca8c949"
+    ],
+    "components": [
+      "8d7fdb25-a1c7-4a03-a8d9-18524ba5b01f"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "736226f4-2df6-4140-9a38-c0d4f857f2da",
+    "type": "Text",
+    "parent": "66205387-830e-4447-8ac1-5c199984868f",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "true",
+    "fontSize": 24,
+    "color": "#ffffff",
+    "width": 2.5,
+    "height": 1.2,
+    "horizontalAlignment": "center",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "66205387-830e-4447-8ac1-5c199984868f",
+    "name": "AutoPlayValue",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0.27129371575548966,
+        "y": -0.7258001004351421,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "1e63bd5b-2f60-4123-8c4c-22d2fe47eb1d",
+    "children": [],
+    "components": [
+      "736226f4-2df6-4140-9a38-c0d4f857f2da"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "576ccbe1-d39e-4106-9ede-03cab2c9cf87",
+    "type": "Text",
+    "parent": "1e63bd5b-2f60-4123-8c4c-22d2fe47eb1d",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "AutoPlay In Runtime",
+    "fontSize": 32,
+    "color": "#ffffff",
+    "width": 3.4,
+    "height": 0.5,
+    "horizontalAlignment": "center",
+    "verticalAlignment": "middle"
+  },
+  {
+    "id": "1e63bd5b-2f60-4123-8c4c-22d2fe47eb1d",
+    "name": "AutoPlay",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -0.90513326852327,
+        "y": 1.5216961968262175,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "51924b66-0d88-440a-ab17-6d700dc3333a",
+    "children": [
+      "66205387-830e-4447-8ac1-5c199984868f"
+    ],
+    "components": [
+      "576ccbe1-d39e-4106-9ede-03cab2c9cf87"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "5fca013c-e9de-4b5d-8b5f-c2e4772e4233",
+    "type": "CellImageMixer",
+    "parent": "51924b66-0d88-440a-ab17-6d700dc3333a",
+    "dimension": "G3D",
+    "paths": [
+      "res/img/cell_image_sample/walk-basic_5.png",
+      "res/img/cell_image_sample/walk-basic_6.png",
+      "res/img/cell_image_sample/walk-basic_7.png",
+      "res/img/cell_image_sample/walk-basic_8.png",
+      "res/img/cell_image_sample/walk-basic_1.png",
+      "res/img/cell_image_sample/walk-basic_2.png",
+      "res/img/cell_image_sample/walk-basic_3.png",
+      "res/img/cell_image_sample/walk-basic_4.png"
+    ],
+    "startIndex": 0,
+    "endIndex": 7,
+    "widths": [
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160
+    ],
+    "heights": [
+      292,
+      292,
+      292,
+      292,
+      292,
+      292,
+      292,
+      292
+    ],
+    "interval": 300,
+    "repeat": false,
+    "autoPlay": true
+  },
+  {
+    "id": "51924b66-0d88-440a-ab17-6d700dc3333a",
+    "name": "AutoPlayInRuntime",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 13.136648667338482,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "0d78d8ac-72fa-428b-8b47-d5a11f32ec3a",
+    "children": [
+      "1e63bd5b-2f60-4123-8c4c-22d2fe47eb1d"
+    ],
+    "components": [
+      "5fca013c-e9de-4b5d-8b5f-c2e4772e4233"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "eb4e2e25-8246-4bbb-85ac-81153e72aa99",
+    "type": "Text",
+    "parent": "e0d1dbaf-c1ee-432f-9e6e-472d419d7139",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "true",
+    "fontSize": 24,
+    "color": "#ffffff",
+    "width": 2.5,
+    "height": 1.2,
+    "horizontalAlignment": "center",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "e0d1dbaf-c1ee-432f-9e6e-472d419d7139",
+    "name": "DynamicValue",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0.27129371575548966,
+        "y": -0.7258001004351421,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "03f47631-b4be-4441-bea0-50583e0dec54",
+    "children": [],
+    "components": [
+      "eb4e2e25-8246-4bbb-85ac-81153e72aa99"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "8a8bd08c-9fd1-4f18-8bbb-16d0c86d62d6",
+    "type": "Text",
+    "parent": "03f47631-b4be-4441-bea0-50583e0dec54",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Dynamic In Runtime",
+    "fontSize": 32,
+    "color": "#ffffff",
+    "width": 3.4,
+    "height": 0.5,
+    "horizontalAlignment": "center",
+    "verticalAlignment": "middle"
+  },
+  {
+    "id": "03f47631-b4be-4441-bea0-50583e0dec54",
+    "name": "DynamicLoading_1",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -0.90513326852327,
+        "y": 1.5216961968262175,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "c6a91268-ec83-4ea9-a0bf-7d29c7b6b470",
+    "children": [
+      "e0d1dbaf-c1ee-432f-9e6e-472d419d7139"
+    ],
+    "components": [
+      "8a8bd08c-9fd1-4f18-8bbb-16d0c86d62d6"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "3744314f-adbb-408e-ba4b-71829491e249",
+    "type": "CellImageMixer",
+    "parent": "c6a91268-ec83-4ea9-a0bf-7d29c7b6b470",
+    "dimension": "G3D",
+    "paths": [
+      "res/img/cell_image_sample/walk-basic_5.png",
+      "res/img/cell_image_sample/walk-basic_6.png",
+      "res/img/cell_image_sample/walk-basic_7.png",
+      "res/img/cell_image_sample/walk-basic_8.png",
+      "res/img/cell_image_sample/walk-basic_1.png",
+      "res/img/cell_image_sample/walk-basic_2.png",
+      "res/img/cell_image_sample/walk-basic_3.png",
+      "res/img/cell_image_sample/walk-basic_4.png"
+    ],
+    "startIndex": 0,
+    "endIndex": 7,
+    "widths": [
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160
+    ],
+    "heights": [
+      292,
+      292,
+      292,
+      292,
+      292,
+      292,
+      292,
+      292
+    ],
+    "interval": 300,
+    "efficiencyMode": "memory",
+    "repeat": true,
+    "autoPlay": true
+  },
+  {
+    "id": "c6a91268-ec83-4ea9-a0bf-7d29c7b6b470",
+    "name": "DynamicLoading",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 17,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "0d78d8ac-72fa-428b-8b47-d5a11f32ec3a",
+    "children": [
+      "03f47631-b4be-4441-bea0-50583e0dec54"
+    ],
+    "components": [
+      "3744314f-adbb-408e-ba4b-71829491e249"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "0d78d8ac-72fa-428b-8b47-d5a11f32ec3a",
+    "name": "SampleGroup",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -8.117366749767001,
+        "y": 0.4757737330716527,
+        "z": -2
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "280cc3de-3ba9-4849-991c-74bb3795a769",
+    "children": [
+      "2949a63f-684e-45df-8436-a082a1ba440d",
+      "da0c3673-d576-4964-a953-beba49fa5d50",
+      "ddf63a1d-2e31-4a70-b18a-c07f841c2d70",
+      "364b6350-2307-4dc6-aa17-6be4d5583cb3",
+      "51924b66-0d88-440a-ab17-6d700dc3333a",
+      "c6a91268-ec83-4ea9-a0bf-7d29c7b6b470"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "ef87d3ef-fab4-4505-9563-22e0ea261758",
+    "type": "Text",
+    "parent": "ffeb7640-0718-46c1-990a-8a7d69170a3c",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Play Me!",
+    "fontSize": 128,
+    "color": "#06ffe1",
+    "width": 7,
+    "height": 1.28,
+    "horizontalAlignment": "center",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "ffeb7640-0718-46c1-990a-8a7d69170a3c",
+    "name": "BottomText",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -3.0117787207048137,
+        "y": -4.956942901008106,
+        "z": -3
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "280cc3de-3ba9-4849-991c-74bb3795a769",
+    "children": [],
+    "components": [
+      "ef87d3ef-fab4-4505-9563-22e0ea261758"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "280cc3de-3ba9-4849-991c-74bb3795a769",
+    "name": "PrefabSample",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "f177284e-b0a4-40a1-b54d-0f3508b75710",
+    "children": [
+      "59862750-300f-4b4a-80be-df3a0f4169f8",
+      "0d78d8ac-72fa-428b-8b47-d5a11f32ec3a",
+      "ffeb7640-0718-46c1-990a-8a7d69170a3c"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "0b38e13b-fd98-4c3f-8ae0-5912a50b7106",
+    "type": "Camera",
+    "parent": "7baabcb1-6a58-4ed5-bc24-147adb51ea42",
+    "dimension": "G3D",
+    "cameraType": "Perspective",
+    "fov": 50,
+    "aspect": 2.6666666666666665,
+    "left": -2.6666666666666665,
+    "right": 2.6666666666666665,
+    "top": 1,
+    "bottom": -1,
+    "near": 1,
+    "far": 1000
+  },
+  {
+    "id": "7baabcb1-6a58-4ed5-bc24-147adb51ea42",
+    "name": "NewCameraObject",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 10.5
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "f177284e-b0a4-40a1-b54d-0f3508b75710",
+    "children": [],
+    "components": [
+      "0b38e13b-fd98-4c3f-8ae0-5912a50b7106"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "26f0b1ff-bc0f-4848-818d-db91e5170723",
+    "type": "ImageMaskTarget",
+    "parent": "f177284e-b0a4-40a1-b54d-0f3508b75710",
+    "dimension": "G3D",
+    "maskObjId": "",
+    "targetId": "f177284e-b0a4-40a1-b54d-0f3508b75710",
+    "connectedMaskId": "",
+    "stencilBufferNumber": 0,
+    "alphaTest": 0.5,
+    "childrenIds": [
+      "280cc3de-3ba9-4849-991c-74bb3795a769",
+      "7baabcb1-6a58-4ed5-bc24-147adb51ea42"
+    ]
+  },
+  {
+    "id": "42b8922e-6edc-47f2-a1e2-ebfac91d649e",
+    "type": "SkyBox",
+    "parent": "f177284e-b0a4-40a1-b54d-0f3508b75710",
+    "dimension": "G3D",
+    "path": "",
+    "isActive": true
+  },
+  {
+    "id": "f177284e-b0a4-40a1-b54d-0f3508b75710",
+    "name": "Scene",
+    "type": "Scene",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "",
+    "children": [
+      "280cc3de-3ba9-4849-991c-74bb3795a769",
+      "7baabcb1-6a58-4ed5-bc24-147adb51ea42"
+    ],
+    "components": [
+      "26f0b1ff-bc0f-4848-818d-db91e5170723",
+      "42b8922e-6edc-47f2-a1e2-ebfac91d649e"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false,
+    "backgroundColor": "#000000",
+    "viewSettings": "",
+    "formatVersion": 2
+  }
+]

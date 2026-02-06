@@ -1,0 +1,30 @@
+[
+  {
+    "class": "four",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "members": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      },
+      {
+        "name": "image_",
+        "type": "grapi::runtime::NinePatchImage*"
+      },
+      {
+        "name": "text_",
+        "type": "grapi::runtime::Text*"
+      },
+      {
+        "name": "originalSize_",
+        "type": "glm::vec2"
+      },
+      {
+        "name": "aspectRatio_",
+        "type": "float"
+      }
+    ]
+  }
+]

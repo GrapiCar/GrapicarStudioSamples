@@ -1,0 +1,56 @@
+{
+  "name": "sample05",
+  "path": "animation/sample05.controller",
+  "animations": [
+    "animation/scale.animation"
+  ],
+  "nodes": [
+    {
+      "id": "befc0ae6-56b9-4182-94d3-e73d9541650f",
+      "type": "entry",
+      "data": {
+        "label": "Entry"
+      },
+      "position": {
+        "x": 250,
+        "y": 25
+      }
+    },
+    {
+      "id": "e062d620-50c5-4643-a25c-2fe1ffb5e455",
+      "type": "any",
+      "data": {
+        "label": "Any State"
+      },
+      "position": {
+        "x": 100,
+        "y": 125
+      }
+    },
+    {
+      "id": "c77b277d-6144-4000-825a-3a6057f8b9bf",
+      "type": "exit",
+      "data": {
+        "label": "Exit"
+      },
+      "position": {
+        "x": 250,
+        "y": 250
+      }
+    },
+    {
+      "id": "de3e5d80-05ab-4443-a964-bcfd93354df1",
+      "data": {
+        "label": "scale",
+        "clip": "3392c850-dd0b-4641-9cd5-9c4669e9b6d2"
+      },
+      "position": {
+        "x": 480,
+        "y": 100
+      },
+      "type": "action"
+    }
+  ],
+  "edges": [],
+  "variables": []
+}

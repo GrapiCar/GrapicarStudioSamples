@@ -1,0 +1,913 @@
+[
+  {
+    "id": "3cfc75e2-1a9a-426c-a95d-8320d90fb588",
+    "type": "Mesh",
+    "parent": "22eb74eb-9e61-4969-aca7-8a7492f75bd4",
+    "dimension": "G3D",
+    "meshType": "Box",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      null
+    ]
+  },
+  {
+    "id": "22eb74eb-9e61-4969-aca7-8a7492f75bd4",
+    "name": "Ground",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": -2,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 100,
+        "y": 0.1,
+        "z": 100
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "b4cea0c9-c59f-411d-8ba8-dff2665d8b5c",
+    "children": [],
+    "components": [
+      "3cfc75e2-1a9a-426c-a95d-8320d90fb588"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "c70c0d5d-d73a-479d-8edf-b5212cde3aab",
+    "type": "Light",
+    "parent": "09f5f161-0dba-4a2e-ab15-fcf985274115",
+    "dimension": "G3D",
+    "lightType": "PointLight",
+    "color": "#ffffff",
+    "targetId": "",
+    "intensity": 1
+  },
+  {
+    "id": "09f5f161-0dba-4a2e-ab15-fcf985274115",
+    "name": "PointLight",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "7aa89cf7-06d3-4d07-8e4a-d597d7f3f67b",
+    "children": [],
+    "components": [
+      "c70c0d5d-d73a-479d-8edf-b5212cde3aab"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "7f8e5dec-9314-40ac-9955-cee3ca60fcb9",
+    "type": "Text",
+    "parent": "b9b43676-9912-4cca-96bc-939756c303f6",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "PointLight",
+    "fontSize": 32,
+    "color": "#ffffff",
+    "width": 2.15,
+    "height": 0.5,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "b9b43676-9912-4cca-96bc-939756c303f6",
+    "name": "PointLightText",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -0.9393480673413501,
+        "y": 2.794335957944592,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "7aa89cf7-06d3-4d07-8e4a-d597d7f3f67b",
+    "children": [],
+    "components": [
+      "7f8e5dec-9314-40ac-9955-cee3ca60fcb9"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "3beb747a-8c29-4bd8-8c0b-81af2b6f4151",
+    "type": "Mesh",
+    "parent": "2417bfb0-a170-4f60-bab6-daad6675857e",
+    "dimension": "G3D",
+    "meshType": "Plane",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      null
+    ]
+  },
+  {
+    "id": "2417bfb0-a170-4f60-bab6-daad6675857e",
+    "name": "back",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 3,
+        "y": 3,
+        "z": 3
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "349f5db9-14d6-4440-8122-a9d82a0f7a0d",
+    "children": [],
+    "components": [
+      "3beb747a-8c29-4bd8-8c0b-81af2b6f4151"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "89733a26-abee-48ca-a5e4-07532899ade2",
+    "type": "Mesh",
+    "parent": "39e968b0-c359-4a01-a32c-6796b57eedaf",
+    "dimension": "G3D",
+    "meshType": "Plane",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      null
+    ]
+  },
+  {
+    "id": "39e968b0-c359-4a01-a32c-6796b57eedaf",
+    "name": "left",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -1.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "rotation": {
+        "x": 0,
+        "y": 1.5707963267948966,
+        "z": 0
+      },
+      "scale": {
+        "x": 3,
+        "y": 3,
+        "z": 3
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0.7071067811865475,
+        "z": 0,
+        "w": 0.7071067811865476
+      }
+    },
+    "parent": "349f5db9-14d6-4440-8122-a9d82a0f7a0d",
+    "children": [],
+    "components": [
+      "89733a26-abee-48ca-a5e4-07532899ade2"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "08c5b437-4da8-4bf7-93ae-2836cc702f33",
+    "type": "Mesh",
+    "parent": "ae48715f-7124-4a0d-b1c3-c5cf98201d43",
+    "dimension": "G3D",
+    "meshType": "Plane",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      null
+    ]
+  },
+  {
+    "id": "ae48715f-7124-4a0d-b1c3-c5cf98201d43",
+    "name": "top",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 1.5,
+        "z": 0.5
+      },
+      "rotation": {
+        "x": 1.5707963267948966,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 3,
+        "y": 3,
+        "z": 3
+      },
+      "quaternion": {
+        "x": 0.7071067811865475,
+        "y": 0,
+        "z": 0,
+        "w": 0.7071067811865476
+      }
+    },
+    "parent": "349f5db9-14d6-4440-8122-a9d82a0f7a0d",
+    "children": [],
+    "components": [
+      "08c5b437-4da8-4bf7-93ae-2836cc702f33"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "349f5db9-14d6-4440-8122-a9d82a0f7a0d",
+    "name": "_Object",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "7aa89cf7-06d3-4d07-8e4a-d597d7f3f67b",
+    "children": [
+      "2417bfb0-a170-4f60-bab6-daad6675857e",
+      "39e968b0-c359-4a01-a32c-6796b57eedaf",
+      "ae48715f-7124-4a0d-b1c3-c5cf98201d43"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "7aa89cf7-06d3-4d07-8e4a-d597d7f3f67b",
+    "name": "PointLightGroup",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -6,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "3b110127-821e-4791-8f64-58de6f1e7477",
+    "children": [
+      "09f5f161-0dba-4a2e-ab15-fcf985274115",
+      "b9b43676-9912-4cca-96bc-939756c303f6",
+      "349f5db9-14d6-4440-8122-a9d82a0f7a0d"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "ca77aee1-e677-42d9-8c43-b0a297350e6e",
+    "type": "Light",
+    "parent": "72f8530b-eeee-451c-afba-fc0082ed5ddd",
+    "dimension": "G3D",
+    "lightType": "SpotLight",
+    "color": "#ffffff",
+    "targetId": "42f866c1-05a8-4965-bf6d-005b457e621c",
+    "intensity": 300000
+  },
+  {
+    "id": "72f8530b-eeee-451c-afba-fc0082ed5ddd",
+    "name": "SpotLight",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 1.9359315775682853,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "67e1c89c-681a-426b-9160-ea9f61a866c5",
+    "children": [],
+    "components": [
+      "ca77aee1-e677-42d9-8c43-b0a297350e6e"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "e5fa2943-5d60-4467-b1e8-007487420572",
+    "type": "Mesh",
+    "parent": "42f866c1-05a8-4965-bf6d-005b457e621c",
+    "dimension": "G3D",
+    "meshType": "Box",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      null
+    ]
+  },
+  {
+    "id": "42f866c1-05a8-4965-bf6d-005b457e621c",
+    "name": "SpotLightTarget",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "67e1c89c-681a-426b-9160-ea9f61a866c5",
+    "children": [],
+    "components": [
+      "e5fa2943-5d60-4467-b1e8-007487420572"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "76dd2b80-69fb-4708-a322-feac91cf3460",
+    "type": "Text",
+    "parent": "dddba6c4-0b31-48a3-a585-30875fbf2ce7",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "SpotLight",
+    "fontSize": 32,
+    "color": "#ffffff",
+    "width": 2.15,
+    "height": 0.5,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "dddba6c4-0b31-48a3-a585-30875fbf2ce7",
+    "name": "SpotLightText",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -0.8703228742759093,
+        "y": 2.794335957944592,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "67e1c89c-681a-426b-9160-ea9f61a866c5",
+    "children": [],
+    "components": [
+      "76dd2b80-69fb-4708-a322-feac91cf3460"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "67e1c89c-681a-426b-9160-ea9f61a866c5",
+    "name": "SpotLightGroup",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 6,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "3b110127-821e-4791-8f64-58de6f1e7477",
+    "children": [
+      "72f8530b-eeee-451c-afba-fc0082ed5ddd",
+      "42f866c1-05a8-4965-bf6d-005b457e621c",
+      "dddba6c4-0b31-48a3-a585-30875fbf2ce7"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "127f37cf-3a4d-497c-abf7-346179e61ea2",
+    "type": "Sunlight",
+    "parent": "8d34e782-dd92-4e33-a14c-dbc0d734f99f",
+    "dimension": "G3D",
+    "color": "#ffffff",
+    "intensity": 0.02,
+    "dynamic": true
+  },
+  {
+    "id": "8d34e782-dd92-4e33-a14c-dbc0d734f99f",
+    "name": "SunLight",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0.1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "db689ccb-0071-420c-9a91-3e2a608b8c96",
+    "children": [],
+    "components": [
+      "127f37cf-3a4d-497c-abf7-346179e61ea2"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "03d6a7e9-8903-433e-830c-dc2102fe7620",
+    "type": "Text",
+    "parent": "ddd7998e-0808-4467-87ed-04bc0764756c",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "SunLight",
+    "fontSize": 32,
+    "color": "#ffffff",
+    "width": 2.15,
+    "height": 0.5,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "ddd7998e-0808-4467-87ed-04bc0764756c",
+    "name": "SunLightText",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -0.8703228742759093,
+        "y": 2.794335957944592,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "db689ccb-0071-420c-9a91-3e2a608b8c96",
+    "children": [],
+    "components": [
+      "03d6a7e9-8903-433e-830c-dc2102fe7620"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "db689ccb-0071-420c-9a91-3e2a608b8c96",
+    "name": "SunLightGroup",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "3b110127-821e-4791-8f64-58de6f1e7477",
+    "children": [
+      "8d34e782-dd92-4e33-a14c-dbc0d734f99f",
+      "ddd7998e-0808-4467-87ed-04bc0764756c"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "3b110127-821e-4791-8f64-58de6f1e7477",
+    "name": "LightGroup",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "b4cea0c9-c59f-411d-8ba8-dff2665d8b5c",
+    "children": [
+      "7aa89cf7-06d3-4d07-8e4a-d597d7f3f67b",
+      "67e1c89c-681a-426b-9160-ea9f61a866c5",
+      "db689ccb-0071-420c-9a91-3e2a608b8c96"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "cde4ebc6-c921-4eae-9a21-0e3fbe11aa67",
+    "type": "Text",
+    "parent": "8ac60674-c95c-42c3-8100-9ef63f1f86aa",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "You can see the  differences\nby turning the hierarchy display\nOn or Off.",
+    "fontSize": 30,
+    "color": "#00ffe0",
+    "width": 5.4,
+    "height": 1,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "8ac60674-c95c-42c3-8100-9ef63f1f86aa",
+    "name": "DescText",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 7.6732157267321615,
+        "y": 4.725127471303514,
+        "z": -1.3330070067195385
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "b4cea0c9-c59f-411d-8ba8-dff2665d8b5c",
+    "children": [],
+    "components": [
+      "cde4ebc6-c921-4eae-9a21-0e3fbe11aa67"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "1181a4e5-4569-45bc-bd48-571c64b531a6",
+    "type": "Camera",
+    "parent": "a2b2a5c3-7fbf-4404-b56d-805d52d3a3f0",
+    "dimension": "G3D",
+    "cameraType": "Perspective",
+    "fov": 50,
+    "aspect": 2.6666666666666665,
+    "left": -2.6666666666666665,
+    "right": 2.6666666666666665,
+    "top": 1,
+    "bottom": -1,
+    "near": 1,
+    "far": 1000
+  },
+  {
+    "id": "a2b2a5c3-7fbf-4404-b56d-805d52d3a3f0",
+    "name": "NewCameraObject",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 9
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "b4cea0c9-c59f-411d-8ba8-dff2665d8b5c",
+    "children": [],
+    "components": [
+      "1181a4e5-4569-45bc-bd48-571c64b531a6"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false
+  },
+  {
+    "id": "5c6c362d-86bb-41b9-af6b-ce368acfa155",
+    "type": "ImageMaskTarget",
+    "parent": "b4cea0c9-c59f-411d-8ba8-dff2665d8b5c",
+    "dimension": "G3D",
+    "maskObjId": "",
+    "targetId": "b4cea0c9-c59f-411d-8ba8-dff2665d8b5c",
+    "connectedMaskId": "",
+    "stencilBufferNumber": 0,
+    "alphaTest": 0.5,
+    "childrenIds": [
+      "22eb74eb-9e61-4969-aca7-8a7492f75bd4",
+      "3b110127-821e-4791-8f64-58de6f1e7477",
+      "8ac60674-c95c-42c3-8100-9ef63f1f86aa",
+      "a2b2a5c3-7fbf-4404-b56d-805d52d3a3f0"
+    ]
+  },
+  {
+    "id": "3298eeca-5fd9-48b5-b31c-50c8efafc301",
+    "type": "SkyBox",
+    "parent": "b4cea0c9-c59f-411d-8ba8-dff2665d8b5c",
+    "dimension": "G3D",
+    "path": "",
+    "isActive": true
+  },
+  {
+    "id": "b4cea0c9-c59f-411d-8ba8-dff2665d8b5c",
+    "name": "Scene",
+    "type": "Scene",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "",
+    "children": [
+      "22eb74eb-9e61-4969-aca7-8a7492f75bd4",
+      "3b110127-821e-4791-8f64-58de6f1e7477",
+      "8ac60674-c95c-42c3-8100-9ef63f1f86aa",
+      "a2b2a5c3-7fbf-4404-b56d-805d52d3a3f0"
+    ],
+    "components": [
+      "5c6c362d-86bb-41b9-af6b-ce368acfa155",
+      "3298eeca-5fd9-48b5-b31c-50c8efafc301"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false,
+    "backgroundColor": "#000000",
+    "viewSettings": "",
+    "formatVersion": 2
+  }
+]

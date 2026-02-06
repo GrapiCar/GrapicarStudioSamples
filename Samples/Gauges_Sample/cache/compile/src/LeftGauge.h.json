@@ -1,0 +1,30 @@
+[
+  {
+    "class": "LeftGauge",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "members": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      },
+      {
+        "name": "left",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "baseY_",
+        "type": "vfloat"
+      },
+      {
+        "name": "currentSpeed_",
+        "type": "vfloat"
+      },
+      {
+        "name": "speedTarget_",
+        "type": "vfloat"
+      }
+    ]
+  }
+]

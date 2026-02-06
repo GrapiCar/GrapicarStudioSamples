@@ -1,0 +1,28 @@
+[
+  {
+    "class": "CarEngine",
+    "bases": [],
+    "members": [
+      {
+        "name": "rpm",
+        "type": "double"
+      },
+      {
+        "name": "max_rpm",
+        "type": "double"
+      },
+      {
+        "name": "velocity",
+        "type": "double"
+      },
+      {
+        "name": "max_speed",
+        "type": "double"
+      },
+      {
+        "name": "acceleration",
+        "type": "double"
+      }
+    ]
+  }
+]

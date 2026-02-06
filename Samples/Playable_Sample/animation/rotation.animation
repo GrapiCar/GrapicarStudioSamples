@@ -1,0 +1,27 @@
+{
+  "id": "d840cfb9-f628-4e1f-b070-8d6cc91c2112",
+  "tag": "rotation",
+  "keyframes": {
+    ".quaternion": {
+      "times": [
+        0,
+        5
+      ],
+      "values": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.9999619230641713,
+        0,
+        0.008726535498373897
+      ]
+    }
+  },
+  "duration": 5,
+  "blendMode": 2500,
+  "fromGLB": false,
+  "loop": "Once",
+  "clampWhenFinished": false
+}

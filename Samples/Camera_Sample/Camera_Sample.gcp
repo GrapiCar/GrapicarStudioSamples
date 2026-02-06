@@ -1,0 +1,334 @@
+[
+  {
+    "id": "705925e1-1c06-4aed-b46b-d129188cdc72",
+    "type": "Mesh",
+    "parent": "bd9b9e58-7353-40ab-be57-be2c3542589d",
+    "dimension": "G3D",
+    "meshType": "Box",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      null
+    ]
+  },
+  {
+    "id": "bd9b9e58-7353-40ab-be57-be2c3542589d",
+    "name": "Subject",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "c79a3b8e-b29f-4ae9-980c-97fb2418ac5f",
+    "children": [],
+    "components": [
+      "705925e1-1c06-4aed-b46b-d129188cdc72"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "622a3c4d-d029-41d8-966a-4cf4953f0bbf",
+    "type": "Sunlight",
+    "parent": "563dcbc2-c4af-44d8-a54d-58a8c0a25510",
+    "dimension": "G3D",
+    "color": "#ffffff",
+    "intensity": 1,
+    "dynamic": true
+  },
+  {
+    "id": "563dcbc2-c4af-44d8-a54d-58a8c0a25510",
+    "name": "Light",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 3,
+        "y": 10,
+        "z": 3
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "c79a3b8e-b29f-4ae9-980c-97fb2418ac5f",
+    "children": [],
+    "components": [
+      "622a3c4d-d029-41d8-966a-4cf4953f0bbf"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "f9dfd6af-7631-48c2-b4dc-92a8bd71195c",
+    "type": "Camera",
+    "parent": "37120298-94e1-4c41-ae38-f2ce6d90f6b8",
+    "dimension": "G3D",
+    "cameraType": "Perspective",
+    "fov": 50,
+    "aspect": 2.6666666666666665,
+    "left": -2.6666666666666665,
+    "right": 2.6666666666666665,
+    "top": 1,
+    "bottom": -1,
+    "near": 1,
+    "far": 1000
+  },
+  {
+    "id": "37120298-94e1-4c41-ae38-f2ce6d90f6b8",
+    "name": "PerspectiveCamera",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "a5112985-e76e-4e1e-8fff-1e7cfd38371c",
+    "children": [],
+    "components": [
+      "f9dfd6af-7631-48c2-b4dc-92a8bd71195c"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "8abbf699-7b16-456b-a117-2462080195fa",
+    "type": "Camera",
+    "parent": "90e2ea19-ccd0-4493-b7ae-4fd6809eed05",
+    "dimension": "G3D",
+    "cameraType": "Orthographic",
+    "fov": 50,
+    "aspect": 2.6666666666666665,
+    "left": -681.9323120117188,
+    "right": 681.9323120117188,
+    "top": 255.72461700439453,
+    "bottom": -255.72461700439453,
+    "near": 1,
+    "far": 200
+  },
+  {
+    "id": "90e2ea19-ccd0-4493-b7ae-4fd6809eed05",
+    "name": "OrthographicCamera",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "a5112985-e76e-4e1e-8fff-1e7cfd38371c",
+    "children": [],
+    "components": [
+      "8abbf699-7b16-456b-a117-2462080195fa"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "a5112985-e76e-4e1e-8fff-1e7cfd38371c",
+    "name": "CameraGroup",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 3
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "c79a3b8e-b29f-4ae9-980c-97fb2418ac5f",
+    "children": [
+      "37120298-94e1-4c41-ae38-f2ce6d90f6b8",
+      "90e2ea19-ccd0-4493-b7ae-4fd6809eed05"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "c8ddc7f2-f209-40e6-af4d-4599a708cd66",
+    "type": "ImageMaskTarget",
+    "parent": "c79a3b8e-b29f-4ae9-980c-97fb2418ac5f",
+    "dimension": "G3D",
+    "maskObjId": "",
+    "targetId": "c79a3b8e-b29f-4ae9-980c-97fb2418ac5f",
+    "connectedMaskId": "",
+    "stencilBufferNumber": 0,
+    "alphaTest": 0.5,
+    "childrenIds": [
+      "bd9b9e58-7353-40ab-be57-be2c3542589d",
+      "563dcbc2-c4af-44d8-a54d-58a8c0a25510",
+      "a5112985-e76e-4e1e-8fff-1e7cfd38371c"
+    ]
+  },
+  {
+    "id": "939cbf7e-7aef-45a7-86c7-e22db87326ee",
+    "type": "SkyBox",
+    "parent": "c79a3b8e-b29f-4ae9-980c-97fb2418ac5f",
+    "dimension": "G3D",
+    "path": "",
+    "isActive": false,
+    "visible": true
+  },
+  {
+    "id": "c79a3b8e-b29f-4ae9-980c-97fb2418ac5f",
+    "name": "Scene",
+    "type": "Scene",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "",
+    "children": [
+      "bd9b9e58-7353-40ab-be57-be2c3542589d",
+      "563dcbc2-c4af-44d8-a54d-58a8c0a25510",
+      "a5112985-e76e-4e1e-8fff-1e7cfd38371c"
+    ],
+    "components": [
+      "c8ddc7f2-f209-40e6-af4d-4599a708cd66",
+      "939cbf7e-7aef-45a7-86c7-e22db87326ee"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false,
+    "backgroundColor": "#000000",
+    "grid": {
+      "size": 1000,
+      "divisions": 1000,
+      "color": "bbbbbb",
+      "opacity": 0.5,
+      "p_history": [
+        false,
+        false,
+        false
+      ],
+      "o_history": [
+        true,
+        false,
+        false
+      ],
+      "isRender": false
+    },
+    "camera": {
+      "acceleration": false,
+      "speed": 1,
+      "far": 1000,
+      "fov": 50,
+      "near": 0.01
+    },
+    "viewSettings": "",
+    "formatVersion": 2
+  }
+]

@@ -1,0 +1,38 @@
+[2026-02-05 15:55:02] [WARNING] THREE.WebGLRenderer: Texture marked for update but no image data found.
+[2026-02-05 15:55:35] [ERROR] Error processing resources: {}
+[2026-02-05 15:55:38] [ERROR] Error processing resources: {}
+[2026-02-05 15:55:42] [ERROR] Image cache miss for: res\img\e2489acd-60c2-405b-b386-456066110220.png
+[2026-02-05 15:57:17] [ERROR] Image cache miss for: res\img\f5892a31-7c4a-42c4-ad4b-8e347c672922.png
+[2026-02-05 15:59:02] [ERROR] Image cache miss for: res\img\5ccaa786-9cac-42d4-ba79-413b682c0ec1.png
+[2026-02-05 15:59:10] [ERROR] Image cache miss for: res\img\balldimpled.png
+[2026-02-05 16:06:16] [ERROR] Image cache miss for: res\img\f43eec05-acc7-4350-afb2-e11947be300b.png
+[2026-02-05 16:06:25] [WARNING] THREE.WebGLRenderer: Texture marked for update but image is incomplete
+[2026-02-05 16:06:25] [WARNING] THREE.WebGLRenderer: Texture marked for update but image is incomplete
+[2026-02-05 16:16:07] [ERROR] Image cache miss for: res\img\73aabbd8-508f-4fdd-978f-4ee231620881.png
+[2026-02-05 16:16:14] [WARNING] THREE.WebGLRenderer: Texture marked for update but image is incomplete
+[2026-02-05 16:16:14] [WARNING] THREE.WebGLRenderer: Texture marked for update but image is incomplete
+[2026-02-05 16:17:44] [ERROR] Image cache miss for: res\img\basketball_texture.png
+[2026-02-05 16:17:54] [WARNING] THREE.WebGLRenderer: Texture marked for update but image is incomplete
+[2026-02-05 16:17:54] [WARNING] THREE.WebGLRenderer: Texture marked for update but image is incomplete
+[2026-02-05 16:18:49] [ERROR] Image cache miss for: res\img\basketball_texture2.png
+[2026-02-05 16:18:54] [WARNING] THREE.WebGLRenderer: Texture marked for update but image is incomplete
+[2026-02-05 16:18:54] [WARNING] THREE.WebGLRenderer: Texture marked for update but image is incomplete
+[2026-02-05 16:19:59] [ERROR] 자바스크립트 에러: Uncaught TypeError: e.getThreeObj is not a function
+위치: file:///C:/Program%20Files/Grapicar%20Studio/resources/app.asar/dist/assets/index-7CFXkkZ7.js:12369:54892
+TypeError: e.getThreeObj is not a function
+    at Xs.removeToolComponent2 (file:///C:/Program%20Files/Grapicar%20Studio/resources/app.asar/dist/assets/index-7CFXkkZ7.js:12369:54892)
+    at L (file:///C:/Program%20Files/Grapicar%20Studio/resources/app.asar/dist/assets/index-7CFXkkZ7.js:13372:1506)
+    at h (file:///C:/Program%20Files/Grapicar%20Studio/resources/app.asar/dist/assets/index-7CFXkkZ7.js:13370:44969)
+    at onClick (file:///C:/Program%20Files/Grapicar%20Studio/resources/app.asar/dist/assets/index-7CFXkkZ7.js:13370:46225)
+    at _Ge (file:///C:/Program%20Files/Grapicar%20Studio/resources/app.asar/dist/assets/index-7CFXkkZ7.js:33:128256)
+    at file:///C:/Program%20Files/Grapicar%20Studio/resources/app.asar/dist/assets/index-7CFXkkZ7.js:33:133331
+    at _We (file:///C:/Program%20Files/Grapicar%20Studio/resources/app.asar/dist/assets/index-7CFXkkZ7.js:33:15221)
+    at mre (file:///C:/Program%20Files/Grapicar%20Studio/resources/app.asar/dist/assets/index-7CFXkkZ7.js:33:129502)
+    at Kye (file:///C:/Program%20Files/Grapicar%20Studio/resources/app.asar/dist/assets/index-7CFXkkZ7.js:34:28820)
+    at fAt (file:///C:/Program%20Files/Grapicar%20Studio/resources/app.asar/dist/assets/index-7CFXkkZ7.js:34:28629)
+[2026-02-05 16:28:56] [WARNING] Browser doesn't allow reading "dataTransfer" until the drop event.
+[2026-02-05 16:28:56] [WARNING] Browser doesn't allow reading "dataTransfer" until the drop event.
+[2026-02-05 16:28:56] [WARNING] Browser doesn't allow reading "dataTransfer" until the drop event.
+[2026-02-05 16:28:56] [WARNING] Browser doesn't allow reading "dataTransfer" until the drop event.
+[2026-02-05 16:28:56] [WARNING] Browser doesn't allow reading "dataTransfer" until the drop event.
+[2026-02-05 16:29:12] [WARNING] THREE.WebGLRenderer: Texture marked for update but no image data found.

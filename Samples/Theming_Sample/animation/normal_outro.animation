@@ -1,0 +1,31 @@
+{
+  "id": "092837ce-7190-4714-9664-9f33f9410698",
+  "tag": "normal_outro",
+  "keyframes": {
+    "Km_Rpm_mask_Normal_1.opacity": {
+      "times": [
+        0,
+        1
+      ],
+      "values": [
+        1,
+        0
+      ]
+    },
+    "Km_Rpm_mask.opacity": {
+      "times": [
+        0,
+        1
+      ],
+      "values": [
+        1,
+        0
+      ]
+    }
+  },
+  "duration": 1,
+  "blendMode": 2500,
+  "fromGLB": false,
+  "loop": "Once",
+  "clampWhenFinished": false
+}

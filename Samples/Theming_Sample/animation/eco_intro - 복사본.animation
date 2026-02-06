@@ -1,0 +1,167 @@
+{
+  "id": "0a24c70c-c335-410a-9228-9c40674a393d",
+  "tag": "eco_intro",
+  "keyframes": {
+    "Fuel_Level_1.opacity": {
+      "times": [
+        0.933,
+        1.216
+      ],
+      "values": [
+        0,
+        1
+      ]
+    },
+    "Cooling_Level_1.opacity": {
+      "times": [
+        0.933,
+        1.216
+      ],
+      "values": [
+        0,
+        1
+      ]
+    },
+    "Eco_Speed_Number_10.opacity": {
+      "times": [
+        1.216
+      ],
+      "values": [
+        1
+      ]
+    },
+    "Eco_Speed_Number_01.opacity": {
+      "times": [
+        0.933,
+        1.216
+      ],
+      "values": [
+        0,
+        1
+      ]
+    },
+    "Eco_Rpm_Number_10.opacity": {
+      "times": [
+        1.216
+      ],
+      "values": [
+        1
+      ]
+    },
+    "Eco_Rpm_Number_01.opacity": {
+      "times": [
+        0.9,
+        1.216
+      ],
+      "values": [
+        0,
+        1
+      ]
+    },
+    "Km_Rpm_mask_Eco_1.opacity": {
+      "times": [
+        0,
+        1,
+        1.216
+      ],
+      "values": [
+        0,
+        0,
+        1
+      ]
+    },
+    "Km_Rpm_base_Eco_1.opacity": {
+      "times": [
+        0,
+        0.233
+      ],
+      "values": [
+        0,
+        1
+      ]
+    },
+    "Km_Rpm_gauge_Eco_1.opacity": {
+      "times": [
+        0,
+        0.417,
+        1,
+        1.083
+      ],
+      "values": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "back_line_Speed_base_1.opacity": {
+      "times": [
+        0,
+        0.233,
+        0.483,
+        1.083
+      ],
+      "values": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "Km_Speed_mask_Eco_1.opacity": {
+      "times": [
+        0,
+        0.9,
+        1.217
+      ],
+      "values": [
+        0,
+        0,
+        1
+      ]
+    },
+    "Km_Speeed_base_Eco_1.opacity": {
+      "times": [
+        0,
+        0.233,
+        1.084
+      ],
+      "values": [
+        0,
+        1,
+        1
+      ]
+    },
+    "Km_Speeed_gauge_Eco_1.opacity": {
+      "times": [
+        0.417,
+        1,
+        1.083
+      ],
+      "values": [
+        0,
+        1,
+        1
+      ]
+    },
+    "back_line_base_1.opacity": {
+      "times": [
+        0,
+        0.233,
+        0.484,
+        1.216
+      ],
+      "values": [
+        0,
+        0,
+        1,
+        1
+      ]
+    }
+  },
+  "duration": 1.216,
+  "blendMode": 2500,
+  "fromGLB": false,
+  "loop": "Once",
+  "clampWhenFinished": false
+}

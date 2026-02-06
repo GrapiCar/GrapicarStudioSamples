@@ -1,0 +1,42 @@
+{
+  "name": "gauges",
+  "path": "animation/gauges.controller",
+  "animations": [],
+  "nodes": [
+    {
+      "id": "4b661306-1404-44c9-bd10-824a35853e6e",
+      "type": "entry",
+      "data": {
+        "label": "Entry"
+      },
+      "position": {
+        "x": 250,
+        "y": 25
+      }
+    },
+    {
+      "id": "7d791a8a-f46e-41a7-8999-5b42598486e7",
+      "type": "any",
+      "data": {
+        "label": "Any State"
+      },
+      "position": {
+        "x": 100,
+        "y": 125
+      }
+    },
+    {
+      "id": "0be007c0-2730-4540-b827-c18f20d35451",
+      "type": "exit",
+      "data": {
+        "label": "Exit"
+      },
+      "position": {
+        "x": 250,
+        "y": 250
+      }
+    }
+  ],
+  "edges": [],
+  "variables": []
+}

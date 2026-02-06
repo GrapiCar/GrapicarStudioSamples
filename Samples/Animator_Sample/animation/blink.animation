@@ -1,0 +1,23 @@
+{
+  "id": "b3e177cd-87c2-4cd6-8de3-2abd0fc6b488",
+  "tag": "blink",
+  "keyframes": {
+    ".opacity": {
+      "times": [
+        0,
+        0.5,
+        1
+      ],
+      "values": [
+        1,
+        0,
+        1
+      ]
+    }
+  },
+  "duration": 1,
+  "blendMode": 2500,
+  "fromGLB": false,
+  "loop": "Once",
+  "clampWhenFinished": false
+}

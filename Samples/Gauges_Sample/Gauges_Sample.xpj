@@ -1,0 +1,13 @@
+{
+  "ProjectName": "Gauges_Sample",
+  "ScreenWidth": 1536,
+  "ScreenHeight": 1024,
+  "StartScene": "",
+  "OutPath": "",
+  "IncludePaths": [],
+  "Runtime": "cpp",
+  "RenderBackend": "OpenGL",
+  "LocalizationPath": "",
+  "LocalizationLanguage": "",
+  "Modified": "2026-02-06T02:46:02.458Z"
+}

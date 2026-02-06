@@ -1,0 +1,20 @@
+[
+  {
+    "class": "CarGear",
+    "bases": [],
+    "members": [
+      {
+        "name": "currentGear",
+        "type": "char"
+      },
+      {
+        "name": "targetX",
+        "type": "float"
+      },
+      {
+        "name": "transitionTime",
+        "type": "float"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1491 @@
+[
+  {
+    "id": "cc3e8b4c-1093-4f6f-b8c6-ed0253390766",
+    "type": "Sunlight",
+    "parent": "5696ebbf-22e9-4e39-ba97-a61bef07c7da",
+    "dimension": "G3D",
+    "color": "#ffffff",
+    "intensity": 1,
+    "dynamic": true
+  },
+  {
+    "id": "5696ebbf-22e9-4e39-ba97-a61bef07c7da",
+    "name": "NewSunlightObject",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 1,
+        "y": 10,
+        "z": 3
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "b260cf9e-d2ac-4899-bdfe-9039b0e7ed78",
+    "children": [],
+    "components": [
+      "cc3e8b4c-1093-4f6f-b8c6-ed0253390766"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "6f1a361d-eb24-4dc0-b993-2bf96e38f170",
+    "type": "Light",
+    "parent": "d6c067b0-15cb-4a26-9a15-6e1b72541404",
+    "dimension": "G3D",
+    "lightType": "PointLight",
+    "color": 16765431,
+    "intensity": 200
+  },
+  {
+    "id": "d6c067b0-15cb-4a26-9a15-6e1b72541404",
+    "name": "PinkLight",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 15,
+        "y": 0,
+        "z": 15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "b260cf9e-d2ac-4899-bdfe-9039b0e7ed78",
+    "children": [],
+    "components": [
+      "6f1a361d-eb24-4dc0-b993-2bf96e38f170"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "be9f7859-a439-4f2a-a840-952e5beadb7d",
+    "type": "Light",
+    "parent": "821be48e-1131-47d0-8911-e5a1fa9d660d",
+    "dimension": "G3D",
+    "lightType": "PointLight",
+    "color": 1572851,
+    "intensity": 200
+  },
+  {
+    "id": "821be48e-1131-47d0-8911-e5a1fa9d660d",
+    "name": "BlueLight",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -10,
+        "y": 0,
+        "z": 15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "b260cf9e-d2ac-4899-bdfe-9039b0e7ed78",
+    "children": [],
+    "components": [
+      "be9f7859-a439-4f2a-a840-952e5beadb7d"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "19f07ac5-8f24-48db-88a5-de9e05c660a2",
+    "type": "Mesh",
+    "parent": "93275fcd-751e-457a-abec-71c1fc7687c5",
+    "dimension": "G3D",
+    "meshType": "Box",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      null
+    ]
+  },
+  {
+    "id": "b68053c6-6a2c-4cfc-bf4b-a61806f4219d",
+    "type": "Action",
+    "parent": "93275fcd-751e-457a-abec-71c1fc7687c5",
+    "dimension": "G3D",
+    "path": "src/AnimationAction.h",
+    "className": "AnimationAction",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "properties": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      }
+    ]
+  },
+  {
+    "id": "bbd5b8f9-d0f6-4d82-a3de-1ef70df2250e",
+    "type": "Animator",
+    "parent": "93275fcd-751e-457a-abec-71c1fc7687c5",
+    "dimension": "G3D",
+    "path": "animation/sample01.controller"
+  },
+  {
+    "id": "93275fcd-751e-457a-abec-71c1fc7687c5",
+    "name": "Object01",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": -2,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "f40c60cf-0ba8-42cc-916e-9a6add2bc248",
+    "children": [],
+    "components": [
+      "19f07ac5-8f24-48db-88a5-de9e05c660a2",
+      "b68053c6-6a2c-4cfc-bf4b-a61806f4219d",
+      "bbd5b8f9-d0f6-4d82-a3de-1ef70df2250e"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "7ceeab2f-2047-4010-ae4a-7422cbe7f40f",
+    "type": "Text",
+    "parent": "c1a53140-d661-45e2-9171-da2a14d93742",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Transform",
+    "fontSize": 48,
+    "color": "#ffffff",
+    "width": 2.5,
+    "height": 0.5,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "c1a53140-d661-45e2-9171-da2a14d93742",
+    "name": "TransformText",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -0.9490265029113503,
+        "y": 3.5381371716277217,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "f40c60cf-0ba8-42cc-916e-9a6add2bc248",
+    "children": [],
+    "components": [
+      "7ceeab2f-2047-4010-ae4a-7422cbe7f40f"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "f40c60cf-0ba8-42cc-916e-9a6add2bc248",
+    "name": "TransformObject",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -9.32140056407939,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "a67ba200-4458-40a0-924a-ef892ad1a3bc",
+    "children": [
+      "93275fcd-751e-457a-abec-71c1fc7687c5",
+      "c1a53140-d661-45e2-9171-da2a14d93742"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "5845a4cf-bd55-48aa-ac05-2fe62a536b04",
+    "type": "Mesh",
+    "parent": "a90dc2ec-6193-47c3-bf2e-c170bbdd2b6d",
+    "dimension": "G3D",
+    "meshType": "Sphere",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      null
+    ]
+  },
+  {
+    "id": "d0546472-05d8-4b56-97dd-277c052f5c79",
+    "type": "Action",
+    "parent": "a90dc2ec-6193-47c3-bf2e-c170bbdd2b6d",
+    "dimension": "G3D",
+    "path": "src/AnimationOpacity.h",
+    "className": "AnimationOpacity",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "properties": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      }
+    ]
+  },
+  {
+    "id": "c5e6204d-341d-412e-be5f-a13979cf5df3",
+    "type": "Animator",
+    "parent": "a90dc2ec-6193-47c3-bf2e-c170bbdd2b6d",
+    "dimension": "G3D",
+    "path": "animation/sample02.controller"
+  },
+  {
+    "id": "a90dc2ec-6193-47c3-bf2e-c170bbdd2b6d",
+    "name": "Object02",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": -2,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "ad77eb33-6c82-41a1-a01d-6c42424f505a",
+    "children": [],
+    "components": [
+      "5845a4cf-bd55-48aa-ac05-2fe62a536b04",
+      "d0546472-05d8-4b56-97dd-277c052f5c79",
+      "c5e6204d-341d-412e-be5f-a13979cf5df3"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "5ba73500-dabf-48fc-b3fe-9bbf07cafb20",
+    "type": "Text",
+    "parent": "49502cea-24ef-45ae-92ae-9032fcc161a6",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Opacity",
+    "fontSize": 48,
+    "color": "#ffffff",
+    "width": 2.5,
+    "height": 0.5,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "49502cea-24ef-45ae-92ae-9032fcc161a6",
+    "name": "OpacityText",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -0.9490265029113503,
+        "y": 3.5381371716277217,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "ad77eb33-6c82-41a1-a01d-6c42424f505a",
+    "children": [],
+    "components": [
+      "5ba73500-dabf-48fc-b3fe-9bbf07cafb20"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "ad77eb33-6c82-41a1-a01d-6c42424f505a",
+    "name": "OpaictyObject",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -3.801465350798875,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "a67ba200-4458-40a0-924a-ef892ad1a3bc",
+    "children": [
+      "a90dc2ec-6193-47c3-bf2e-c170bbdd2b6d",
+      "49502cea-24ef-45ae-92ae-9032fcc161a6"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "72a2852e-9e35-47d8-b1bc-12f0750e6ba5",
+    "type": "Mesh",
+    "parent": "b0c95374-1777-41b7-8bfe-342e9e70299f",
+    "dimension": "G3D",
+    "meshType": "Capsule",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      null
+    ]
+  },
+  {
+    "id": "f9127139-8e34-4751-a185-84661c3962bb",
+    "type": "Action",
+    "parent": "b0c95374-1777-41b7-8bfe-342e9e70299f",
+    "dimension": "G3D",
+    "path": "src/AnimationSameController.h",
+    "className": "AnimationSameController",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "properties": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      }
+    ]
+  },
+  {
+    "id": "9fdfbfdc-e74d-4939-918c-2d517f120abf",
+    "type": "Animator",
+    "parent": "b0c95374-1777-41b7-8bfe-342e9e70299f",
+    "dimension": "G3D",
+    "path": "animation/sample01.controller"
+  },
+  {
+    "id": "b0c95374-1777-41b7-8bfe-342e9e70299f",
+    "name": "Object03",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": -2,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "8fcc5e62-cfb3-4ef2-bb34-8c0134f331d1",
+    "children": [],
+    "components": [
+      "72a2852e-9e35-47d8-b1bc-12f0750e6ba5",
+      "f9127139-8e34-4751-a185-84661c3962bb",
+      "9fdfbfdc-e74d-4939-918c-2d517f120abf"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "8ac2434c-4716-4aca-aeac-8eba36db1e14",
+    "type": "Text",
+    "parent": "3b9221be-04e4-40b9-aa47-47f084c5f6a1",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "SameController",
+    "fontSize": 48,
+    "color": "#ffffff",
+    "width": 3.8,
+    "height": 0.5,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "3b9221be-04e4-40b9-aa47-47f084c5f6a1",
+    "name": "SameControllerWithAnimation",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -1.9919245421692133,
+        "y": 3.5381371716277217,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "8fcc5e62-cfb3-4ef2-bb34-8c0134f331d1",
+    "children": [],
+    "components": [
+      "8ac2434c-4716-4aca-aeac-8eba36db1e14"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "8fcc5e62-cfb3-4ef2-bb34-8c0134f331d1",
+    "name": "SameControllerObject",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 2.864116636119235,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "a67ba200-4458-40a0-924a-ef892ad1a3bc",
+    "children": [
+      "b0c95374-1777-41b7-8bfe-342e9e70299f",
+      "3b9221be-04e4-40b9-aa47-47f084c5f6a1"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "428aff6b-fb38-4486-ac89-2bb765e3b2f4",
+    "type": "Mesh",
+    "parent": "3f6675f6-a611-43f2-8367-19e6122be09d",
+    "dimension": "G3D",
+    "meshType": "Cylinder",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      null
+    ]
+  },
+  {
+    "id": "3f6675f6-a611-43f2-8367-19e6122be09d",
+    "name": "ParentObject",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 1.5
+      }
+    },
+    "parent": "e07de5eb-6e95-4d9f-8e16-90aa8db88bd0",
+    "children": [],
+    "components": [
+      "428aff6b-fb38-4486-ac89-2bb765e3b2f4"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "5d4991e2-3acf-452b-877a-da2c7e68ec91",
+    "type": "Mesh",
+    "parent": "4ae3caa9-b49b-445d-89d1-e650dd145f62",
+    "dimension": "G3D",
+    "meshType": "Sphere",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      null
+    ]
+  },
+  {
+    "id": "4ae3caa9-b49b-445d-89d1-e650dd145f62",
+    "name": "ChildObject",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": -4.440892098500626e-16
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7853981633974483
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3826834323650898,
+        "w": 0.9238795325112867
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "e07de5eb-6e95-4d9f-8e16-90aa8db88bd0",
+    "children": [],
+    "components": [
+      "5d4991e2-3acf-452b-877a-da2c7e68ec91"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "dd3be48f-1315-4d3b-8cdb-a4d8cacb649f",
+    "type": "Action",
+    "parent": "e07de5eb-6e95-4d9f-8e16-90aa8db88bd0",
+    "dimension": "G3D",
+    "path": "src/AnimationWithChild.h",
+    "className": "AnimationWithChild",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "properties": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      }
+    ]
+  },
+  {
+    "id": "e8bc6d85-31e0-44e9-b2c3-dd2d2f9188be",
+    "type": "Animator",
+    "parent": "e07de5eb-6e95-4d9f-8e16-90aa8db88bd0",
+    "dimension": "G3D",
+    "path": "animation/sample3.controller"
+  },
+  {
+    "id": "e07de5eb-6e95-4d9f-8e16-90aa8db88bd0",
+    "name": "Object04",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": -2,
+        "z": 0
+      },
+      "rotation": {
+        "x": -1.5707963267948963,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": -0.7071067811865475,
+        "y": 0,
+        "z": 0,
+        "w": 0.7071067811865476
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "a5d7d914-6fa9-40c6-9a2b-3953c9aee571",
+    "children": [
+      "3f6675f6-a611-43f2-8367-19e6122be09d",
+      "4ae3caa9-b49b-445d-89d1-e650dd145f62"
+    ],
+    "components": [
+      "dd3be48f-1315-4d3b-8cdb-a4d8cacb649f",
+      "e8bc6d85-31e0-44e9-b2c3-dd2d2f9188be"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "7d0cdc04-58f0-4cd4-93af-c7762fc01779",
+    "type": "Text",
+    "parent": "2aca7794-4f31-4f2c-aeaf-3823e4bea847",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "withChild",
+    "fontSize": 48,
+    "color": "#ffffff",
+    "width": 3.8,
+    "height": 0.5,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "2aca7794-4f31-4f2c-aeaf-3823e4bea847",
+    "name": "WithChildText",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -1.380648854910295,
+        "y": 3.5381371716277217,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "a5d7d914-6fa9-40c6-9a2b-3953c9aee571",
+    "children": [],
+    "components": [
+      "7d0cdc04-58f0-4cd4-93af-c7762fc01779"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "2c6989af-a125-4305-bdca-9d8bf6246c8d",
+    "type": "Text",
+    "parent": "6775927f-4376-42ca-b799-1fc003a4a396",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Repeat in Animator",
+    "fontSize": 32,
+    "color": "#ffffff",
+    "width": 3.3,
+    "height": 0.5,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "6775927f-4376-42ca-b799-1fc003a4a396",
+    "name": "options",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -1.6271316110822942,
+        "y": 2.5261062126742813,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "a5d7d914-6fa9-40c6-9a2b-3953c9aee571",
+    "children": [],
+    "components": [
+      "2c6989af-a125-4305-bdca-9d8bf6246c8d"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "a5d7d914-6fa9-40c6-9a2b-3953c9aee571",
+    "name": "WithChildObject",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 9.048005748753189,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "a67ba200-4458-40a0-924a-ef892ad1a3bc",
+    "children": [
+      "e07de5eb-6e95-4d9f-8e16-90aa8db88bd0",
+      "2aca7794-4f31-4f2c-aeaf-3823e4bea847",
+      "6775927f-4376-42ca-b799-1fc003a4a396"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "9c6ae93e-12f3-40e1-bf33-f722df05fc43",
+    "type": "Mesh",
+    "parent": "2fee2618-2a42-44d5-bce1-0b13ccf74b20",
+    "dimension": "G3D",
+    "meshType": "Box",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      null
+    ]
+  },
+  {
+    "id": "82367fbf-cc2e-451a-9002-c56c417b7806",
+    "type": "Action",
+    "parent": "2fee2618-2a42-44d5-bce1-0b13ccf74b20",
+    "dimension": "G3D",
+    "path": "src/AnimationClamp.h",
+    "className": "AnimationClamp",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "properties": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      }
+    ]
+  },
+  {
+    "id": "bf1a2e80-588f-4757-bb9a-a030a6c424a2",
+    "type": "Animator",
+    "parent": "2fee2618-2a42-44d5-bce1-0b13ccf74b20",
+    "dimension": "G3D",
+    "path": "animation/sample05.controller"
+  },
+  {
+    "id": "2fee2618-2a42-44d5-bce1-0b13ccf74b20",
+    "name": "Object05",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": -2,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 2,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "0486b6ad-cbdc-464f-8e0f-ed253708c176",
+    "children": [],
+    "components": [
+      "9c6ae93e-12f3-40e1-bf33-f722df05fc43",
+      "82367fbf-cc2e-451a-9002-c56c417b7806",
+      "bf1a2e80-588f-4757-bb9a-a030a6c424a2"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "c9c4a36e-f6d6-4ba1-ba9f-05141460ba3a",
+    "type": "Text",
+    "parent": "b8a62398-b1ca-4851-9173-8e41f3a2cd6a",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Clamp",
+    "fontSize": 48,
+    "color": "#ffffff",
+    "width": 2.15,
+    "height": 0.5,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "b8a62398-b1ca-4851-9173-8e41f3a2cd6a",
+    "name": "ClampText",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -0.9433672973122409,
+        "y": 3.538,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "0486b6ad-cbdc-464f-8e0f-ed253708c176",
+    "children": [],
+    "components": [
+      "c9c4a36e-f6d6-4ba1-ba9f-05141460ba3a"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "a4fda09d-ecf2-42a5-adff-ce03cc488032",
+    "type": "Text",
+    "parent": "4ec8eaa8-bc28-4966-9169-1d2626560d53",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "keep last state",
+    "fontSize": 32,
+    "color": "#ffffff",
+    "width": 3,
+    "height": 0.5,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "4ec8eaa8-bc28-4966-9169-1d2626560d53",
+    "name": "descText",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -1.550147393451427,
+        "y": 2.526,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "0486b6ad-cbdc-464f-8e0f-ed253708c176",
+    "children": [],
+    "components": [
+      "a4fda09d-ecf2-42a5-adff-ce03cc488032"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "0486b6ad-cbdc-464f-8e0f-ed253708c176",
+    "name": "Clamp",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 15.11842967126269,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "a67ba200-4458-40a0-924a-ef892ad1a3bc",
+    "children": [
+      "2fee2618-2a42-44d5-bce1-0b13ccf74b20",
+      "b8a62398-b1ca-4851-9173-8e41f3a2cd6a",
+      "4ec8eaa8-bc28-4966-9169-1d2626560d53"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "a67ba200-4458-40a0-924a-ef892ad1a3bc",
+    "name": "AnimatorGroup",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -2.86090826971084,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "b260cf9e-d2ac-4899-bdfe-9039b0e7ed78",
+    "children": [
+      "f40c60cf-0ba8-42cc-916e-9a6add2bc248",
+      "ad77eb33-6c82-41a1-a01d-6c42424f505a",
+      "8fcc5e62-cfb3-4ef2-bb34-8c0134f331d1",
+      "a5d7d914-6fa9-40c6-9a2b-3953c9aee571",
+      "0486b6ad-cbdc-464f-8e0f-ed253708c176"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "5e2572fb-7652-45f7-b0cf-d50a38ebba10",
+    "type": "Text",
+    "parent": "e9051f7b-5aca-4a66-9eb0-8632e91154a1",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "👈🏻",
+    "fontSize": 52,
+    "color": "#00ffe1",
+    "width": 2.15,
+    "height": 0.62,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "e9051f7b-5aca-4a66-9eb0-8632e91154a1",
+    "name": "Cursor",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": -0.7941400603156985,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1.2973723254152043
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0.60413995912778,
+        "w": 0.7968782277017514
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "4dc9198d-df08-43f0-b037-80851bb6537b",
+    "children": [],
+    "components": [
+      "5e2572fb-7652-45f7-b0cf-d50a38ebba10"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "7925b201-2aa6-4ac8-af67-12e5f6761ff7",
+    "type": "Text",
+    "parent": "ebee3955-c144-465c-82f5-cd887c4288ea",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Edit to RunTime Options",
+    "fontSize": 52,
+    "color": "#00ffe1",
+    "width": 7.2,
+    "height": 0.5,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "ebee3955-c144-465c-82f5-cd887c4288ea",
+    "name": "Text",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0.8592352292155734,
+        "y": -0.32509836047867713,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "4dc9198d-df08-43f0-b037-80851bb6537b",
+    "children": [],
+    "components": [
+      "7925b201-2aa6-4ac8-af67-12e5f6761ff7"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "4dc9198d-df08-43f0-b037-80851bb6537b",
+    "name": "InformationText",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -7.954100106027233,
+        "y": -4.110826277086018,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "b260cf9e-d2ac-4899-bdfe-9039b0e7ed78",
+    "children": [
+      "e9051f7b-5aca-4a66-9eb0-8632e91154a1",
+      "ebee3955-c144-465c-82f5-cd887c4288ea"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "6c038dc9-a2ec-4f3c-b840-5307a7ef1dc9",
+    "type": "Camera",
+    "parent": "0cd2e602-ff92-4eec-b712-ed95706e1841",
+    "dimension": "G3D",
+    "cameraType": "Perspective",
+    "fov": 50,
+    "aspect": 2.6666666666666665,
+    "left": -2.6666666666666665,
+    "right": 2.6666666666666665,
+    "top": 1,
+    "bottom": -1,
+    "near": 1,
+    "far": 1000
+  },
+  {
+    "id": "0cd2e602-ff92-4eec-b712-ed95706e1841",
+    "name": "NewCameraObject",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 12
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "b260cf9e-d2ac-4899-bdfe-9039b0e7ed78",
+    "children": [],
+    "components": [
+      "6c038dc9-a2ec-4f3c-b840-5307a7ef1dc9"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "fbdfb30c-1ce6-4af6-9497-5730f78662ff",
+    "type": "ImageMaskTarget",
+    "parent": "b260cf9e-d2ac-4899-bdfe-9039b0e7ed78",
+    "dimension": "G3D",
+    "maskObjId": "",
+    "targetId": "b260cf9e-d2ac-4899-bdfe-9039b0e7ed78",
+    "connectedMaskId": "",
+    "stencilBufferNumber": 0,
+    "alphaTest": 0.5,
+    "childrenIds": [
+      "5696ebbf-22e9-4e39-ba97-a61bef07c7da",
+      "d6c067b0-15cb-4a26-9a15-6e1b72541404",
+      "821be48e-1131-47d0-8911-e5a1fa9d660d",
+      "a67ba200-4458-40a0-924a-ef892ad1a3bc",
+      "4dc9198d-df08-43f0-b037-80851bb6537b",
+      "0cd2e602-ff92-4eec-b712-ed95706e1841"
+    ]
+  },
+  {
+    "id": "08acf93e-f959-4f12-94f6-72fc02713422",
+    "type": "SkyBox",
+    "parent": "b260cf9e-d2ac-4899-bdfe-9039b0e7ed78",
+    "dimension": "G3D",
+    "path": "",
+    "isActive": false,
+    "visible": true
+  },
+  {
+    "id": "b260cf9e-d2ac-4899-bdfe-9039b0e7ed78",
+    "name": "Scene",
+    "type": "Scene",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "",
+    "children": [
+      "5696ebbf-22e9-4e39-ba97-a61bef07c7da",
+      "d6c067b0-15cb-4a26-9a15-6e1b72541404",
+      "821be48e-1131-47d0-8911-e5a1fa9d660d",
+      "a67ba200-4458-40a0-924a-ef892ad1a3bc",
+      "4dc9198d-df08-43f0-b037-80851bb6537b",
+      "0cd2e602-ff92-4eec-b712-ed95706e1841"
+    ],
+    "components": [
+      "fbdfb30c-1ce6-4af6-9497-5730f78662ff",
+      "08acf93e-f959-4f12-94f6-72fc02713422"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false,
+    "backgroundColor": "#000000",
+    "grid": {
+      "size": 817,
+      "divisions": 933,
+      "color": "bbbbbb",
+      "opacity": 0.62,
+      "p_history": [
+        true,
+        true,
+        false
+      ],
+      "o_history": [
+        true,
+        false,
+        false
+      ],
+      "isRender": true
+    },
+    "camera": {
+      "acceleration": false,
+      "speed": 1,
+      "far": 1000,
+      "fov": 50,
+      "near": 0.01
+    },
+    "viewSettings": "",
+    "formatVersion": 2
+  }
+]

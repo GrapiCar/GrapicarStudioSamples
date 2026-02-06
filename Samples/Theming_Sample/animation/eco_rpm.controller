@@ -1,0 +1,42 @@
+{
+  "name": "eco_rpm",
+  "path": "animation/eco_rpm.controller",
+  "animations": [],
+  "nodes": [
+    {
+      "id": "5810536a-b21e-48bd-8f0a-80f05aae9e64",
+      "type": "entry",
+      "data": {
+        "label": "Entry"
+      },
+      "position": {
+        "x": 250,
+        "y": 25
+      }
+    },
+    {
+      "id": "b1b6465a-f21a-4cbb-8d0e-9bc26103be1e",
+      "type": "any",
+      "data": {
+        "label": "Any State"
+      },
+      "position": {
+        "x": 100,
+        "y": 125
+      }
+    },
+    {
+      "id": "9a7b5167-f364-4f4c-97a6-72c45086c25d",
+      "type": "exit",
+      "data": {
+        "label": "Exit"
+      },
+      "position": {
+        "x": 250,
+        "y": 250
+      }
+    }
+  ],
+  "edges": [],
+  "variables": []
+}

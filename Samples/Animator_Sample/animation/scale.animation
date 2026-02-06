@@ -1,0 +1,25 @@
+{
+  "id": "3392c850-dd0b-4641-9cd5-9c4669e9b6d2",
+  "tag": "scale",
+  "keyframes": {
+    ".scale": {
+      "times": [
+        0,
+        1
+      ],
+      "values": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ]
+    }
+  },
+  "duration": 1,
+  "blendMode": 2500,
+  "fromGLB": false,
+  "loop": "Once",
+  "clampWhenFinished": true
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "class": "animation01",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "members": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      }
+    ]
+  }
+]

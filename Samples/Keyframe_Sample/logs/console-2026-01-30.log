@@ -1,0 +1,39 @@
+[2026-01-30 09:41:07] [ERROR] prefixCls
+prefixcls
+[2026-01-30 09:42:55] [ERROR] ProgressWithInput
+[2026-01-30 11:05:12] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2026-01-30 11:23:17] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2026-01-30 11:23:30] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2026-01-30 11:32:24] [ERROR] prefixCls
+prefixcls
+[2026-01-30 11:32:26] [ERROR] ProgressWithInput
+[2026-01-30 13:55:19] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2026-01-30 13:59:10] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2026-01-30 14:01:19] [ERROR] Error processing resources: {}
+[2026-01-30 14:01:23] [ERROR] Image cache miss for: res\img\balldimpled.png
+[2026-01-30 14:01:23] [ERROR] Image cache miss for: res\img\balldimpled.png
+[2026-01-30 14:22:10] [WARNING] THREE.WebGLRenderer: Texture marked for update but no image data found.
+[2026-01-30 14:22:10] [ERROR] animation/basketball.controller 애니메이션 컨트롤러 파일을 읽거나 파싱할 수 없습니다.
+[2026-01-30 14:22:10] [WARNING] THREE.WebGLRenderer: Texture marked for update but no image data found.
+[2026-01-30 14:22:10] [WARNING] THREE.WebGLRenderer: Texture marked for update but no image data found.
+[2026-01-30 14:22:10] [WARNING] THREE.WebGLRenderer: Texture marked for update but no image data found.
+[2026-01-30 14:22:10] [WARNING] THREE.WebGLRenderer: Texture marked for update but no image data found.
+[2026-01-30 14:22:10] [WARNING] THREE.WebGLRenderer: Texture marked for update but no image data found.
+[2026-01-30 14:22:10] [WARNING] THREE.WebGLRenderer: Texture marked for update but no image data found.
+[2026-01-30 14:31:07] [ERROR] 자바스크립트 에러: Uncaught TypeError: Cannot read properties of undefined (reading 'getThreeObj')
+위치: http://localhost:5173/src/core/objects/GCObject.ts:211:59
+TypeError: Cannot read properties of undefined (reading 'getThreeObj')
+    at GCObject.removeToolComponent2 (http://localhost:5173/src/core/objects/GCObject.ts:211:59)
+    at deleteCallback (http://localhost:5173/src/views/inspector/animator/AnimatorComponent.tsx:202:55)
+    at handleDelete (http://localhost:5173/src/views/components/InspectorAccordion.tsx:83:25)
+    at onClick (http://localhost:5173/src/views/components/InspectorAccordion.tsx:189:15)
+    at executeDispatch (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=fe58e5f2:25655:11)
+    at runWithFiberInDEV (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=fe58e5f2:13030:72)
+    at processDispatchQueue (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=fe58e5f2:25691:37)
+    at http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=fe58e5f2:26104:11
+    at batchedUpdates$1 (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=fe58e5f2:14659:42)
+    at dispatchEventForPluginEventSystem (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=fe58e5f2:25796:9)
+[2026-01-30 15:38:41] [WARNING] THREE.WebGLRenderer: Texture marked for update but no image data found.
+[2026-01-30 15:38:41] [WARNING] THREE.WebGLRenderer: Texture marked for update but no image data found.
+[2026-01-30 15:38:41] [WARNING] THREE.WebGLRenderer: Texture marked for update but no image data found.
+[2026-01-30 18:12:51] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.

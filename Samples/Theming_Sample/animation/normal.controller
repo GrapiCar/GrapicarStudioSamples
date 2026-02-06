@@ -1,0 +1,69 @@
+{
+  "name": "normal",
+  "path": "animation/normal.controller",
+  "animations": [
+    "animation/normal_intro.animation",
+    "animation/normal_outro.animation"
+  ],
+  "nodes": [
+    {
+      "id": "e36be4c7-a11a-48bc-a023-40a67c68e7b3",
+      "type": "entry",
+      "data": {
+        "label": "Entry"
+      },
+      "position": {
+        "x": 250,
+        "y": 25
+      }
+    },
+    {
+      "id": "378a1cd6-80af-4d8d-a46f-4193a513d27b",
+      "type": "any",
+      "data": {
+        "label": "Any State"
+      },
+      "position": {
+        "x": 100,
+        "y": 125
+      }
+    },
+    {
+      "id": "76dccff6-9efb-41e3-8028-583931e0954c",
+      "type": "exit",
+      "data": {
+        "label": "Exit"
+      },
+      "position": {
+        "x": 250,
+        "y": 250
+      }
+    },
+    {
+      "id": "eefb7319-e665-402a-adc1-fe40fb6f7834",
+      "data": {
+        "label": "normal_intro",
+        "clip": "64c2d6c8-455b-4e5b-8113-f62c1e46ba4d"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "type": "action"
+    },
+    {
+      "id": "af7a82e2-be8b-4b3b-ac75-7585ddaa7820",
+      "data": {
+        "label": "normal_outro",
+        "clip": "092837ce-7190-4714-9664-9f33f9410698"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "type": "action"
+    }
+  ],
+  "edges": [],
+  "variables": []
+}

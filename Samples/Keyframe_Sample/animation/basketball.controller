@@ -1,0 +1,56 @@
+{
+  "name": "basketball",
+  "path": "animation/basketball.controller",
+  "animations": [
+    "animation/Basketball_Bounce.animation"
+  ],
+  "nodes": [
+    {
+      "id": "1a9fc81b-93a7-4ddc-b203-c0ef3cb3025c",
+      "type": "entry",
+      "data": {
+        "label": "Entry"
+      },
+      "position": {
+        "x": 250,
+        "y": 25
+      }
+    },
+    {
+      "id": "717c690a-9d3c-4d77-a6cb-21d7814ada2c",
+      "type": "any",
+      "data": {
+        "label": "Any State"
+      },
+      "position": {
+        "x": 100,
+        "y": 125
+      }
+    },
+    {
+      "id": "f55da2b1-c60e-4f1d-8124-62278621fac7",
+      "type": "exit",
+      "data": {
+        "label": "Exit"
+      },
+      "position": {
+        "x": 250,
+        "y": 250
+      }
+    },
+    {
+      "id": "90cb4659-7a53-4217-86e6-93088ecf727b",
+      "data": {
+        "label": "Basketball_Bounce",
+        "clip": "281ee6b1-3c9a-45c4-8f12-35b2f878713d"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "type": "action"
+    }
+  ],
+  "edges": [],
+  "variables": []
+}

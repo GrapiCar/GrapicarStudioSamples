@@ -1,0 +1,12 @@
+{
+  "ProjectName": "Camera_Sample",
+  "ScreenWidth": 1920,
+  "ScreenHeight": 720,
+  "IncludePaths": [],
+  "OutPath": "",
+  "Runtime": "cpp",
+  "LocalizationPath": "",
+  "LocalizationLanguage": "",
+  "Created": "2026-01-20T07:42:16.943Z",
+  "Modified": "2026-01-20T07:42:16.943Z"
+}

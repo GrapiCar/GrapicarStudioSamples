@@ -1,0 +1,619 @@
+[
+  {
+    "id": "a0f5e03b-5222-49ab-8a34-8f12e1b1d3d2",
+    "type": "Text",
+    "parent": "d5896718-ae49-4a5c-96ca-736f4dcc5e15",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Lorem Ipsum is simply\ndummy text of\nthe printing \nand typesetting industry. \nLorem Ipsum has been the \nindustry's standard dummy text ever since the \n1500s, when an unknown \nprinter took a galley of type and scrambled it to \nmake a type specimen book. It has survived not \nonly five centuries, but also the leap into \nelectronic typesetting, remaining essentially \nunchanged. It was popularised in the 1960s \nwith the release of Letraset sheets \ncontaining Lorem Ipsum passages, and more \nrecently with desktop publishing software like \nAldus PageMaker including versions of \nLorem Ipsum.",
+    "fontSize": 16,
+    "color": "#ffffff",
+    "width": 5,
+    "height": 5,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "d5896718-ae49-4a5c-96ca-736f4dcc5e15",
+    "name": "Text01",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -7.368593224953036,
+        "y": 3.670534103883675,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "05fcf26b-c6ca-4122-b5ee-9752a64d4da3",
+    "children": [],
+    "components": [
+      "a0f5e03b-5222-49ab-8a34-8f12e1b1d3d2"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "71d13ca7-0d34-4f48-9cc0-8dc4e22b63d1",
+    "type": "Text",
+    "parent": "7f277b1a-585b-422e-9cd8-f11caec0ad10",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Top",
+    "fontSize": 16,
+    "color": "#ffffff",
+    "width": 2.15,
+    "height": 0.8,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "7f277b1a-585b-422e-9cd8-f11caec0ad10",
+    "name": "Vertical_Start",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "7e159213-c486-42f8-bcbf-255ec6503d80",
+    "children": [],
+    "components": [
+      "71d13ca7-0d34-4f48-9cc0-8dc4e22b63d1"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "1d0236cb-b789-4dc4-9f1e-4676f4877a54",
+    "type": "Text",
+    "parent": "81845482-50b3-4696-832b-f94446e81142",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Center",
+    "fontSize": 16,
+    "color": "#ffffff",
+    "width": 2.15,
+    "height": 0.8,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "middle"
+  },
+  {
+    "id": "81845482-50b3-4696-832b-f94446e81142",
+    "name": "Vertical_Center",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "7e159213-c486-42f8-bcbf-255ec6503d80",
+    "children": [],
+    "components": [
+      "1d0236cb-b789-4dc4-9f1e-4676f4877a54"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "864a20c6-2603-462e-88f8-20e02e3565cb",
+    "type": "Text",
+    "parent": "5fcbc5c4-0251-4a63-8f3f-a36a50d8efc5",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Bottom",
+    "fontSize": 16,
+    "color": "#ffffff",
+    "width": 2.15,
+    "height": 0.8,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "bottom"
+  },
+  {
+    "id": "5fcbc5c4-0251-4a63-8f3f-a36a50d8efc5",
+    "name": "Vertical_Right",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 2,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "7e159213-c486-42f8-bcbf-255ec6503d80",
+    "children": [],
+    "components": [
+      "864a20c6-2603-462e-88f8-20e02e3565cb"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "7e159213-c486-42f8-bcbf-255ec6503d80",
+    "name": "AlignVetical",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 2,
+        "y": 2,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "05fcf26b-c6ca-4122-b5ee-9752a64d4da3",
+    "children": [
+      "7f277b1a-585b-422e-9cd8-f11caec0ad10",
+      "81845482-50b3-4696-832b-f94446e81142",
+      "5fcbc5c4-0251-4a63-8f3f-a36a50d8efc5"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "1a45e102-d4a0-4fc3-af85-dbef398e1039",
+    "type": "Text",
+    "parent": "3c940ae9-a1ac-4895-a166-23304e20b632",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Center",
+    "fontSize": 16,
+    "color": "#ffffff",
+    "width": 2.15,
+    "height": 0.5,
+    "horizontalAlignment": "center",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "3c940ae9-a1ac-4895-a166-23304e20b632",
+    "name": "Horizontal_Center",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 1.5,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "aa09f2db-52d9-4e4c-a480-c985406a37e9",
+    "children": [],
+    "components": [
+      "1a45e102-d4a0-4fc3-af85-dbef398e1039"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "0cde57c6-17eb-4887-8690-63d0418e253b",
+    "type": "Text",
+    "parent": "9cd364df-f778-4b59-9b4b-3d6b59ee7b1e",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Left",
+    "fontSize": 16,
+    "color": "#ffffff",
+    "width": 2.15,
+    "height": 0.5,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "9cd364df-f778-4b59-9b4b-3d6b59ee7b1e",
+    "name": "Horizontal_Left",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 2,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "aa09f2db-52d9-4e4c-a480-c985406a37e9",
+    "children": [],
+    "components": [
+      "0cde57c6-17eb-4887-8690-63d0418e253b"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "085e3ba4-69eb-4beb-9b16-bdb9be3bc0ff",
+    "type": "Text",
+    "parent": "9ea0a78c-93e1-4b5a-8d9b-266cfe7af421",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Right",
+    "fontSize": 16,
+    "color": "#ffffff",
+    "width": 2.15,
+    "height": 0.5,
+    "horizontalAlignment": "right",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "9ea0a78c-93e1-4b5a-8d9b-266cfe7af421",
+    "name": "Horizontal_Right",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "aa09f2db-52d9-4e4c-a480-c985406a37e9",
+    "children": [],
+    "components": [
+      "085e3ba4-69eb-4beb-9b16-bdb9be3bc0ff"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "aa09f2db-52d9-4e4c-a480-c985406a37e9",
+    "name": "AlignHorizontal",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -1.5,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "05fcf26b-c6ca-4122-b5ee-9752a64d4da3",
+    "children": [
+      "3c940ae9-a1ac-4895-a166-23304e20b632",
+      "9cd364df-f778-4b59-9b4b-3d6b59ee7b1e",
+      "9ea0a78c-93e1-4b5a-8d9b-266cfe7af421"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "05fcf26b-c6ca-4122-b5ee-9752a64d4da3",
+    "name": "TextGroup",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0.6850902130639014,
+        "y": -1.8089658062558316,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "c7bd63b6-8539-47c0-a913-c8e370f5c69b",
+    "children": [
+      "d5896718-ae49-4a5c-96ca-736f4dcc5e15",
+      "7e159213-c486-42f8-bcbf-255ec6503d80",
+      "aa09f2db-52d9-4e4c-a480-c985406a37e9"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "07ac101a-45a3-4ffe-a8aa-598ccbae7d15",
+    "type": "Text",
+    "parent": "fc580c05-6cfa-4adf-a1a5-602b7644a2cf",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Notice!\nhow it aligns with the \"+\"\nshaped anchor.",
+    "fontSize": 32,
+    "color": "#00ffe1",
+    "width": 6,
+    "height": 1.2,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "fc580c05-6cfa-4adf-a1a5-602b7644a2cf",
+    "name": "DescText",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -2.3873618010362856,
+        "y": 3.737667194361573,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "c7bd63b6-8539-47c0-a913-c8e370f5c69b",
+    "children": [],
+    "components": [
+      "07ac101a-45a3-4ffe-a8aa-598ccbae7d15"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "49bb0074-5670-4a61-964b-e5d22a0f1cfe",
+    "type": "ImageMaskTarget",
+    "parent": "c7bd63b6-8539-47c0-a913-c8e370f5c69b",
+    "dimension": "G3D",
+    "maskObjId": "",
+    "targetId": "c7bd63b6-8539-47c0-a913-c8e370f5c69b",
+    "connectedMaskId": "",
+    "stencilBufferNumber": 0,
+    "alphaTest": 0.5,
+    "childrenIds": [
+      "05fcf26b-c6ca-4122-b5ee-9752a64d4da3",
+      "fc580c05-6cfa-4adf-a1a5-602b7644a2cf"
+    ]
+  },
+  {
+    "id": "30bfe725-b31a-4d27-9eee-8c44791419f5",
+    "type": "SkyBox",
+    "parent": "c7bd63b6-8539-47c0-a913-c8e370f5c69b",
+    "dimension": "G3D",
+    "path": "",
+    "isActive": false,
+    "visible": true
+  },
+  {
+    "id": "c7bd63b6-8539-47c0-a913-c8e370f5c69b",
+    "name": "Scene",
+    "type": "Scene",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "",
+    "children": [
+      "05fcf26b-c6ca-4122-b5ee-9752a64d4da3",
+      "fc580c05-6cfa-4adf-a1a5-602b7644a2cf"
+    ],
+    "components": [
+      "49bb0074-5670-4a61-964b-e5d22a0f1cfe",
+      "30bfe725-b31a-4d27-9eee-8c44791419f5"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false,
+    "backgroundColor": "#000000",
+    "grid": {
+      "size": 1000,
+      "divisions": 1000,
+      "color": "bbbbbb",
+      "opacity": 0.5,
+      "p_history": [
+        false,
+        false,
+        false
+      ],
+      "o_history": [
+        true,
+        false,
+        false
+      ],
+      "isRender": true
+    },
+    "camera": {
+      "acceleration": false,
+      "speed": 1,
+      "far": 1000,
+      "fov": 50,
+      "near": 0.01
+    },
+    "viewSettings": "",
+    "formatVersion": 2
+  }
+]

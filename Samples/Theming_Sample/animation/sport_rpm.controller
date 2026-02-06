@@ -1,0 +1,56 @@
+{
+  "name": "sport_rpm",
+  "path": "animation/sport_rpm.controller",
+  "animations": [
+    "animation/rpm_intro.animation"
+  ],
+  "nodes": [
+    {
+      "id": "2c2c7290-f44e-4a60-b763-58a025b73432",
+      "type": "entry",
+      "data": {
+        "label": "Entry"
+      },
+      "position": {
+        "x": 250,
+        "y": 25
+      }
+    },
+    {
+      "id": "b78636d4-a1a9-46b3-a9f2-ed67f709d395",
+      "type": "any",
+      "data": {
+        "label": "Any State"
+      },
+      "position": {
+        "x": 100,
+        "y": 125
+      }
+    },
+    {
+      "id": "fae8530c-1882-4d3d-bccd-e766bc484b78",
+      "type": "exit",
+      "data": {
+        "label": "Exit"
+      },
+      "position": {
+        "x": 250,
+        "y": 250
+      }
+    },
+    {
+      "id": "ea78c953-77f0-4023-b290-c15dc79da66a",
+      "data": {
+        "label": "rpm_intro",
+        "clip": "023e2b2f-fde1-4db5-ad31-a10312ee2f0a"
+      },
+      "position": {
+        "x": 440,
+        "y": 100
+      },
+      "type": "action"
+    }
+  ],
+  "edges": [],
+  "variables": []
+}

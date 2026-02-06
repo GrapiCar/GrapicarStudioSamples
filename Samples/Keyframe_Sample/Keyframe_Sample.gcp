@@ -1,0 +1,202 @@
+[
+  {
+    "id": "1da3c7ea-6593-4ec9-b85e-a24d29eec4f5",
+    "type": "Sunlight",
+    "parent": "9820810d-fc8f-4e30-b9d0-4c61a0270681",
+    "dimension": "G3D",
+    "color": "#ffffff",
+    "intensity": 3,
+    "dynamic": true
+  },
+  {
+    "id": "9820810d-fc8f-4e30-b9d0-4c61a0270681",
+    "name": "SunLight",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 10,
+        "z": 10
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "51d9e4ea-0883-40b8-bbb5-33ac43d54ab5",
+    "children": [],
+    "components": [
+      "1da3c7ea-6593-4ec9-b85e-a24d29eec4f5"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "c023e80b-de4f-42ff-82d8-f9e54a6a61c4",
+    "type": "Mesh",
+    "parent": "7e8fce20-6227-4466-aa73-3b93e7104086",
+    "dimension": "G3D",
+    "meshType": "Sphere",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      {
+        "textures": {
+          "map": "res\\img\\basketball_texture.png"
+        }
+      }
+    ]
+  },
+  {
+    "id": "934e6c53-4912-47bf-99e9-94495bd0c59b",
+    "type": "Animator",
+    "parent": "7e8fce20-6227-4466-aa73-3b93e7104086",
+    "dimension": "G3D",
+    "path": "animation/basketball.controller"
+  },
+  {
+    "id": "7e8fce20-6227-4466-aa73-3b93e7104086",
+    "name": "BasketBall",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 4,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "51d9e4ea-0883-40b8-bbb5-33ac43d54ab5",
+    "children": [],
+    "components": [
+      "c023e80b-de4f-42ff-82d8-f9e54a6a61c4",
+      "934e6c53-4912-47bf-99e9-94495bd0c59b"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "a6f758e3-640b-41ab-81ac-06aa3214a46a",
+    "type": "ImageMaskTarget",
+    "parent": "51d9e4ea-0883-40b8-bbb5-33ac43d54ab5",
+    "dimension": "G3D",
+    "maskObjId": "",
+    "targetId": "51d9e4ea-0883-40b8-bbb5-33ac43d54ab5",
+    "connectedMaskId": "",
+    "stencilBufferNumber": 0,
+    "alphaTest": 0.5,
+    "childrenIds": [
+      "9820810d-fc8f-4e30-b9d0-4c61a0270681",
+      "7e8fce20-6227-4466-aa73-3b93e7104086"
+    ]
+  },
+  {
+    "id": "d721489d-bdcc-45cb-a6ca-cb981252b2b4",
+    "type": "SkyBox",
+    "parent": "51d9e4ea-0883-40b8-bbb5-33ac43d54ab5",
+    "dimension": "G3D",
+    "path": "",
+    "isActive": false,
+    "visible": true
+  },
+  {
+    "id": "51d9e4ea-0883-40b8-bbb5-33ac43d54ab5",
+    "name": "Scene",
+    "type": "Scene",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "",
+    "children": [
+      "9820810d-fc8f-4e30-b9d0-4c61a0270681",
+      "7e8fce20-6227-4466-aa73-3b93e7104086"
+    ],
+    "components": [
+      "a6f758e3-640b-41ab-81ac-06aa3214a46a",
+      "d721489d-bdcc-45cb-a6ca-cb981252b2b4"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false,
+    "backgroundColor": "#454545",
+    "grid": {
+      "size": 1000,
+      "divisions": 1000,
+      "color": "bbbbbb",
+      "opacity": 0.5,
+      "p_history": [
+        false,
+        true,
+        false
+      ],
+      "o_history": [
+        true,
+        false,
+        false
+      ],
+      "isRender": true
+    },
+    "camera": {
+      "acceleration": false,
+      "speed": 1,
+      "far": 1000,
+      "fov": 50,
+      "near": 0.01
+    },
+    "viewSettings": "",
+    "formatVersion": 2
+  }
+]

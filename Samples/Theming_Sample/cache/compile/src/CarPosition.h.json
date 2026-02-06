@@ -1,0 +1,20 @@
+[
+  {
+    "class": "CarPosition",
+    "bases": [],
+    "members": [
+      {
+        "name": "origin",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "max",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "min",
+        "type": "glm::vec3"
+      }
+    ]
+  }
+]

@@ -1,0 +1,309 @@
+{
+  "id": "023e2b2f-fde1-4db5-ad31-a10312ee2f0a",
+  "tag": "rpm_intro",
+  "keyframes": {
+    "Km_Rpm_gauge_Sport_1.opacity": {
+      "times": [
+        0,
+        0.333,
+        0.916
+      ],
+      "values": [
+        0,
+        1,
+        1
+      ]
+    },
+    "Km_Rpm_gauge_Sport_1.position": {
+      "times": [
+        0,
+        0.333
+      ],
+      "values": [
+        -2.56,
+        -0.26,
+        0,
+        2.119999885559082,
+        -0.25999999046325684,
+        0
+      ]
+    },
+    "Km_Rpm_gauge_Sport_2.opacity": {
+      "times": [
+        0.05,
+        0.4,
+        0.916
+      ],
+      "values": [
+        0,
+        1,
+        1
+      ]
+    },
+    "Km_Rpm_gauge_Sport_2.position": {
+      "times": [
+        0.05,
+        0.4
+      ],
+      "values": [
+        -2.56,
+        -0.3499999940395355,
+        0,
+        2.140000104904175,
+        -0.3499999940395355,
+        0
+      ]
+    },
+    "Km_Rpm_gauge_Sport_3.opacity": {
+      "times": [
+        0.15,
+        0.483,
+        0.916
+      ],
+      "values": [
+        0,
+        1,
+        1
+      ]
+    },
+    "Km_Rpm_gauge_Sport_3.position": {
+      "times": [
+        0.15,
+        0.483
+      ],
+      "values": [
+        -2.56,
+        -0.4000000059604645,
+        0,
+        2.180000066757202,
+        -0.4000000059604645,
+        0
+      ]
+    },
+    "Km_Rpm_gauge_Sport_4.opacity": {
+      "times": [
+        0.217,
+        0.533,
+        0.916
+      ],
+      "values": [
+        0,
+        1,
+        1
+      ]
+    },
+    "Km_Rpm_gauge_Sport_4.position": {
+      "times": [
+        0.217,
+        0.533
+      ],
+      "values": [
+        -2.56,
+        -0.4699999988079071,
+        0,
+        2.2100000381469727,
+        -0.4699999988079071,
+        0
+      ]
+    },
+    "Km_Rpm_gauge_Sport_5.opacity": {
+      "times": [
+        0.283,
+        0.583,
+        0.916
+      ],
+      "values": [
+        0,
+        1,
+        1
+      ]
+    },
+    "Km_Rpm_gauge_Sport_5.position": {
+      "times": [
+        0.283,
+        0.583
+      ],
+      "values": [
+        -2.56,
+        -0.5199999809265137,
+        0,
+        2.2100000381469727,
+        -0.5199999809265137,
+        0
+      ]
+    },
+    "Km_Rpm_gauge_Sport_6.opacity": {
+      "times": [
+        0.333,
+        0.633,
+        0.916
+      ],
+      "values": [
+        0,
+        1,
+        1
+      ]
+    },
+    "Km_Rpm_gauge_Sport_6.position": {
+      "times": [
+        0.333,
+        0.633
+      ],
+      "values": [
+        -2.56,
+        -0.5899999737739563,
+        0,
+        2.2200000286102295,
+        -0.5899999737739563,
+        0
+      ]
+    },
+    "Km_Rpm_gauge_Sport_7.opacity": {
+      "times": [
+        0.367,
+        0.667,
+        0.916
+      ],
+      "values": [
+        0,
+        1,
+        1
+      ]
+    },
+    "Km_Rpm_gauge_Sport_7.position": {
+      "times": [
+        0.367,
+        0.667
+      ],
+      "values": [
+        -2.56,
+        -0.6600000262260437,
+        0,
+        2.25,
+        -0.6600000262260437,
+        0
+      ]
+    },
+    "Km_Rpm_gauge_Sport_8.opacity": {
+      "times": [
+        0.4,
+        0.7,
+        0.916
+      ],
+      "values": [
+        0,
+        1,
+        1
+      ]
+    },
+    "Km_Rpm_gauge_Sport_8.position": {
+      "times": [
+        0.4,
+        0.7
+      ],
+      "values": [
+        -2.56,
+        -0.6899999976158142,
+        0,
+        2.259999990463257,
+        -0.6899999976158142,
+        0
+      ]
+    },
+    "Km_Rpm_gauge_Sport_9.opacity": {
+      "times": [
+        0.433,
+        0.75,
+        0.916
+      ],
+      "values": [
+        0,
+        1,
+        1
+      ]
+    },
+    "Km_Rpm_gauge_Sport_9.position": {
+      "times": [
+        0.433,
+        0.75
+      ],
+      "values": [
+        -2.56,
+        -0.7799999713897705,
+        0,
+        2.869999885559082,
+        -0.7799999713897705,
+        0
+      ]
+    },
+    "Km_Rpm_gauge_Sport_10.opacity": {
+      "times": [
+        0.467,
+        0.783,
+        0.916
+      ],
+      "values": [
+        0,
+        1,
+        1
+      ]
+    },
+    "Km_Rpm_gauge_Sport_10.position": {
+      "times": [
+        0.467,
+        0.783
+      ],
+      "values": [
+        -2.56,
+        -0.8399999737739563,
+        0,
+        2.869999885559082,
+        -0.8399999737739563,
+        0
+      ]
+    },
+    "Km_Rpm_gauge_Sport_11.opacity": {
+      "times": [
+        0.484,
+        0.817,
+        0.916
+      ],
+      "values": [
+        0,
+        1,
+        1
+      ]
+    },
+    "Km_Rpm_gauge_Sport_11.position": {
+      "times": [
+        0.484,
+        0.817
+      ],
+      "values": [
+        -2.56,
+        -0.9100000262260437,
+        0,
+        2.4200000762939453,
+        -0.9100000262260437,
+        0
+      ]
+    },
+    "Km_Rpm_base_Sport.opacity": {
+      "times": [
+        0,
+        0.917,
+        1.083
+      ],
+      "values": [
+        0,
+        0,
+        1
+      ]
+    }
+  },
+  "duration": 1.083,
+  "blendMode": 2500,
+  "fromGLB": false,
+  "loop": "Once",
+  "clampWhenFinished": false
+}

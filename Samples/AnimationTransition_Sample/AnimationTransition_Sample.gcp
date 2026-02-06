@@ -1,0 +1,333 @@
+[
+  {
+    "id": "119c1cce-623d-427b-8c57-dfbc76eb448a",
+    "type": "Image",
+    "parent": "e3c5c292-aa79-46f5-b8d4-695bc7ec1fca",
+    "dimension": "G2D",
+    "name": "",
+    "path": "res/img/cluster_music.png",
+    "width": 399,
+    "height": 228,
+    "depthTest": false,
+    "priority": 0
+  },
+  {
+    "id": "e3c5c292-aa79-46f5-b8d4-695bc7ec1fca",
+    "name": "nav",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 1.4643641900591096,
+        "y": -0.8317789818706655,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 1
+      }
+    },
+    "parent": "beb72eca-df8b-4200-a828-8a9eee7e0fe9",
+    "children": [],
+    "components": [
+      "119c1cce-623d-427b-8c57-dfbc76eb448a"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G2D",
+    "isBone": false
+  },
+  {
+    "id": "6193f014-b4a6-4c0d-a63b-2f0b44726950",
+    "type": "Image",
+    "parent": "ad133e86-ea00-4664-b8d1-e97e90331dd2",
+    "dimension": "G2D",
+    "name": "",
+    "path": "res/img/cluster_music2.png",
+    "width": 217,
+    "height": 287,
+    "depthTest": false,
+    "priority": 0
+  },
+  {
+    "id": "ad133e86-ea00-4664-b8d1-e97e90331dd2",
+    "name": "music",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 1.7881087629888375,
+        "y": -0.6116301623101508,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 0.6,
+        "y": 0.6,
+        "z": 1
+      }
+    },
+    "parent": "beb72eca-df8b-4200-a828-8a9eee7e0fe9",
+    "children": [],
+    "components": [
+      "6193f014-b4a6-4c0d-a63b-2f0b44726950"
+    ],
+    "visible": true,
+    "opacity": 0,
+    "dimension": "G2D",
+    "isBone": false
+  },
+  {
+    "id": "8b808f4d-a628-461c-b14a-db401c346dfe",
+    "type": "Action",
+    "parent": "beb72eca-df8b-4200-a828-8a9eee7e0fe9",
+    "dimension": "G2D",
+    "path": "src/AnimatorStateMachine.h",
+    "className": "AnimatorStateMachine",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "properties": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      },
+      {
+        "name": "state",
+        "type": "int"
+      },
+      {
+        "name": "animator",
+        "type": "grapi::runtime::Animator*",
+        "variableValue": "beb72eca-df8b-4200-a828-8a9eee7e0fe9"
+      },
+      {
+        "name": "isMusic",
+        "type": "bool*"
+      },
+      {
+        "name": "isNAv",
+        "type": "bool*"
+      }
+    ]
+  },
+  {
+    "id": "5f5c6e4b-d5fa-4904-b881-15053965e690",
+    "type": "Animator",
+    "parent": "beb72eca-df8b-4200-a828-8a9eee7e0fe9",
+    "dimension": "G2D",
+    "path": "animation/transition.controller"
+  },
+  {
+    "id": "5424c850-c490-4186-91cb-cc711f6dceb0",
+    "type": "Image",
+    "parent": "beb72eca-df8b-4200-a828-8a9eee7e0fe9",
+    "dimension": "G2D",
+    "name": "",
+    "path": "res/img/cluster_all.png",
+    "width": 500,
+    "height": 333,
+    "depthTest": false,
+    "priority": 0
+  },
+  {
+    "id": "beb72eca-df8b-4200-a828-8a9eee7e0fe9",
+    "name": "container",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -5,
+        "y": 3.3,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 1
+      }
+    },
+    "parent": "6fe2cd4e-7def-43ff-b3c9-e42bbebdd70b",
+    "children": [
+      "e3c5c292-aa79-46f5-b8d4-695bc7ec1fca",
+      "ad133e86-ea00-4664-b8d1-e97e90331dd2"
+    ],
+    "components": [
+      "8b808f4d-a628-461c-b14a-db401c346dfe",
+      "5f5c6e4b-d5fa-4904-b881-15053965e690",
+      "5424c850-c490-4186-91cb-cc711f6dceb0"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G2D",
+    "isBone": false
+  },
+  {
+    "id": "0a94fd18-5e7e-4388-a162-b3ebd907116b",
+    "type": "CanvasBorder",
+    "parent": "6fe2cd4e-7def-43ff-b3c9-e42bbebdd70b",
+    "dimension": "G2D"
+  },
+  {
+    "id": "6fe2cd4e-7def-43ff-b3c9-e42bbebdd70b",
+    "name": "Cluster",
+    "type": "Canvas2D",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "cdbe4174-a1dc-4741-bb5b-fbcb632c80bb",
+    "children": [
+      "beb72eca-df8b-4200-a828-8a9eee7e0fe9"
+    ],
+    "components": [
+      "0a94fd18-5e7e-4388-a162-b3ebd907116b"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G2D",
+    "isBone": false,
+    "scaleFactor": 100,
+    "width": 1000,
+    "height": 666
+  },
+  {
+    "id": "4d6f27d1-9945-45f0-bf86-064b93680308",
+    "type": "ImageMaskTarget",
+    "parent": "cdbe4174-a1dc-4741-bb5b-fbcb632c80bb",
+    "dimension": "G3D",
+    "maskObjId": "",
+    "targetId": "cdbe4174-a1dc-4741-bb5b-fbcb632c80bb",
+    "connectedMaskId": "",
+    "stencilBufferNumber": 0,
+    "alphaTest": 0.5,
+    "childrenIds": [
+      "6fe2cd4e-7def-43ff-b3c9-e42bbebdd70b"
+    ]
+  },
+  {
+    "id": "bf6ba319-c8d9-4dd2-92e0-659d9438985f",
+    "type": "SkyBox",
+    "parent": "cdbe4174-a1dc-4741-bb5b-fbcb632c80bb",
+    "dimension": "G3D",
+    "path": "",
+    "isActive": false,
+    "visible": true
+  },
+  {
+    "id": "cdbe4174-a1dc-4741-bb5b-fbcb632c80bb",
+    "name": "Scene",
+    "type": "Scene",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "",
+    "children": [
+      "6fe2cd4e-7def-43ff-b3c9-e42bbebdd70b"
+    ],
+    "components": [
+      "4d6f27d1-9945-45f0-bf86-064b93680308",
+      "bf6ba319-c8d9-4dd2-92e0-659d9438985f"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false,
+    "backgroundColor": "#000000",
+    "grid": {
+      "size": 1000,
+      "divisions": 1000,
+      "color": "bbbbbb",
+      "opacity": 0.5,
+      "p_history": [
+        false,
+        true,
+        false
+      ],
+      "o_history": [
+        true,
+        false,
+        false
+      ],
+      "isRender": false
+    },
+    "camera": {
+      "acceleration": false,
+      "speed": 1,
+      "far": 1000,
+      "fov": 50,
+      "near": 0.01
+    },
+    "viewSettings": "",
+    "formatVersion": 2
+  }
+]

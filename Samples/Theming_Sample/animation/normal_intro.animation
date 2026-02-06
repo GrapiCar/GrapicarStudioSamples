@@ -1,0 +1,230 @@
+{
+  "id": "64c2d6c8-455b-4e5b-8113-f62c1e46ba4d",
+  "tag": "normal_intro",
+  "keyframes": {
+    ".opacity": {
+      "times": [
+        0,
+        1.216
+      ],
+      "values": [
+        1,
+        1
+      ]
+    },
+    "Fuel_Level.opacity": {
+      "times": [
+        0,
+        1,
+        1.216
+      ],
+      "values": [
+        0,
+        0,
+        1
+      ]
+    },
+    "Cooling_Level.opacity": {
+      "times": [
+        0,
+        1,
+        1.216
+      ],
+      "values": [
+        0,
+        0,
+        1
+      ]
+    },
+    "Normal__Speed_Outline_Pivot.opacity": {
+      "times": [
+        0,
+        0.267,
+        0.5
+      ],
+      "values": [
+        0,
+        1,
+        1
+      ]
+    },
+    "Normal__Speed_Outline_Pivot.quaternion": {
+      "times": [
+        0,
+        0.116,
+        0.249,
+        0.4,
+        0.5
+      ],
+      "values": [
+        0,
+        0,
+        -0.008726535364985466,
+        0.9999619126319885,
+        0,
+        0,
+        -0.9999619126319885,
+        -0.008726535364985466,
+        0,
+        0,
+        0.008726535364985466,
+        -0.9999619126319885,
+        0,
+        0,
+        0.9999619126319885,
+        0.008726535364985466,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "Normal__Speed_Outline_Pivot.scale": {
+      "times": [
+        0,
+        0.5
+      ],
+      "values": [
+        0.3,
+        0.3,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "Km_Rpm_base_Nomal_1.opacity": {
+      "times": [
+        0,
+        0.5,
+        0.749
+      ],
+      "values": [
+        0,
+        0,
+        1
+      ]
+    },
+    "Km_Rpm_gauge_Nomal_1.opacity": {
+      "times": [
+        0,
+        0.617,
+        1
+      ],
+      "values": [
+        0,
+        0,
+        1
+      ]
+    },
+    "Normal_Rpm_Outline_Pivot.opacity": {
+      "times": [
+        0,
+        0.267,
+        1.216
+      ],
+      "values": [
+        0,
+        1,
+        1
+      ]
+    },
+    "Normal_Rpm_Outline_Pivot.quaternion": {
+      "times": [
+        0,
+        0.116,
+        0.249,
+        0.4,
+        0.5,
+        1.216
+      ],
+      "values": [
+        0,
+        0,
+        2.4492937051703357e-16,
+        1,
+        0,
+        0,
+        0.9999619126319885,
+        0.008726535364985466,
+        0,
+        0,
+        0.008726535364985466,
+        -0.9999619126319885,
+        0,
+        0,
+        0.999760091304779,
+        0.02190213091671467,
+        0,
+        0,
+        0.026176948307873423,
+        -0.9996573249755573,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "Normal_Rpm_Outline_Pivot.scale": {
+      "times": [
+        0,
+        0.5
+      ],
+      "values": [
+        0.3,
+        0.3,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "Km_Rpm_base_Nomal.opacity": {
+      "times": [
+        0,
+        0.5,
+        0.749
+      ],
+      "values": [
+        0,
+        0,
+        1
+      ]
+    },
+    "Km_Rpm_gauge_Nomal.opacity": {
+      "times": [
+        0.549,
+        1.216
+      ],
+      "values": [
+        0,
+        1
+      ]
+    },
+    "Km_Rpm_mask_Normal_1.opacity": {
+      "times": [
+        0,
+        1.216
+      ],
+      "values": [
+        1,
+        1
+      ]
+    },
+    "Km_Rpm_mask.opacity": {
+      "times": [
+        0,
+        1.216
+      ],
+      "values": [
+        0,
+        1
+      ]
+    }
+  },
+  "duration": 1.216,
+  "blendMode": 2500,
+  "fromGLB": false,
+  "loop": "Once",
+  "clampWhenFinished": false
+}

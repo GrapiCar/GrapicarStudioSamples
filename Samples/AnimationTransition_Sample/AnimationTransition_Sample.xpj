@@ -1,0 +1,14 @@
+{
+  "ProjectName": "AnimationTransition_Sample",
+  "ScreenWidth": 1000,
+  "ScreenHeight": 666,
+  "IncludePaths": [],
+  "OutPath": "",
+  "Runtime": "cpp",
+  "LocalizationPath": "",
+  "LocalizationLanguage": "",
+  "Created": "2026-02-03T00:26:56.462Z",
+  "Modified": "2026-02-03T00:28:28.180Z",
+  "StartScene": "",
+  "RenderBackend": "OpenGL"
+}

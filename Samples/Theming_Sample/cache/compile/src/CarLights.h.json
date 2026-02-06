@@ -1,0 +1,48 @@
+[
+  {
+    "class": "CarLights",
+    "bases": [],
+    "members": [
+      {
+        "name": "frontLight",
+        "type": "bool"
+      },
+      {
+        "name": "turnLeft",
+        "type": "bool"
+      },
+      {
+        "name": "turnRight",
+        "type": "bool"
+      },
+      {
+        "name": "brake",
+        "type": "bool"
+      },
+      {
+        "name": "emergency",
+        "type": "bool"
+      },
+      {
+        "name": "isHighBeam",
+        "type": "bool"
+      },
+      {
+        "name": "prevTurnLeft",
+        "type": "bool"
+      },
+      {
+        "name": "prevTurnRight",
+        "type": "bool"
+      },
+      {
+        "name": "blinkTimer",
+        "type": "double"
+      },
+      {
+        "name": "blinkState",
+        "type": "bool"
+      }
+    ]
+  }
+]

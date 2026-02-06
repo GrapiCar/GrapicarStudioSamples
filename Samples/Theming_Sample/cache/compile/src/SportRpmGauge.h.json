@@ -1,0 +1,38 @@
+[
+  {
+    "class": "SportRpmGauge",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "members": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      },
+      {
+        "name": "object",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "mixer",
+        "type": "grapi::runtime::Animator*"
+      },
+      {
+        "name": "gaugeSegments",
+        "type": "grapi::runtime::DisplayObject*[11]"
+      },
+      {
+        "name": "previousMode",
+        "type": "int"
+      },
+      {
+        "name": "currentOpacity",
+        "type": "float[11]"
+      },
+      {
+        "name": "animationFinished",
+        "type": "bool"
+      }
+    ]
+  }
+]

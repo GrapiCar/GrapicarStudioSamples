@@ -1,0 +1,69 @@
+{
+  "name": "Sport",
+  "path": "animation/Sport.controller",
+  "animations": [
+    "animation/sport_intro.animation",
+    "animation/sport_outro.animation"
+  ],
+  "nodes": [
+    {
+      "id": "ab226fdb-01df-4367-a72c-7aa9af4908ec",
+      "type": "entry",
+      "data": {
+        "label": "Entry"
+      },
+      "position": {
+        "x": 250,
+        "y": 25
+      }
+    },
+    {
+      "id": "4e5ab41a-163b-4e75-8eb9-4e44fed8a86c",
+      "type": "any",
+      "data": {
+        "label": "Any State"
+      },
+      "position": {
+        "x": 100,
+        "y": 125
+      }
+    },
+    {
+      "id": "bd9058d2-03a1-48e9-bc54-514b673fb556",
+      "type": "exit",
+      "data": {
+        "label": "Exit"
+      },
+      "position": {
+        "x": 250,
+        "y": 250
+      }
+    },
+    {
+      "id": "36c5faf2-783f-43fc-9cb7-046b052a04fb",
+      "data": {
+        "label": "sport_intro",
+        "clip": "fc853975-7c7f-466a-899a-5f4ecfcba40b"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "type": "action"
+    },
+    {
+      "id": "88604308-8042-4747-8aea-16e8a3c5d86a",
+      "data": {
+        "label": "sport_outro",
+        "clip": "80a3ede4-2f04-4198-ad80-42a919c7090e"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "type": "action"
+    }
+  ],
+  "edges": [],
+  "variables": []
+}

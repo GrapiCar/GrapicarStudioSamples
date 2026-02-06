@@ -1,0 +1,1085 @@
+[
+  {
+    "id": "f046e307-c49a-49d2-a564-d3031f71842f",
+    "type": "Sunlight",
+    "parent": "f168f575-5f8f-4640-a808-452185bd99a2",
+    "dimension": "G3D",
+    "color": "#ffffff",
+    "intensity": 3,
+    "dynamic": true
+  },
+  {
+    "id": "f168f575-5f8f-4640-a808-452185bd99a2",
+    "name": "NewSunlightObject",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0.12467183762865197
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 3,
+        "y": 3,
+        "z": 3
+      }
+    },
+    "parent": "97f83ee3-8882-4bff-89dd-28d98ba77de0",
+    "children": [],
+    "components": [
+      "f046e307-c49a-49d2-a564-d3031f71842f"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "8cb51d7a-9118-4bea-9898-5efbc34740da",
+    "type": "Mesh",
+    "parent": "dd8eb934-bbed-4bbe-ac76-52bc68dff0b6",
+    "dimension": "G3D",
+    "meshType": "Sphere",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      {
+        "textures": {
+          "map": "res\\img\\sun.png"
+        },
+        "emissive": "#2D0004",
+        "color": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "id": "effcba57-da80-43b6-ace6-bf64d0f75968",
+    "type": "Animator",
+    "parent": "dd8eb934-bbed-4bbe-ac76-52bc68dff0b6",
+    "dimension": "G3D",
+    "path": "animation/Sun.controller"
+  },
+  {
+    "id": "dd8eb934-bbed-4bbe-ac76-52bc68dff0b6",
+    "name": "Sun",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      }
+    },
+    "parent": "94724ac5-5210-4c61-9705-3c68778ac932",
+    "children": [],
+    "components": [
+      "8cb51d7a-9118-4bea-9898-5efbc34740da",
+      "effcba57-da80-43b6-ace6-bf64d0f75968"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "3e5846cb-939a-4f8c-a33c-066c87919142",
+    "type": "Text",
+    "parent": "8d9a2342-0287-4082-921e-e74dfd3a9ab1",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Sun",
+    "fontSize": 48,
+    "color": "#ffffff",
+    "width": 3,
+    "height": 0.5,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "8d9a2342-0287-4082-921e-e74dfd3a9ab1",
+    "name": "SunText",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -0.4047091157696969,
+        "y": 3.201196692000546,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "94724ac5-5210-4c61-9705-3c68778ac932",
+    "children": [],
+    "components": [
+      "3e5846cb-939a-4f8c-a33c-066c87919142"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "94724ac5-5210-4c61-9705-3c68778ac932",
+    "name": "SunGroup",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "97f83ee3-8882-4bff-89dd-28d98ba77de0",
+    "children": [
+      "dd8eb934-bbed-4bbe-ac76-52bc68dff0b6",
+      "8d9a2342-0287-4082-921e-e74dfd3a9ab1"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "b15d51b1-b134-4409-b7d5-45140c2f0c8f",
+    "type": "Mesh",
+    "parent": "51fd8341-9e91-4d85-b449-04839f5988cb",
+    "dimension": "G3D",
+    "meshType": "Sphere",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      {
+        "textures": {
+          "map": "res\\img\\moon.png"
+        },
+        "emissive": "#111213"
+      }
+    ]
+  },
+  {
+    "id": "51fd8341-9e91-4d85-b449-04839f5988cb",
+    "name": "MoonObject",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 0.3,
+        "y": 0.3,
+        "z": 0.3
+      }
+    },
+    "parent": "9cb39c0c-43fa-4dbe-a893-3de6e90689b8",
+    "children": [],
+    "components": [
+      "b15d51b1-b134-4409-b7d5-45140c2f0c8f"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "8b524bb8-8880-4f55-891c-c72852ae294a",
+    "type": "Text",
+    "parent": "c58c67fd-3ccb-4724-9e84-b25f95b1f24e",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Moon",
+    "fontSize": 48,
+    "color": "#ffffff",
+    "width": 3,
+    "height": 0.5,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "c58c67fd-3ccb-4724-9e84-b25f95b1f24e",
+    "name": "MoonText",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -0.7200492157059255,
+        "y": 1.940834733534099,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "9cb39c0c-43fa-4dbe-a893-3de6e90689b8",
+    "children": [],
+    "components": [
+      "8b524bb8-8880-4f55-891c-c72852ae294a"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "807864c6-ef81-4c3b-92a6-3966f51d5947",
+    "type": "Animator",
+    "parent": "9cb39c0c-43fa-4dbe-a893-3de6e90689b8",
+    "dimension": "G3D",
+    "path": "animation/Moon.controller"
+  },
+  {
+    "id": "9cb39c0c-43fa-4dbe-a893-3de6e90689b8",
+    "name": "MoonGroup",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -3.928734064102173,
+        "y": 0,
+        "z": 0.051285091787576675
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "3d2b7512-51df-4482-af43-903d53a39a00",
+    "children": [
+      "51fd8341-9e91-4d85-b449-04839f5988cb",
+      "c58c67fd-3ccb-4724-9e84-b25f95b1f24e"
+    ],
+    "components": [
+      "807864c6-ef81-4c3b-92a6-3966f51d5947"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "8d9f2e56-8e8f-4fba-80eb-e81f78be8bbe",
+    "type": "Mesh",
+    "parent": "0edefbcd-7237-4cba-891d-5292b5ea0772",
+    "dimension": "G3D",
+    "meshType": "Sphere",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      {
+        "textures": {
+          "map": "res\\img\\earth.png"
+        },
+        "emissive": "#111213"
+      }
+    ]
+  },
+  {
+    "id": "0edefbcd-7237-4cba-891d-5292b5ea0772",
+    "name": "EarthObject",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "3d2b7512-51df-4482-af43-903d53a39a00",
+    "children": [],
+    "components": [
+      "8d9f2e56-8e8f-4fba-80eb-e81f78be8bbe"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "2dc05f19-1bc7-48e9-91ff-5bc063e84ba6",
+    "type": "Text",
+    "parent": "0627904f-d4cf-41bb-a5c0-f787e19812de",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Earth",
+    "fontSize": 48,
+    "color": "#ffffff",
+    "width": 3,
+    "height": 0.5,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "0627904f-d4cf-41bb-a5c0-f787e19812de",
+    "name": "EarthText",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -0.7200492157059255,
+        "y": 1.940834733534099,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "3d2b7512-51df-4482-af43-903d53a39a00",
+    "children": [],
+    "components": [
+      "2dc05f19-1bc7-48e9-91ff-5bc063e84ba6"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "cbc26ba9-9b09-4863-87b1-189ba6acbcf1",
+    "type": "Animator",
+    "parent": "3d2b7512-51df-4482-af43-903d53a39a00",
+    "dimension": "G3D",
+    "path": "animation/Earth.controller"
+  },
+  {
+    "id": "3d2b7512-51df-4482-af43-903d53a39a00",
+    "name": "EarthGroup",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -7.802398681640625,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "97f83ee3-8882-4bff-89dd-28d98ba77de0",
+    "children": [
+      "9cb39c0c-43fa-4dbe-a893-3de6e90689b8",
+      "0edefbcd-7237-4cba-891d-5292b5ea0772",
+      "0627904f-d4cf-41bb-a5c0-f787e19812de"
+    ],
+    "components": [
+      "cbc26ba9-9b09-4863-87b1-189ba6acbcf1"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "26dd33c0-dab2-43c0-b617-a0b401a9bf38",
+    "type": "Playable",
+    "parent": "97f83ee3-8882-4bff-89dd-28d98ba77de0",
+    "dimension": "G3D",
+    "path": "playable\\space.playable"
+  },
+  {
+    "id": "97f83ee3-8882-4bff-89dd-28d98ba77de0",
+    "name": "PlayableGroup",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "008c71c7-3fa6-48b7-b1cf-87887cfffa81",
+    "children": [
+      "f168f575-5f8f-4640-a808-452185bd99a2",
+      "94724ac5-5210-4c61-9705-3c68778ac932",
+      "3d2b7512-51df-4482-af43-903d53a39a00"
+    ],
+    "components": [
+      "26dd33c0-dab2-43c0-b617-a0b401a9bf38"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "9437ea1b-8875-40b0-a34d-a12c54eed338",
+    "type": "Text",
+    "parent": "1b41c414-4db0-4f16-b87b-cfdc492ee5a8",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "1. Add Animation in Animation Tab",
+    "fontSize": 42,
+    "color": "#00ffe1",
+    "width": 9,
+    "height": 0.8,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "1b41c414-4db0-4f16-b87b-cfdc492ee5a8",
+    "name": "First",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 6.520629749020696,
+        "y": 4.478809305037459,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "6197df05-51cf-4987-9c76-9cec82ca842a",
+    "children": [],
+    "components": [
+      "9437ea1b-8875-40b0-a34d-a12c54eed338"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "884579fd-636f-4fb5-99fb-f8de3e8b2bb5",
+    "type": "Text",
+    "parent": "42934eb5-9b59-4150-9327-657e644edbdb",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "2. Move Playable Tab",
+    "fontSize": 42,
+    "color": "#00ffe1",
+    "width": 5,
+    "height": 0.8,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "42934eb5-9b59-4150-9327-657e644edbdb",
+    "name": "Seconds",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 6.568783865580814,
+        "y": 3.512665005019465,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "6197df05-51cf-4987-9c76-9cec82ca842a",
+    "children": [],
+    "components": [
+      "884579fd-636f-4fb5-99fb-f8de3e8b2bb5"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "b33f057e-8b3b-484c-bbe1-8dfaa31498a2",
+    "type": "Text",
+    "parent": "0ad98acb-ea5a-4045-bb7b-a0a605b3db9b",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "3. Add Playable",
+    "fontSize": 42,
+    "color": "#00ffe1",
+    "width": 5,
+    "height": 0.8,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "0ad98acb-ea5a-4045-bb7b-a0a605b3db9b",
+    "name": "Third",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 6.566183469469202,
+        "y": 2.4053272293734924,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "6197df05-51cf-4987-9c76-9cec82ca842a",
+    "children": [],
+    "components": [
+      "b33f057e-8b3b-484c-bbe1-8dfaa31498a2"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "3a63edd8-8d1d-4165-ab76-e8c964432a0f",
+    "type": "Text",
+    "parent": "ed6f655f-299a-4b40-aeeb-e94dd5d2dad5",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "4. Add Object List",
+    "fontSize": 42,
+    "color": "#00ffe1",
+    "width": 5,
+    "height": 0.8,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "ed6f655f-299a-4b40-aeeb-e94dd5d2dad5",
+    "name": "Fourth",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 6.620857825604613,
+        "y": 1.2687251368197536,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "6197df05-51cf-4987-9c76-9cec82ca842a",
+    "children": [],
+    "components": [
+      "3a63edd8-8d1d-4165-ab76-e8c964432a0f"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "c0856abd-fdb6-41a3-9100-ff0aa8c6bc52",
+    "type": "Text",
+    "parent": "809d87f8-ee69-4ba7-8ecb-4c93464d2840",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "5. Add Animation",
+    "fontSize": 42,
+    "color": "#00ffe1",
+    "width": 5,
+    "height": 0.8,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "809d87f8-ee69-4ba7-8ecb-4c93464d2840",
+    "name": "Fifth",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 6.661996129393945,
+        "y": 0.03990387869074552,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "6197df05-51cf-4987-9c76-9cec82ca842a",
+    "children": [],
+    "components": [
+      "c0856abd-fdb6-41a3-9100-ff0aa8c6bc52"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "1ecb1278-6fb0-4e7b-865e-0543f089849b",
+    "type": "Text",
+    "parent": "9a596129-2104-4be6-af27-9e3742c3ed70",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "👈🏻",
+    "fontSize": 60,
+    "color": "#00ffe1",
+    "width": 0.8,
+    "height": 0.8,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "9a596129-2104-4be6-af27-9e3742c3ed70",
+    "name": "CursorPointer",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -1.1000100631170222,
+        "y": -0.5376614504237489,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 1.1802582707829676
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0.5564683221234569,
+        "w": 0.8308688262735007
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "17cdd9d7-b5f6-4de4-95c2-da393a40b6c0",
+    "children": [],
+    "components": [
+      "1ecb1278-6fb0-4e7b-865e-0543f089849b"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "269b33b7-ac1e-4a59-98fe-cc60663ca6aa",
+    "type": "Text",
+    "parent": "f1eabaf8-dd44-4e07-8167-a02df993fe59",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "This is the tab that plays the entire animation.",
+    "fontSize": 42,
+    "color": "#00ffe1",
+    "width": 12,
+    "height": 0.8,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "f1eabaf8-dd44-4e07-8167-a02df993fe59",
+    "name": "CursorText",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "17cdd9d7-b5f6-4de4-95c2-da393a40b6c0",
+    "children": [],
+    "components": [
+      "269b33b7-ac1e-4a59-98fe-cc60663ca6aa"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "17cdd9d7-b5f6-4de4-95c2-da393a40b6c0",
+    "name": "Cursor",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -6.14634237161151,
+        "y": -4.744993227781672,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "6197df05-51cf-4987-9c76-9cec82ca842a",
+    "children": [
+      "9a596129-2104-4be6-af27-9e3742c3ed70",
+      "f1eabaf8-dd44-4e07-8167-a02df993fe59"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "6197df05-51cf-4987-9c76-9cec82ca842a",
+    "name": "Information",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "008c71c7-3fa6-48b7-b1cf-87887cfffa81",
+    "children": [
+      "1b41c414-4db0-4f16-b87b-cfdc492ee5a8",
+      "42934eb5-9b59-4150-9327-657e644edbdb",
+      "0ad98acb-ea5a-4045-bb7b-a0a605b3db9b",
+      "ed6f655f-299a-4b40-aeeb-e94dd5d2dad5",
+      "809d87f8-ee69-4ba7-8ecb-4c93464d2840",
+      "17cdd9d7-b5f6-4de4-95c2-da393a40b6c0"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "24f3a92d-077f-4edd-8da5-06c5eea7b5e2",
+    "type": "ImageMaskTarget",
+    "parent": "008c71c7-3fa6-48b7-b1cf-87887cfffa81",
+    "dimension": "G3D",
+    "maskObjId": "",
+    "targetId": "008c71c7-3fa6-48b7-b1cf-87887cfffa81",
+    "connectedMaskId": "",
+    "stencilBufferNumber": 0,
+    "alphaTest": 0.5,
+    "childrenIds": [
+      "97f83ee3-8882-4bff-89dd-28d98ba77de0",
+      "6197df05-51cf-4987-9c76-9cec82ca842a"
+    ]
+  },
+  {
+    "id": "62a13924-970e-413f-9d47-4efc74664931",
+    "type": "SkyBox",
+    "parent": "008c71c7-3fa6-48b7-b1cf-87887cfffa81",
+    "dimension": "G3D",
+    "path": "",
+    "isActive": false,
+    "visible": true
+  },
+  {
+    "id": "008c71c7-3fa6-48b7-b1cf-87887cfffa81",
+    "name": "Scene",
+    "type": "Scene",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "",
+    "children": [
+      "97f83ee3-8882-4bff-89dd-28d98ba77de0",
+      "6197df05-51cf-4987-9c76-9cec82ca842a"
+    ],
+    "components": [
+      "24f3a92d-077f-4edd-8da5-06c5eea7b5e2",
+      "62a13924-970e-413f-9d47-4efc74664931"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false,
+    "backgroundColor": "#000000",
+    "grid": {
+      "size": 1000,
+      "divisions": 1000,
+      "color": "bbbbbb",
+      "opacity": 0.5,
+      "p_history": [
+        false,
+        false,
+        false
+      ],
+      "o_history": [
+        true,
+        false,
+        false
+      ],
+      "isRender": true
+    },
+    "camera": {
+      "acceleration": false,
+      "speed": 1,
+      "far": 1000,
+      "fov": 50,
+      "near": 0.01
+    },
+    "viewSettings": "",
+    "formatVersion": 2
+  }
+]

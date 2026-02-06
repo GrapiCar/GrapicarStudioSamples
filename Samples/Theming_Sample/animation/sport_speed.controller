@@ -1,0 +1,56 @@
+{
+  "name": "sport_speed",
+  "path": "animation/sport_speed.controller",
+  "animations": [
+    "animation/intro.animation"
+  ],
+  "nodes": [
+    {
+      "id": "2c2c7290-f44e-4a60-b763-58a025b73432",
+      "type": "entry",
+      "data": {
+        "label": "Entry"
+      },
+      "position": {
+        "x": 250,
+        "y": 25
+      }
+    },
+    {
+      "id": "b78636d4-a1a9-46b3-a9f2-ed67f709d395",
+      "type": "any",
+      "data": {
+        "label": "Any State"
+      },
+      "position": {
+        "x": 100,
+        "y": 125
+      }
+    },
+    {
+      "id": "fae8530c-1882-4d3d-bccd-e766bc484b78",
+      "type": "exit",
+      "data": {
+        "label": "Exit"
+      },
+      "position": {
+        "x": 250,
+        "y": 250
+      }
+    },
+    {
+      "id": "a822a7ef-7ad1-4676-9928-d3e2be5ccb2c",
+      "data": {
+        "label": "intro",
+        "clip": "d963c1e8-d944-4353-bd54-435c91a86095"
+      },
+      "position": {
+        "x": 440,
+        "y": 60
+      },
+      "type": "action"
+    }
+  ],
+  "edges": [],
+  "variables": []
+}

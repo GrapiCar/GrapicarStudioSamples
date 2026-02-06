@@ -1,0 +1,69 @@
+{
+  "name": "Car",
+  "path": "animation/Car.controller",
+  "animations": [
+    "animation/acc.animation",
+    "animation/back.animation"
+  ],
+  "nodes": [
+    {
+      "id": "bad3c516-ace9-48ba-8eb7-dfa418c4addf",
+      "type": "entry",
+      "data": {
+        "label": "Entry"
+      },
+      "position": {
+        "x": 250,
+        "y": 25
+      }
+    },
+    {
+      "id": "d38dc497-512c-4ef4-a092-ba6d39ebbd12",
+      "type": "any",
+      "data": {
+        "label": "Any State"
+      },
+      "position": {
+        "x": 100,
+        "y": 125
+      }
+    },
+    {
+      "id": "572a1e76-4853-4ca6-bbff-dfdc089bbb42",
+      "type": "exit",
+      "data": {
+        "label": "Exit"
+      },
+      "position": {
+        "x": 250,
+        "y": 250
+      }
+    },
+    {
+      "id": "d00245a7-734d-4249-bb6c-814273da36cf",
+      "data": {
+        "label": "acc",
+        "clip": "bbfe97dc-f7bb-4aee-905d-fe8fccf08f93"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "type": "action"
+    },
+    {
+      "id": "11c1ca9d-34b7-4417-8531-ac7f294fe89a",
+      "data": {
+        "label": "back",
+        "clip": "a644ca15-56a3-4d17-aa34-746aa434b817"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "type": "action"
+    }
+  ],
+  "edges": [],
+  "variables": []
+}

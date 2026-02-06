@@ -1,0 +1,28 @@
+// https://code.visualstudio.com/docs/reference/variables-reference
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "디버그 시작",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}\\Debug\\AppMain.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "console": "externalTerminal"
+        },
+        {
+            "name": "릴리즈 시작",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}\\Release\\AppMain.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "console": "externalTerminal"
+        }
+    ]
+}

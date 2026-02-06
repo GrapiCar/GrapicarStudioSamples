@@ -1,0 +1,50 @@
+{
+  "playRangeEnd": 300,
+  "content": [
+    {
+      "id": "9f27fe54-46a3-4401-9f3d-b9869da38177",
+      "type": "animation",
+      "targetObjectId": "dd8eb934-bbed-4bbe-ac76-52bc68dff0b6",
+      "clips": [
+        {
+          "id": "9dc1c944-83c7-4df3-ae16-ee5c7bcddd84",
+          "name": "rotation",
+          "delay": 0,
+          "duration": 5,
+          "clipUuid": "d840cfb9-f628-4e1f-b070-8d6cc91c2112",
+          "clipPath": "animation/rotation.animation"
+        }
+      ]
+    },
+    {
+      "id": "648ef5b8-8e37-4739-96f2-b03f50a9d2c4",
+      "type": "animation",
+      "targetObjectId": "3d2b7512-51df-4482-af43-903d53a39a00",
+      "clips": [
+        {
+          "id": "39c0b0ad-8f5b-435d-8a66-8778c714171c",
+          "name": "earth_rotation_revolution",
+          "delay": 0,
+          "duration": 4.983,
+          "clipUuid": "07cbd459-f4e9-4370-868e-6f9597230b1d",
+          "clipPath": "animation/earth_rotation_revolution.animation"
+        }
+      ]
+    },
+    {
+      "id": "1ca41bbb-19e2-435d-b5af-f42a0f95686e",
+      "type": "animation",
+      "targetObjectId": "9cb39c0c-43fa-4dbe-a893-3de6e90689b8",
+      "clips": [
+        {
+          "id": "3be7ad1c-8806-4847-92ab-424a6f7d8698",
+          "name": "moon",
+          "delay": 0,
+          "duration": 5,
+          "clipUuid": "75a148c4-69c4-402e-a5a6-bd34e2fe0be9",
+          "clipPath": "animation/moon.animation"
+        }
+      ]
+    }
+  ]
+}

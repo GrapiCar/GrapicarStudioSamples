@@ -1,0 +1,22 @@
+[
+  {
+    "class": "cell03",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "members": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      },
+      {
+        "name": "cell_mixer_",
+        "type": "grapi::runtime::CellImageMixer*"
+      },
+      {
+        "name": "current_state_",
+        "type": "int"
+      }
+    ]
+  }
+]

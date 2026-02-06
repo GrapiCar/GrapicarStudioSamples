@@ -1,0 +1,14 @@
+[
+  {
+    "class": "AnimationSameController",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "members": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      }
+    ]
+  }
+]

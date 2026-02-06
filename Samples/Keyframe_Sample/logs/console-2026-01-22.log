@@ -1,0 +1,225 @@
+[2026-01-22 14:15:35] [ERROR] You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[2026-01-22 14:15:35] [ERROR] You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[2026-01-22 14:18:39] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2026-01-22 14:22:16] [ERROR] You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[2026-01-22 14:22:16] [ERROR] You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[2026-01-22 14:22:52] [ERROR] You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[2026-01-22 14:22:52] [ERROR] You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[2026-01-22 14:22:52] [ERROR] You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[2026-01-22 14:23:14] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2026-01-22 14:25:33] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2026-01-22 14:34:30] [ERROR] {}
+[2026-01-22 14:34:30] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\animator\AnimatorVariants\Inspector\Edge\HasExitTime.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:30] [ERROR] {}
+[2026-01-22 14:34:30] [ERROR] [hmr] Failed to reload /src/views/components/LoadingOverlay.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:30] [ERROR] {}
+[2026-01-22 14:34:30] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\text\TextComponent.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:30] [ERROR] {}
+[2026-01-22 14:34:30] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\image\ImageComponent.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:30] [ERROR] {}
+[2026-01-22 14:34:30] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\animator\AnimatorTransitionsItem.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:30] [ERROR] {}
+[2026-01-22 14:34:30] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\viewport\layout\workspace\viewport\options\components\GridSettings\GridSettingDropdown.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:30] [ERROR] {}
+[2026-01-22 14:34:30] [ERROR] [hmr] Failed to reload /src/views/components/TitleBar/TitleBar.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:30] [ERROR] {}
+[2026-01-22 14:34:30] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\sky-box\SkyBoxComponent.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\codeEditorPanel\ScriptEditorCompact.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\hierarchy\modal\Modal.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\animation\components\keyframe\ContextMenus.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\canvasBorder\CanvasBorderComponent.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\camera-view\camera-view.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\viewport\layout\resource\util\MakeGlbThumbnail.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\viewport\layout\workspace\viewport\options\components\CameraSettings\CameraSettingDropdown.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\skinnedMesh\SkinnedMeshDropDown.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\viewport\layout\workspace\viewport\SceneEditorDropDown.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\hierarchy\tree-view\HierarchyNode.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\cell-image-mixer\CellImageMixerComponent.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\extrusion-component.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\animation\components\AnimationClipList.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\timeline\_components\TimelineManager\Track\TrackDropdown.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\studioMain\ProjectForm.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\components\TransformInputGroup.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\animation\components\AnimationCreateModal\CreateClipModal.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\localization\LocalizationProvider.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\animation\components\AnimationClipManager.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\animator\AnimatorVariants\AnimatorVariables.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\animation\components\PropertyExplorerItem.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\mask\ImageMaskTargetComponent.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /src/views/features/scriptEditor/script/sidePanel/VariablePanel.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\animator\AnimatorVariants\Inspector\Edge\ConditionContainer.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\action\HeaderRefresher.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\viewport\layout\workspace\viewport\controller\components\TransformButton.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\animator\Flow\_components\EntryNode.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\animation\components\NoAnimationPanel.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\timeline\_components\TimelineManager\TimelineTrackDropdown.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\timeline\_components\TimelineManager\TimelineTrackContextMenu.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\viewport\layout\workspace\viewport\options\Orientation.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\camera\CameraComponent.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\animator\Flow\ReactFlow.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\cell-image-mixer\CellImagesComponent.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /src/views/features/scriptEditor/script/sidePanel/FunctionPanel.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\object\ObjectInspector.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /src/views/toolbar/ToolbarMenu.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\mesh\MeshComponent.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\tween\TweenComponent.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\animation\components\PropertyChannel.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\spline\spline-component.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\mask\ImageMaskMaskComponent.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /src/views/features/scriptEditor/Terminal/ConsolePanel.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\mesh\MaterialAccordian.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\line-renderer\LineRendererComponent.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\light\LightComponent.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\action\ActionClassPanel.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /src/views/components/ErrorBoundary.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\hierarchy\tree-view\TypeIcon.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\shape\ShapeComponent.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\animator\Flow\_components\ActionNode.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\nine-patch\NinePatchContainer.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\nine-patch\ImageContainer.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\skinnedMesh\SkinnedMeshComponent.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\viewport\layout\workspace\viewport\controller\ViewportTransformController.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\toolbar\EditorSettingsModal.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\particle\ParticleComponent.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\animation\components\AnimationTrackTimeRuler.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\timeline\_components\SavePlayableDialog.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\components\InspectorAccordion.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\components\Transform2DInputGroup.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\collider\collider-component.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\progressbar\ProgressbarComponent.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\hierarchy\context-menu\ContextMenu.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\telltale\telltale-component.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\animation\components\AnimationController.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\transform\TransformInspector.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\nine-patch\NinePatchComponent.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\timeline\_components\TimelineController\DurationController.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\action\ActionJSComponent.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /src/views/features/studioMain/contents/projectContent/Project.Content.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\timeline\_components\TimelineSequence\Clip.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\arc\ArcComponent.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\timeline\_components\TimelineController\PlayController.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\timeline\_components\TimelineManager\Track\TrackContextMenu.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /src/views/hierarchy/tree-view/HierarchyTreeView.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\viewport\layout\workspace\viewport\options\components\HelperSettings\HelperSettingDropdown.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\ComponentsMenu.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\rigid-body-component.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\resources\contexts\ContentProvider.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\mesh\CompositeMeshComponent.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\animator\AnimatorVariants\Inspector\Edge\ConditionItem.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /src/views/features/animator/context/AnimatorStateMachineContext.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\scriptEditor\script\fileTree\ContextMenu.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\sunlight\sunlight-component.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\animation\components\AnimationProperties.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\animation\components\SequenceTrackItem.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\timeline\_components\TimelineManager\Track\AnimationTrack.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\resources\components\Content\ContentContainer.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\animator\AnimatorVariants\Inspector\Node\NodeInspector.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\timeline\_components\TimelineManager\index.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\animator\AnimatorComponent.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\ConditionalTCRenderer.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\inspector\ToolComponentPanel.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\animation\components\PropertyExplorer.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\timeline\index.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\animation\AnimationPanel.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\animation\components\AnimationTrackContent.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:31] [ERROR] {}
+[2026-01-22 14:34:31] [ERROR] [hmr] Failed to reload /@fs/C:\Users\마승현\Desktop\grapicar-studio\src\views\features\animator\AnimatorVariants\Inspector\index.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2026-01-22 14:34:47] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.

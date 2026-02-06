@@ -1,0 +1,306 @@
+[
+  {
+    "class": "Car01",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "members": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      },
+      {
+        "name": "instance_",
+        "type": "Car01*"
+      },
+      {
+        "name": "rpm_",
+        "type": "double"
+      },
+      {
+        "name": "max_rpm_",
+        "type": "double"
+      },
+      {
+        "name": "velocity_",
+        "type": "double"
+      },
+      {
+        "name": "max_speed_",
+        "type": "double"
+      },
+      {
+        "name": "acceleration_",
+        "type": "double"
+      },
+      {
+        "name": "neutralRev_",
+        "type": "double"
+      },
+      {
+        "name": "neutralRpmCoast_",
+        "type": "double"
+      },
+      {
+        "name": "kIdleRpm",
+        "type": "double"
+      },
+      {
+        "name": "kNeutralMaxRpm",
+        "type": "double"
+      },
+      {
+        "name": "targetGearX",
+        "type": "float"
+      },
+      {
+        "name": "gearTransitionTime",
+        "type": "float"
+      },
+      {
+        "name": "blinkTimer",
+        "type": "double"
+      },
+      {
+        "name": "gear",
+        "type": "char"
+      },
+      {
+        "name": "blinkState",
+        "type": "bool"
+      },
+      {
+        "name": "frontLight",
+        "type": "bool"
+      },
+      {
+        "name": "turnLeft",
+        "type": "bool"
+      },
+      {
+        "name": "turnRight",
+        "type": "bool"
+      },
+      {
+        "name": "brake",
+        "type": "bool"
+      },
+      {
+        "name": "emergency",
+        "type": "bool"
+      },
+      {
+        "name": "isHighBeam",
+        "type": "bool"
+      },
+      {
+        "name": "isBrake",
+        "type": "bool"
+      },
+      {
+        "name": "mode",
+        "type": "std::vector<std::string>"
+      },
+      {
+        "name": "currentMode",
+        "type": "int"
+      },
+      {
+        "name": "previousMode",
+        "type": "int"
+      },
+      {
+        "name": "modeTransitionTimer",
+        "type": "double"
+      },
+      {
+        "name": "modeTransitionDuration",
+        "type": "const double"
+      },
+      {
+        "name": "isTransitioning",
+        "type": "bool"
+      },
+      {
+        "name": "currentSpeedGageOpacity",
+        "type": "float"
+      },
+      {
+        "name": "currentSpeedRedPivotOpacity",
+        "type": "float"
+      },
+      {
+        "name": "prevTurnLeft",
+        "type": "bool"
+      },
+      {
+        "name": "prevTurnRight",
+        "type": "bool"
+      },
+      {
+        "name": "originPosition",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "maxPosition",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "minPosition",
+        "type": "glm::vec3"
+      },
+      {
+        "name": "ecoMode",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "normalMode",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "sportMode",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "ecoModeAnimator",
+        "type": "grapi::runtime::Animator*"
+      },
+      {
+        "name": "normalModeAnimator",
+        "type": "grapi::runtime::Animator*"
+      },
+      {
+        "name": "sportModeAnimator",
+        "type": "grapi::runtime::Animator*"
+      },
+      {
+        "name": "container",
+        "type": "grapi::runtime::DisplayObject*[3]"
+      },
+      {
+        "name": "body",
+        "type": "grapi::runtime::DisplayObject*[3]"
+      },
+      {
+        "name": "lightF",
+        "type": "grapi::runtime::DisplayObject*[3]"
+      },
+      {
+        "name": "lightL",
+        "type": "grapi::runtime::DisplayObject*[3]"
+      },
+      {
+        "name": "lightR",
+        "type": "grapi::runtime::DisplayObject*[3]"
+      },
+      {
+        "name": "telltailTurnL",
+        "type": "grapi::runtime::DisplayObject*[3]"
+      },
+      {
+        "name": "telltailTurnR",
+        "type": "grapi::runtime::DisplayObject*[3]"
+      },
+      {
+        "name": "speedNumberObject",
+        "type": "grapi::runtime::DisplayObject*[3]"
+      },
+      {
+        "name": "rpmNumberObject",
+        "type": "grapi::runtime::DisplayObject*[3]"
+      },
+      {
+        "name": "speedGage",
+        "type": "grapi::runtime::DisplayObject*[3]"
+      },
+      {
+        "name": "speedRedPivot",
+        "type": "grapi::runtime::DisplayObject*[3]"
+      },
+      {
+        "name": "rpmGage",
+        "type": "grapi::runtime::DisplayObject*[3]"
+      },
+      {
+        "name": "rpmRedPivot",
+        "type": "grapi::runtime::DisplayObject*[3]"
+      },
+      {
+        "name": "Gear",
+        "type": "grapi::runtime::DisplayObject*[3]"
+      },
+      {
+        "name": "GearOff_P",
+        "type": "grapi::runtime::DisplayObject*[3]"
+      },
+      {
+        "name": "GearOff_R",
+        "type": "grapi::runtime::DisplayObject*[3]"
+      },
+      {
+        "name": "GearOff_D",
+        "type": "grapi::runtime::DisplayObject*[3]"
+      },
+      {
+        "name": "GearOff_N",
+        "type": "grapi::runtime::DisplayObject*[3]"
+      },
+      {
+        "name": "GearOn_P",
+        "type": "grapi::runtime::DisplayObject*[3]"
+      },
+      {
+        "name": "GearOn_R",
+        "type": "grapi::runtime::DisplayObject*[3]"
+      },
+      {
+        "name": "GearOn_D",
+        "type": "grapi::runtime::DisplayObject*[3]"
+      },
+      {
+        "name": "GearOn_N",
+        "type": "grapi::runtime::DisplayObject*[3]"
+      },
+      {
+        "name": "parkingBrake",
+        "type": "grapi::runtime::DisplayObject*[3]"
+      },
+      {
+        "name": "speedText",
+        "type": "grapi::runtime::Text*[3]"
+      },
+      {
+        "name": "rpmText",
+        "type": "grapi::runtime::Text*[3]"
+      },
+      {
+        "name": "ecoSpeedText",
+        "type": "grapi::runtime::DisplayObject*[3]"
+      },
+      {
+        "name": "ecoRpmText",
+        "type": "grapi::runtime::DisplayObject*[3]"
+      },
+      {
+        "name": "ecoSpeedTextComponent",
+        "type": "grapi::runtime::Text*[3]"
+      },
+      {
+        "name": "ecoRpmTextComponent",
+        "type": "grapi::runtime::Text*[3]"
+      },
+      {
+        "name": "highBeam",
+        "type": "grapi::runtime::DisplayObject*[3]"
+      },
+      {
+        "name": "lowBeam",
+        "type": "grapi::runtime::DisplayObject*[3]"
+      },
+      {
+        "name": "hba",
+        "type": "grapi::runtime::DisplayObject*[3]"
+      }
+    ]
+  }
+]

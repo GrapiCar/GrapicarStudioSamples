@@ -1,0 +1,2457 @@
+[
+  {
+    "id": "7b015b04-bf4f-41ac-9d37-2d55eb2130e5",
+    "type": "Camera",
+    "parent": "4e2cecdb-a071-4dcf-a0d9-63e4a31cb87a",
+    "dimension": "G3D",
+    "cameraType": "Perspective",
+    "fov": 50,
+    "aspect": 2.6666666666666665,
+    "left": -2.6666666666666665,
+    "right": 2.6666666666666665,
+    "top": 1,
+    "bottom": -1,
+    "near": 1,
+    "far": 1000
+  },
+  {
+    "id": "4e2cecdb-a071-4dcf-a0d9-63e4a31cb87a",
+    "name": "NewCameraObject",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 7
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "efb2d53f-7d65-4297-9136-1c81684c7222",
+    "children": [],
+    "components": [
+      "7b015b04-bf4f-41ac-9d37-2d55eb2130e5"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "b5261211-dd3e-4d7e-b83a-afeff8da75c2",
+    "type": "Sunlight",
+    "parent": "890bc96f-e3fd-4504-bfae-b42b913ce966",
+    "dimension": "G3D",
+    "color": "#ffffff",
+    "intensity": 0.5,
+    "dynamic": true
+  },
+  {
+    "id": "890bc96f-e3fd-4504-bfae-b42b913ce966",
+    "name": "NewSunlightObject",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 300
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "efb2d53f-7d65-4297-9136-1c81684c7222",
+    "children": [],
+    "components": [
+      "b5261211-dd3e-4d7e-b83a-afeff8da75c2"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "7c17432f-2682-4aa8-8b74-9cb2110126df",
+    "type": "Light",
+    "parent": "1290e9db-4eee-4008-9a93-fe5e95af499d",
+    "dimension": "G3D",
+    "lightType": "PointLight",
+    "color": 16777215,
+    "intensity": 10
+  },
+  {
+    "id": "1290e9db-4eee-4008-9a93-fe5e95af499d",
+    "name": "NewLightObject",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "efb2d53f-7d65-4297-9136-1c81684c7222",
+    "children": [],
+    "components": [
+      "7c17432f-2682-4aa8-8b74-9cb2110126df"
+    ],
+    "visible": false,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "d77de620-1c99-4041-9ded-b747825ca493",
+    "type": "Mesh",
+    "parent": "072cfb7e-f358-4d4c-b3c9-8b410c5abbe4",
+    "dimension": "G3D",
+    "meshType": "Sphere",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      null
+    ]
+  },
+  {
+    "id": "072cfb7e-f358-4d4c-b3c9-8b410c5abbe4",
+    "name": "Box",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      }
+    },
+    "parent": "675bbf8f-dcf6-4343-97e8-19c77fe79bde",
+    "children": [],
+    "components": [
+      "d77de620-1c99-4041-9ded-b747825ca493"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "bb7d20fb-0bbe-402d-9158-e6b8b0c34c5b",
+    "type": "Text",
+    "parent": "445f8368-4e95-491d-8577-d5d69a683686",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Box",
+    "fontSize": 32,
+    "color": "#ffffff",
+    "width": 2.15,
+    "height": 0.5,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "445f8368-4e95-491d-8577-d5d69a683686",
+    "name": "TypeBox",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -0.3582773880857504,
+        "y": -1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "675bbf8f-dcf6-4343-97e8-19c77fe79bde",
+    "children": [],
+    "components": [
+      "bb7d20fb-0bbe-402d-9158-e6b8b0c34c5b"
+    ],
+    "visible": false,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "675bbf8f-dcf6-4343-97e8-19c77fe79bde",
+    "name": "BoxGroup",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -6,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "cdff3e2e-1572-40e7-89b5-305a192d96c2",
+    "children": [
+      "072cfb7e-f358-4d4c-b3c9-8b410c5abbe4",
+      "445f8368-4e95-491d-8577-d5d69a683686"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "ab818cfb-ff7d-45c7-a90a-fef5579f63c7",
+    "type": "Mesh",
+    "parent": "463686a5-d473-4041-9b51-79a5471bb1e5",
+    "dimension": "G3D",
+    "meshType": "Capsule",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      null
+    ]
+  },
+  {
+    "id": "463686a5-d473-4041-9b51-79a5471bb1e5",
+    "name": "Capsule",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "221a83f1-a7fd-48cd-a23c-1a28272eac1b",
+    "children": [],
+    "components": [
+      "ab818cfb-ff7d-45c7-a90a-fef5579f63c7"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "203268ac-7c14-4185-9e52-5e68703d12dc",
+    "type": "Text",
+    "parent": "8e73492f-8c03-449f-8618-f11b1af27dfc",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Capsule",
+    "fontSize": 32,
+    "color": "#ffffff",
+    "width": 2.15,
+    "height": 0.5,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "8e73492f-8c03-449f-8618-f11b1af27dfc",
+    "name": "TypeCapsule",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -1.1290192770295393,
+        "y": -2,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      }
+    },
+    "parent": "221a83f1-a7fd-48cd-a23c-1a28272eac1b",
+    "children": [],
+    "components": [
+      "203268ac-7c14-4185-9e52-5e68703d12dc"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "221a83f1-a7fd-48cd-a23c-1a28272eac1b",
+    "name": "CaplsuleGroup",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -3,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      }
+    },
+    "parent": "cdff3e2e-1572-40e7-89b5-305a192d96c2",
+    "children": [
+      "463686a5-d473-4041-9b51-79a5471bb1e5",
+      "8e73492f-8c03-449f-8618-f11b1af27dfc"
+    ],
+    "components": [],
+    "visible": false,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "c89a1efd-a009-47dc-9ab2-f2766ad0bad9",
+    "type": "Mesh",
+    "parent": "838726e0-2f21-4902-bfd9-000440db88fe",
+    "dimension": "G3D",
+    "meshType": "Cylinder",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      null
+    ]
+  },
+  {
+    "id": "838726e0-2f21-4902-bfd9-000440db88fe",
+    "name": "Cylinder",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "d3a0571d-b029-47fe-b70a-d12d71a0d9d0",
+    "children": [],
+    "components": [
+      "c89a1efd-a009-47dc-9ab2-f2766ad0bad9"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "7e6018a0-e7be-4eb7-9cb4-7c8c6489d82a",
+    "type": "Text",
+    "parent": "07af6fe4-1bca-44a2-8633-70370f6f44b8",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Capsule",
+    "fontSize": 32,
+    "color": "#ffffff",
+    "width": 2.15,
+    "height": 0.5,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "07af6fe4-1bca-44a2-8633-70370f6f44b8",
+    "name": "TypeCapsule",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -0.5510976107856812,
+        "y": -1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "d3a0571d-b029-47fe-b70a-d12d71a0d9d0",
+    "children": [],
+    "components": [
+      "7e6018a0-e7be-4eb7-9cb4-7c8c6489d82a"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "d3a0571d-b029-47fe-b70a-d12d71a0d9d0",
+    "name": "CylinderGroup",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "cdff3e2e-1572-40e7-89b5-305a192d96c2",
+    "children": [
+      "838726e0-2f21-4902-bfd9-000440db88fe",
+      "07af6fe4-1bca-44a2-8633-70370f6f44b8"
+    ],
+    "components": [],
+    "visible": false,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "f3d3ef33-0ec1-4edc-a84f-3993a6b985bf",
+    "type": "Mesh",
+    "parent": "becfb0a7-c90e-47eb-8122-d7fd0949d320",
+    "dimension": "G3D",
+    "meshType": "Plane",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      null
+    ]
+  },
+  {
+    "id": "becfb0a7-c90e-47eb-8122-d7fd0949d320",
+    "name": "Plane",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "1aff123d-e098-4f4e-9b9d-42e1893a237b",
+    "children": [],
+    "components": [
+      "f3d3ef33-0ec1-4edc-a84f-3993a6b985bf"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "ff6704b7-5e09-4ecb-be76-f57d0a8ea0a3",
+    "type": "Text",
+    "parent": "749caee7-e565-4020-a892-20ce76a7fc03",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Plane",
+    "fontSize": 32,
+    "color": "#ffffff",
+    "width": 2.15,
+    "height": 0.5,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "749caee7-e565-4020-a892-20ce76a7fc03",
+    "name": "TypePlane",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -0.34806977118111215,
+        "y": -1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "1aff123d-e098-4f4e-9b9d-42e1893a237b",
+    "children": [],
+    "components": [
+      "ff6704b7-5e09-4ecb-be76-f57d0a8ea0a3"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "1aff123d-e098-4f4e-9b9d-42e1893a237b",
+    "name": "PlaneGroup",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 3,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "cdff3e2e-1572-40e7-89b5-305a192d96c2",
+    "children": [
+      "becfb0a7-c90e-47eb-8122-d7fd0949d320",
+      "749caee7-e565-4020-a892-20ce76a7fc03"
+    ],
+    "components": [],
+    "visible": false,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "19667f96-bf83-400f-ac4d-f8735326e982",
+    "type": "Mesh",
+    "parent": "d010ad5c-ed84-4bc2-9a1d-60d296463a91",
+    "dimension": "G3D",
+    "meshType": "Sphere",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      null
+    ]
+  },
+  {
+    "id": "d010ad5c-ed84-4bc2-9a1d-60d296463a91",
+    "name": "Sphere",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "cc92386e-b336-477d-9498-650687cdde03",
+    "children": [],
+    "components": [
+      "19667f96-bf83-400f-ac4d-f8735326e982"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "72fc14f9-ce3b-4929-89f4-220db89d6667",
+    "type": "Text",
+    "parent": "c6e75bdd-5134-4c1c-ab12-824fa24e9424",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Sphere",
+    "fontSize": 32,
+    "color": "#ffffff",
+    "width": 2.15,
+    "height": 0.5,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "c6e75bdd-5134-4c1c-ab12-824fa24e9424",
+    "name": "TypeShpere",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -0.34806977118111215,
+        "y": -1.2681676488918798,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1.125,
+        "y": 1.125,
+        "z": 1.125
+      }
+    },
+    "parent": "cc92386e-b336-477d-9498-650687cdde03",
+    "children": [],
+    "components": [
+      "72fc14f9-ce3b-4929-89f4-220db89d6667"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "cc92386e-b336-477d-9498-650687cdde03",
+    "name": "SphereGroup",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 6,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 0.8,
+        "y": 0.8,
+        "z": 0.8
+      }
+    },
+    "parent": "cdff3e2e-1572-40e7-89b5-305a192d96c2",
+    "children": [
+      "d010ad5c-ed84-4bc2-9a1d-60d296463a91",
+      "c6e75bdd-5134-4c1c-ab12-824fa24e9424"
+    ],
+    "components": [],
+    "visible": false,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "219cc5fe-79fb-4248-a308-9fe9f6335117",
+    "type": "Text",
+    "parent": "f82fed41-d773-4091-b5f5-932a478c109f",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Type",
+    "fontSize": 32,
+    "color": "#00ffe1",
+    "width": 2.15,
+    "height": 0.5,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "f82fed41-d773-4091-b5f5-932a478c109f",
+    "name": "TypeText",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -8.638674763122172,
+        "y": 0.32769336667396765,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "cdff3e2e-1572-40e7-89b5-305a192d96c2",
+    "children": [],
+    "components": [
+      "219cc5fe-79fb-4248-a308-9fe9f6335117"
+    ],
+    "visible": false,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "cdff3e2e-1572-40e7-89b5-305a192d96c2",
+    "name": "StandardMaterials",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "5baab726-3a4d-464f-8a2f-cc8cebe1d735",
+    "children": [
+      "675bbf8f-dcf6-4343-97e8-19c77fe79bde",
+      "221a83f1-a7fd-48cd-a23c-1a28272eac1b",
+      "d3a0571d-b029-47fe-b70a-d12d71a0d9d0",
+      "1aff123d-e098-4f4e-9b9d-42e1893a237b",
+      "cc92386e-b336-477d-9498-650687cdde03",
+      "f82fed41-d773-4091-b5f5-932a478c109f"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "2fca10c3-cf6c-441e-ab73-c8a099a68472",
+    "type": "Mesh",
+    "parent": "3dea4469-e709-4326-aee4-e21773c78145",
+    "dimension": "G3D",
+    "meshType": "Box",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      {
+        "type": "MeshBasicMaterial",
+        "name": "",
+        "side": 0,
+        "color": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "id": "3dea4469-e709-4326-aee4-e21773c78145",
+    "name": "BoxBasic",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "8b7003ad-353b-4476-95e5-a2419a16b1d1",
+    "children": [],
+    "components": [
+      "2fca10c3-cf6c-441e-ab73-c8a099a68472"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "da279033-4252-4f31-9ddf-bc89e6436620",
+    "type": "Text",
+    "parent": "47107737-0b9d-4556-a685-4f5b17b67e33",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Basic",
+    "fontSize": 32,
+    "color": "#ffffff",
+    "width": 2.15,
+    "height": 0.5,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "47107737-0b9d-4556-a685-4f5b17b67e33",
+    "name": "BasicText",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -0.5949485619745891,
+        "y": -1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "8b7003ad-353b-4476-95e5-a2419a16b1d1",
+    "children": [],
+    "components": [
+      "da279033-4252-4f31-9ddf-bc89e6436620"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "8b7003ad-353b-4476-95e5-a2419a16b1d1",
+    "name": "MaterialGroup",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -6,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "2c4a18a7-d80b-407f-84a0-f4e841f05da9",
+    "children": [
+      "3dea4469-e709-4326-aee4-e21773c78145",
+      "47107737-0b9d-4556-a685-4f5b17b67e33"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "52c88c45-3f05-4858-8506-52d1f3114a61",
+    "type": "Mesh",
+    "parent": "72bd91ae-789b-45cc-93cf-f8686ecc3cd8",
+    "dimension": "G3D",
+    "meshType": "Box",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      {
+        "metalness": 0,
+        "roughness": 1
+      }
+    ]
+  },
+  {
+    "id": "72bd91ae-789b-45cc-93cf-f8686ecc3cd8",
+    "name": "BoxStandard",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "2b75c3f3-a77c-4abb-ad53-1f46b50f9fae",
+    "children": [],
+    "components": [
+      "52c88c45-3f05-4858-8506-52d1f3114a61"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "f80581b8-72ec-4cd6-96af-c520c967a1ec",
+    "type": "Text",
+    "parent": "f97443e9-831d-4067-b5b0-1f316b3b5db9",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Standard",
+    "fontSize": 32,
+    "color": "#ffffff",
+    "width": 2.8,
+    "height": 0.5,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "f97443e9-831d-4067-b5b0-1f316b3b5db9",
+    "name": "StandardText",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -0.6976069485591228,
+        "y": -1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "2b75c3f3-a77c-4abb-ad53-1f46b50f9fae",
+    "children": [],
+    "components": [
+      "f80581b8-72ec-4cd6-96af-c520c967a1ec"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "2b75c3f3-a77c-4abb-ad53-1f46b50f9fae",
+    "name": "StandardGroup",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -3,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "2c4a18a7-d80b-407f-84a0-f4e841f05da9",
+    "children": [
+      "72bd91ae-789b-45cc-93cf-f8686ecc3cd8",
+      "f97443e9-831d-4067-b5b0-1f316b3b5db9"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "baa12968-a538-44c0-a67a-34e4ed9dfe9c",
+    "type": "Mesh",
+    "parent": "61be1d5e-2e8b-4f30-99f2-30f3ce438b8b",
+    "dimension": "G3D",
+    "meshType": "Box",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      {
+        "type": "MeshPhysicalMaterial",
+        "name": "",
+        "side": 0,
+        "color": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "id": "61be1d5e-2e8b-4f30-99f2-30f3ce438b8b",
+    "name": "BoxPhysical",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "ca9d60e8-4428-45d0-9cdc-f5f04c32ae47",
+    "children": [],
+    "components": [
+      "baa12968-a538-44c0-a67a-34e4ed9dfe9c"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "d3a937ef-0a49-4155-ab33-a259de5ef432",
+    "type": "Text",
+    "parent": "07dea970-16ad-49c7-be95-5fa8b26a5e0a",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Physical",
+    "fontSize": 32,
+    "color": "#ffffff",
+    "width": 2.9,
+    "height": 0.5,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "07dea970-16ad-49c7-be95-5fa8b26a5e0a",
+    "name": "PhysicalText",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -0.64352594458211,
+        "y": -1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "ca9d60e8-4428-45d0-9cdc-f5f04c32ae47",
+    "children": [],
+    "components": [
+      "d3a937ef-0a49-4155-ab33-a259de5ef432"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "ca9d60e8-4428-45d0-9cdc-f5f04c32ae47",
+    "name": "PhysicalGroup",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "2c4a18a7-d80b-407f-84a0-f4e841f05da9",
+    "children": [
+      "61be1d5e-2e8b-4f30-99f2-30f3ce438b8b",
+      "07dea970-16ad-49c7-be95-5fa8b26a5e0a"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "284b3297-f813-4c2d-9cb4-4ea4cfc4ec31",
+    "type": "Text",
+    "parent": "50752ada-5b93-4201-a31f-ead4791e8533",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Materials",
+    "fontSize": 32,
+    "color": "#00ffe1",
+    "width": 2.15,
+    "height": 0.5,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "50752ada-5b93-4201-a31f-ead4791e8533",
+    "name": "TypeText",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -8.991203026973206,
+        "y": 0.32769336667396765,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "2c4a18a7-d80b-407f-84a0-f4e841f05da9",
+    "children": [],
+    "components": [
+      "284b3297-f813-4c2d-9cb4-4ea4cfc4ec31"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "2c4a18a7-d80b-407f-84a0-f4e841f05da9",
+    "name": "Materials",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0.05344959882987821,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "5baab726-3a4d-464f-8a2f-cc8cebe1d735",
+    "children": [
+      "8b7003ad-353b-4476-95e5-a2419a16b1d1",
+      "2b75c3f3-a77c-4abb-ad53-1f46b50f9fae",
+      "ca9d60e8-4428-45d0-9cdc-f5f04c32ae47",
+      "50752ada-5b93-4201-a31f-ead4791e8533"
+    ],
+    "components": [],
+    "visible": false,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "a6aeb8eb-a9cb-42ab-8ee3-2775aa0fc0ac",
+    "type": "Mesh",
+    "parent": "99ac45b8-718f-41fe-b63a-34e46b2460c8",
+    "dimension": "G3D",
+    "meshType": "Box",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      {
+        "type": "MeshStandardMaterial",
+        "name": "",
+        "side": 2,
+        "color": "#FFFFFF",
+        "metalness": 1,
+        "roughness": 0.431101
+      }
+    ]
+  },
+  {
+    "id": "99ac45b8-718f-41fe-b63a-34e46b2460c8",
+    "name": "MetalnessObject",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "115dcb5c-7555-408a-9d00-eb3d81e10832",
+    "children": [],
+    "components": [
+      "a6aeb8eb-a9cb-42ab-8ee3-2775aa0fc0ac"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "75f986df-7685-4f65-a97b-1c2e0136c329",
+    "type": "Text",
+    "parent": "4f9aa8d4-607d-4a89-bf77-48f72af7f68d",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Metalness",
+    "fontSize": 32,
+    "color": "#ffffff",
+    "width": 2.15,
+    "height": 0.5,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "4f9aa8d4-607d-4a89-bf77-48f72af7f68d",
+    "name": "MetalnessText",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -1.000008191420723,
+        "y": -1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "115dcb5c-7555-408a-9d00-eb3d81e10832",
+    "children": [],
+    "components": [
+      "75f986df-7685-4f65-a97b-1c2e0136c329"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "115dcb5c-7555-408a-9d00-eb3d81e10832",
+    "name": "MetalnessGroup",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -6,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "c699315b-922d-451a-9dbe-d77375b239e0",
+    "children": [
+      "99ac45b8-718f-41fe-b63a-34e46b2460c8",
+      "4f9aa8d4-607d-4a89-bf77-48f72af7f68d"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "b2667bb4-06df-49c3-9923-3d2252658cb0",
+    "type": "Mesh",
+    "parent": "8bf52251-e2f7-460f-ba0d-f820d3a44475",
+    "dimension": "G3D",
+    "meshType": "Box",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      {
+        "metalness": 0,
+        "roughness": 1
+      }
+    ]
+  },
+  {
+    "id": "8bf52251-e2f7-460f-ba0d-f820d3a44475",
+    "name": "RoughnessObject",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "4b0b2dde-7119-4a10-bb96-99a314733af5",
+    "children": [],
+    "components": [
+      "b2667bb4-06df-49c3-9923-3d2252658cb0"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "b7a50914-faca-4762-87be-58c3bbe8a2d5",
+    "type": "Text",
+    "parent": "41f17a9d-6f7b-4a6f-8799-f455425ea0cc",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Roughness",
+    "fontSize": 32,
+    "color": "#ffffff",
+    "width": 2.8,
+    "height": 0.5,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "41f17a9d-6f7b-4a6f-8799-f455425ea0cc",
+    "name": "StandardText",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -0.9421728235384577,
+        "y": -1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "4b0b2dde-7119-4a10-bb96-99a314733af5",
+    "children": [],
+    "components": [
+      "b7a50914-faca-4762-87be-58c3bbe8a2d5"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "4b0b2dde-7119-4a10-bb96-99a314733af5",
+    "name": "RoughnessGroup",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -3,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "c699315b-922d-451a-9dbe-d77375b239e0",
+    "children": [
+      "8bf52251-e2f7-460f-ba0d-f820d3a44475",
+      "41f17a9d-6f7b-4a6f-8799-f455425ea0cc"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "d1634352-75e9-49de-8fd6-77310f0af8f4",
+    "type": "Mesh",
+    "parent": "31cd8c1c-4426-4cb3-839f-b6f67858f37d",
+    "dimension": "G3D",
+    "meshType": "Box",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      {
+        "type": "MeshPhysicalMaterial",
+        "name": "",
+        "side": 0,
+        "color": "#FFFFFF",
+        "wireframe": true
+      }
+    ]
+  },
+  {
+    "id": "31cd8c1c-4426-4cb3-839f-b6f67858f37d",
+    "name": "Wireframe",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "06b371eb-54b8-4e0e-a808-b1639759023e",
+    "children": [],
+    "components": [
+      "d1634352-75e9-49de-8fd6-77310f0af8f4"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "1fbd1b74-b6bb-417c-b829-ebc2585b7b8d",
+    "type": "Text",
+    "parent": "061fd27a-2466-40fd-bf3c-201ee230f2fa",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Wireframe",
+    "fontSize": 32,
+    "color": "#ffffff",
+    "width": 2.9,
+    "height": 0.5,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "061fd27a-2466-40fd-bf3c-201ee230f2fa",
+    "name": "WireframeText",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -0.7625629431894996,
+        "y": -1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "06b371eb-54b8-4e0e-a808-b1639759023e",
+    "children": [],
+    "components": [
+      "1fbd1b74-b6bb-417c-b829-ebc2585b7b8d"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "06b371eb-54b8-4e0e-a808-b1639759023e",
+    "name": "WireframeGroup",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "c699315b-922d-451a-9dbe-d77375b239e0",
+    "children": [
+      "31cd8c1c-4426-4cb3-839f-b6f67858f37d",
+      "061fd27a-2466-40fd-bf3c-201ee230f2fa"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "f670ff44-2ee4-4914-8887-b5f6459cc180",
+    "type": "Mesh",
+    "parent": "dc81da1b-dd04-47db-aaa9-0b804fc58e9e",
+    "dimension": "G3D",
+    "meshType": "Box",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      {
+        "type": "MeshPhysicalMaterial",
+        "name": "",
+        "side": 0,
+        "color": "#FF0F13",
+        "wireframe": false,
+        "metalness": 0.6077415
+      }
+    ]
+  },
+  {
+    "id": "dc81da1b-dd04-47db-aaa9-0b804fc58e9e",
+    "name": "ColorObject",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "8bb0f23e-f141-4df1-8533-303a1b6399de",
+    "children": [],
+    "components": [
+      "f670ff44-2ee4-4914-8887-b5f6459cc180"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "cf37502d-b2ee-488f-86fa-ecbb971726d5",
+    "type": "Text",
+    "parent": "51b1b8f5-e701-40fd-bae4-ba56e40c2887",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Color",
+    "fontSize": 32,
+    "color": "#ffffff",
+    "width": 2.9,
+    "height": 0.5,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "51b1b8f5-e701-40fd-bae4-ba56e40c2887",
+    "name": "ColorText",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -0.19859637923363116,
+        "y": -1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "8bb0f23e-f141-4df1-8533-303a1b6399de",
+    "children": [],
+    "components": [
+      "cf37502d-b2ee-488f-86fa-ecbb971726d5"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "8bb0f23e-f141-4df1-8533-303a1b6399de",
+    "name": "ColorGroup",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 3,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "c699315b-922d-451a-9dbe-d77375b239e0",
+    "children": [
+      "dc81da1b-dd04-47db-aaa9-0b804fc58e9e",
+      "51b1b8f5-e701-40fd-bae4-ba56e40c2887"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "5355d3f8-0662-4f8b-a6ca-3dfb0d54f337",
+    "type": "Mesh",
+    "parent": "08ea31fd-eda4-4e52-bc8a-e6151147de5e",
+    "dimension": "G3D",
+    "meshType": "Box",
+    "path": "",
+    "glbMeshesId": -1,
+    "priority": 0,
+    "materials": [
+      {
+        "type": "MeshPhysicalMaterial",
+        "name": "",
+        "side": 0,
+        "color": "#FFFFFF",
+        "wireframe": false,
+        "metalness": 0.6077415,
+        "emissive": "#FF0000"
+      }
+    ]
+  },
+  {
+    "id": "08ea31fd-eda4-4e52-bc8a-e6151147de5e",
+    "name": "EmissiveObject",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "a9787a45-d9e4-4e34-9174-9ef896e5859e",
+    "children": [],
+    "components": [
+      "5355d3f8-0662-4f8b-a6ca-3dfb0d54f337"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "72787136-6db2-4fc1-a585-7deae9fd56a6",
+    "type": "Text",
+    "parent": "eb583dec-b687-4ac0-bf93-f6bcb6f8c82c",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Emissive",
+    "fontSize": 32,
+    "color": "#ffffff",
+    "width": 2.9,
+    "height": 0.5,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "eb583dec-b687-4ac0-bf93-f6bcb6f8c82c",
+    "name": "EmissiveText",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -0.40420183913354957,
+        "y": -1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "a9787a45-d9e4-4e34-9174-9ef896e5859e",
+    "children": [],
+    "components": [
+      "72787136-6db2-4fc1-a585-7deae9fd56a6"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "a9787a45-d9e4-4e34-9174-9ef896e5859e",
+    "name": "EmissiveGroup",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 6,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "c699315b-922d-451a-9dbe-d77375b239e0",
+    "children": [
+      "08ea31fd-eda4-4e52-bc8a-e6151147de5e",
+      "eb583dec-b687-4ac0-bf93-f6bcb6f8c82c"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "58f69224-5b08-4cc3-90cf-a5cc6d160815",
+    "type": "Text",
+    "parent": "30d83ffa-f7aa-4c62-a8b7-fe7046811b42",
+    "dimension": "G3D",
+    "path": "res/font/consola.ttf",
+    "text": "Options",
+    "fontSize": 32,
+    "color": "#00ffe1",
+    "width": 2.15,
+    "height": 0.5,
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top"
+  },
+  {
+    "id": "30d83ffa-f7aa-4c62-a8b7-fe7046811b42",
+    "name": "OptionsText",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -8.878561230544912,
+        "y": 0.32769336667396765,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "c699315b-922d-451a-9dbe-d77375b239e0",
+    "children": [],
+    "components": [
+      "58f69224-5b08-4cc3-90cf-a5cc6d160815"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "c699315b-922d-451a-9dbe-d77375b239e0",
+    "name": "Options",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": -2.2095276695027217,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "5baab726-3a4d-464f-8a2f-cc8cebe1d735",
+    "children": [
+      "115dcb5c-7555-408a-9d00-eb3d81e10832",
+      "4b0b2dde-7119-4a10-bb96-99a314733af5",
+      "06b371eb-54b8-4e0e-a808-b1639759023e",
+      "8bb0f23e-f141-4df1-8533-303a1b6399de",
+      "a9787a45-d9e4-4e34-9174-9ef896e5859e",
+      "30d83ffa-f7aa-4c62-a8b7-fe7046811b42"
+    ],
+    "components": [],
+    "visible": false,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "5baab726-3a4d-464f-8a2f-cc8cebe1d735",
+    "name": "MeshGroup",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "efb2d53f-7d65-4297-9136-1c81684c7222",
+    "children": [
+      "cdff3e2e-1572-40e7-89b5-305a192d96c2",
+      "2c4a18a7-d80b-407f-84a0-f4e841f05da9",
+      "c699315b-922d-451a-9dbe-d77375b239e0"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "429c1c27-9756-448f-8f2c-2379f770ef15",
+    "type": "Light",
+    "parent": "74676c3d-4a1b-4243-b836-e662339941bb",
+    "dimension": "G3D",
+    "lightType": "PointLight",
+    "color": 16777215,
+    "intensity": 10000
+  },
+  {
+    "id": "74676c3d-4a1b-4243-b836-e662339941bb",
+    "name": "Lighting",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 100,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "efb2d53f-7d65-4297-9136-1c81684c7222",
+    "children": [],
+    "components": [
+      "429c1c27-9756-448f-8f2c-2379f770ef15"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "477f8341-1d2b-4168-b9f1-fddd18568722",
+    "type": "ImageMaskTarget",
+    "parent": "efb2d53f-7d65-4297-9136-1c81684c7222",
+    "dimension": "G3D",
+    "maskObjId": "",
+    "targetId": "efb2d53f-7d65-4297-9136-1c81684c7222",
+    "connectedMaskId": "",
+    "stencilBufferNumber": 0,
+    "alphaTest": 0.5,
+    "childrenIds": [
+      "4e2cecdb-a071-4dcf-a0d9-63e4a31cb87a",
+      "890bc96f-e3fd-4504-bfae-b42b913ce966",
+      "1290e9db-4eee-4008-9a93-fe5e95af499d",
+      "5baab726-3a4d-464f-8a2f-cc8cebe1d735",
+      "74676c3d-4a1b-4243-b836-e662339941bb"
+    ]
+  },
+  {
+    "id": "3a655629-fa84-4e0a-9d5c-bcc66fd9208d",
+    "type": "SkyBox",
+    "parent": "efb2d53f-7d65-4297-9136-1c81684c7222",
+    "dimension": "G3D",
+    "path": "",
+    "isActive": false,
+    "visible": true
+  },
+  {
+    "id": "efb2d53f-7d65-4297-9136-1c81684c7222",
+    "name": "Scene",
+    "type": "Scene",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "",
+    "children": [
+      "4e2cecdb-a071-4dcf-a0d9-63e4a31cb87a",
+      "890bc96f-e3fd-4504-bfae-b42b913ce966",
+      "1290e9db-4eee-4008-9a93-fe5e95af499d",
+      "5baab726-3a4d-464f-8a2f-cc8cebe1d735",
+      "74676c3d-4a1b-4243-b836-e662339941bb"
+    ],
+    "components": [
+      "477f8341-1d2b-4168-b9f1-fddd18568722",
+      "3a655629-fa84-4e0a-9d5c-bcc66fd9208d"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false,
+    "backgroundColor": "#11ff13",
+    "grid": {
+      "size": 1000,
+      "divisions": 1000,
+      "color": "bbbbbb",
+      "opacity": 0.5,
+      "p_history": [
+        false,
+        false,
+        false
+      ],
+      "o_history": [
+        true,
+        false,
+        false
+      ],
+      "isRender": false
+    },
+    "camera": {
+      "acceleration": false,
+      "speed": 1,
+      "far": 1000,
+      "fov": 50,
+      "near": 0.01
+    },
+    "viewSettings": "",
+    "formatVersion": 2
+  }
+]

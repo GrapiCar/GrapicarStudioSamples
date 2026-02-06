@@ -1,0 +1,76 @@
+[
+  {
+    "class": "CarUI",
+    "bases": [],
+    "members": [
+      {
+        "name": "speedNumberObject",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "rpmNumberObject",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "speedGage",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "speedText",
+        "type": "grapi::runtime::Text*"
+      },
+      {
+        "name": "rpmText",
+        "type": "grapi::runtime::Text*"
+      },
+      {
+        "name": "Gear",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "GearOff_P",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "GearOff_R",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "GearOff_D",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "GearOff_N",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "GearOn_P",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "GearOn_R",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "GearOn_D",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "GearOn_N",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "highBeam",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "lowBeam",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "hba",
+        "type": "grapi::runtime::DisplayObject*"
+      }
+    ]
+  }
+]

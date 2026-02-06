@@ -1,0 +1,29 @@
+{
+  "id": "281ee6b1-3c9a-45c4-8f12-35b2f878713d",
+  "tag": "Basketball_Bounce",
+  "keyframes": {
+    ".position": {
+      "times": [
+        0,
+        0.233,
+        0.467
+      ],
+      "values": [
+        0,
+        4,
+        0,
+        0,
+        1,
+        0,
+        0,
+        4,
+        0
+      ]
+    }
+  },
+  "duration": 0.467,
+  "blendMode": 2500,
+  "fromGLB": false,
+  "loop": "Once",
+  "clampWhenFinished": false
+}
