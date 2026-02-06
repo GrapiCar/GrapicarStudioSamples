@@ -1,5 +1,5 @@
 {
-  "ProjectName": "Light_Sample",
+  "ProjectName": "mesh",
   "ScreenWidth": 1920,
   "ScreenHeight": 720,
   "IncludePaths": [],
@@ -7,6 +7,6 @@
   "Runtime": "cpp",
   "LocalizationPath": "",
   "LocalizationLanguage": "",
-  "Created": "2026-01-20T07:14:57.622Z",
-  "Modified": "2026-01-20T07:14:57.622Z"
+  "Created": "2026-01-20T03:04:07.892Z",
+  "Modified": "2026-01-20T03:04:07.892Z"
 }

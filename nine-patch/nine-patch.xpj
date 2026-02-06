@@ -1,5 +1,5 @@
 {
-  "ProjectName": "Camera_Sample",
+  "ProjectName": "nine-patch",
   "ScreenWidth": 1920,
   "ScreenHeight": 720,
   "IncludePaths": [],
@@ -7,6 +7,6 @@
   "Runtime": "cpp",
   "LocalizationPath": "",
   "LocalizationLanguage": "",
-  "Created": "2026-01-20T07:42:16.943Z",
-  "Modified": "2026-01-20T07:42:16.943Z"
+  "Created": "2026-01-15T01:06:32.760Z",
+  "Modified": "2026-01-15T01:06:32.760Z"
 }

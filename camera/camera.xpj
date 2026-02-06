@@ -1,5 +1,5 @@
 {
-  "ProjectName": "Playable_Sample",
+  "ProjectName": "camera",
   "ScreenWidth": 1920,
   "ScreenHeight": 720,
   "IncludePaths": [],
@@ -7,6 +7,6 @@
   "Runtime": "cpp",
   "LocalizationPath": "",
   "LocalizationLanguage": "",
-  "Created": "2026-01-15T05:13:28.862Z",
-  "Modified": "2026-01-15T05:13:28.862Z"
+  "Created": "2026-01-20T07:42:16.943Z",
+  "Modified": "2026-01-20T07:42:16.943Z"
 }

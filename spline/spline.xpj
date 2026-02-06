@@ -1,5 +1,5 @@
 {
-  "ProjectName": "Theming_Sample",
+  "ProjectName": "spline",
   "ScreenWidth": 1920,
   "ScreenHeight": 720,
   "IncludePaths": [],
@@ -7,6 +7,6 @@
   "Runtime": "cpp",
   "LocalizationPath": "",
   "LocalizationLanguage": "",
-  "Created": "2026-01-23T00:42:55.280Z",
-  "Modified": "2026-01-23T00:42:55.280Z"
+  "Created": "2026-01-15T02:28:05.907Z",
+  "Modified": "2026-01-15T02:28:05.907Z"
 }

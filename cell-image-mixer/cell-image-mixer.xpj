@@ -1,5 +1,5 @@
 {
-  "ProjectName": "Image_Sample",
+  "ProjectName": "cell-image-mixer",
   "ScreenWidth": 1920,
   "ScreenHeight": 720,
   "IncludePaths": [],
@@ -7,7 +7,6 @@
   "Runtime": "cpp",
   "LocalizationPath": "",
   "LocalizationLanguage": "",
-  "Created": "2026-01-20T07:34:28.158Z",
-  "Modified": "2026-01-20T08:00:07.201Z",
-  "StartScene": ""
+  "Created": "2026-01-15T00:07:01.902Z",
+  "Modified": "2026-01-15T00:07:01.902Z"
 }

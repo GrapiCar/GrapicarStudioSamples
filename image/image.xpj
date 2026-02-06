@@ -1,5 +1,5 @@
 {
-  "ProjectName": "Animator_Sample",
+  "ProjectName": "image",
   "ScreenWidth": 1920,
   "ScreenHeight": 720,
   "IncludePaths": [],
@@ -7,6 +7,7 @@
   "Runtime": "cpp",
   "LocalizationPath": "",
   "LocalizationLanguage": "",
-  "Created": "2026-01-15T04:14:00.582Z",
-  "Modified": "2026-01-15T04:14:00.582Z"
+  "Created": "2026-01-20T07:34:28.158Z",
+  "Modified": "2026-01-20T08:00:07.201Z",
+  "StartScene": ""
 }
