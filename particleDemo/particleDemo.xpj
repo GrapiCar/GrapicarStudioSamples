@@ -1,0 +1,12 @@
+{
+  "ProjectName": "particleDemo",
+  "ScreenWidth": 1280,
+  "ScreenHeight": 480,
+  "IncludePaths": [],
+  "OutPath": "",
+  "Runtime": "cpp",
+  "LocalizationPath": "",
+  "LocalizationLanguage": "",
+  "Created": "2026-02-11T02:07:12.908Z",
+  "Modified": "2026-02-11T02:07:12.908Z"
+}

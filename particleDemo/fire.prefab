@@ -1,0 +1,171 @@
+[
+  {
+    "id": "050ccb35-e2aa-4bbd-a45f-00aa9f26498e",
+    "type": "Image",
+    "parent": "47f29d5b-efdb-492b-946f-c16b1148d375",
+    "dimension": "G3D",
+    "name": "",
+    "path": "res/img/fire.png",
+    "width": 1024,
+    "height": 1024,
+    "depthTest": false,
+    "priority": 0
+  },
+  {
+    "id": "47f29d5b-efdb-492b-946f-c16b1148d375",
+    "name": "gc_object",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -4.099821402848753,
+        "y": 5.0599921852978405,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "b7a92de2-8de8-41d2-a3dd-01f2b64fb860",
+    "children": [],
+    "components": [
+      "050ccb35-e2aa-4bbd-a45f-00aa9f26498e"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "4f7e6501-52c4-4e59-a480-16c8b9d6fddd",
+    "type": "Particle",
+    "parent": "ea2c1df7-6cbf-4b31-8078-cf434a009c7c",
+    "dimension": "G3D",
+    "maxParticleCount": 500,
+    "isSorted": false,
+    "isFrameBlendingEnabled": false,
+    "fixedTimestep": -1,
+    "size": 0.2,
+    "count": 50,
+    "randomFactor": 10,
+    "normalFactor": 1,
+    "life": 1,
+    "randomLife": 0.8,
+    "scale": 1,
+    "rotation": 0,
+    "motionBlurAmount": 1,
+    "mass": 100,
+    "randomColor": 0.4,
+    "opacityCurvePeakStart": 0.1,
+    "opacityCurvePeakEnd": 0.3,
+    "velocity": {
+      "x": 0,
+      "y": 5,
+      "z": 0
+    },
+    "gravity": {
+      "x": 0,
+      "y": -1,
+      "z": 0
+    },
+    "drag": 0.95,
+    "restitution": 0.98,
+    "framesX": 1,
+    "framesY": 1,
+    "frameCount": 1,
+    "frameStart": 0,
+    "frameRate": 0,
+    "color": "#ffffff",
+    "opacity": 1,
+    "texturePath": "res/img/fire2.png",
+    "emissive": "#fd0008",
+    "emissiveMapPath": ""
+  },
+  {
+    "id": "ea2c1df7-6cbf-4b31-8078-cf434a009c7c",
+    "name": "NewParticleObject",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0.9976735565050572,
+        "y": -0.017811708754112532,
+        "z": 1.2469745346809287
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": "b7a92de2-8de8-41d2-a3dd-01f2b64fb860",
+    "children": [],
+    "components": [
+      "4f7e6501-52c4-4e59-a480-16c8b9d6fddd"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  },
+  {
+    "id": "b7a92de2-8de8-41d2-a3dd-01f2b64fb860",
+    "name": "fire",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "parent": null,
+    "children": [
+      "47f29d5b-efdb-492b-946f-c16b1148d375",
+      "ea2c1df7-6cbf-4b31-8078-cf434a009c7c"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "GNONE",
+    "isBone": false
+  }
+]
