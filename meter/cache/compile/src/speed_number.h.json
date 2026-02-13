@@ -1,0 +1,62 @@
+[
+  {
+    "class": "speed_number",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "members": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      },
+      {
+        "name": "number",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "transform",
+        "type": "grapi::runtime::Transform*"
+      },
+      {
+        "name": "hundred",
+        "type": "grapi::runtime::DisplayObject*[10]"
+      },
+      {
+        "name": "ten",
+        "type": "grapi::runtime::DisplayObject*[10]"
+      },
+      {
+        "name": "one",
+        "type": "grapi::runtime::DisplayObject*[10]"
+      },
+      {
+        "name": "kMaxVelocity",
+        "type": "int"
+      },
+      {
+        "name": "kDuration",
+        "type": "vfloat"
+      },
+      {
+        "name": "kPositionOffsetX",
+        "type": "vfloat"
+      },
+      {
+        "name": "velocity_",
+        "type": "vfloat"
+      },
+      {
+        "name": "direction_",
+        "type": "vfloat"
+      },
+      {
+        "name": "initial_position_x_",
+        "type": "vfloat"
+      },
+      {
+        "name": "position_adjusted_",
+        "type": "bool"
+      }
+    ]
+  }
+]

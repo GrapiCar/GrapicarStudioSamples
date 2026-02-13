@@ -1,0 +1,38 @@
+[
+  {
+    "class": "fuel",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "members": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      },
+      {
+        "name": "gauge",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "current_y_",
+        "type": "vfloat"
+      },
+      {
+        "name": "direction_",
+        "type": "vfloat"
+      },
+      {
+        "name": "kDuration",
+        "type": "vfloat"
+      },
+      {
+        "name": "kMinY",
+        "type": "vfloat"
+      },
+      {
+        "name": "kMaxY",
+        "type": "vfloat"
+      }
+    ]
+  }
+]

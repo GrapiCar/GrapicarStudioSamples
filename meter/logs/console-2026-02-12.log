@@ -1,0 +1,87 @@
+[2026-02-12 17:29:29] [ERROR] 파싱 에러 (speed_needle_pivot.h): + C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cl.exe /E /TP /utf-8 /nologo /E /C /IC:\GrapicarStudio\include /IC:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt /IC:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared /IC:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um /IC:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\include /DWIN32 /DWIN32_LEAN_AND_MEAN /D_USE_MATH_DEFINES=1 /D_UNICODE /DUNICODE /D_WIN64 C:\GrapicarStudio\Workspace\Needle_Gauge\src\speed_needle_pivot.h
+speed_needle_pivot.h
+Error occurred while processing header file: C:\\GrapicarStudio\\Workspace\\Needle_Gauge\\src\\speed_needle_pivot.h:18: parse error evaluating 'DisplayObject': unexpected 'DisplayObject', expected 'INT_CONST_DEC'
+
+[2026-02-12 17:29:29] [WARNING] 다음 파일들에서 C++ 파싱 에러가 발생했습니다:
+파싱 에러 (speed_needle_pivot.h): + C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cl.exe /E /TP /utf-8 /nologo /E /C /IC:\GrapicarStudio\include /IC:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt /IC:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared /IC:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um /IC:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\include /DWIN32 /DWIN32_LEAN_AND_MEAN /D_USE_MATH_DEFINES=1 /D_UNICODE /DUNICODE /D_WIN64 C:\GrapicarStudio\Workspace\Needle_Gauge\src\speed_needle_pivot.h
+speed_needle_pivot.h
+Error occurred while processing header file: C:\\GrapicarStudio\\Workspace\\Needle_Gauge\\src\\speed_needle_pivot.h:18: parse error evaluating 'DisplayObject': unexpected 'DisplayObject', expected 'INT_CONST_DEC'
+
+[2026-02-12 17:29:54] [ERROR] 파싱 에러 (speed_needle_pivot.h): + C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cl.exe /E /TP /utf-8 /nologo /E /C /IC:\GrapicarStudio\include /IC:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt /IC:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared /IC:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um /IC:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\include /DWIN32 /DWIN32_LEAN_AND_MEAN /D_USE_MATH_DEFINES=1 /D_UNICODE /DUNICODE /D_WIN64 C:\GrapicarStudio\Workspace\Needle_Gauge\src\speed_needle_pivot.h
+speed_needle_pivot.h
+Error occurred while processing header file: C:\\GrapicarStudio\\Workspace\\Needle_Gauge\\src\\speed_needle_pivot.h:18: parse error evaluating 'DisplayObject': unexpected 'DisplayObject', expected 'INT_CONST_DEC'
+
+[2026-02-12 17:29:54] [WARNING] 다음 파일들에서 C++ 파싱 에러가 발생했습니다:
+파싱 에러 (speed_needle_pivot.h): + C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cl.exe /E /TP /utf-8 /nologo /E /C /IC:\GrapicarStudio\include /IC:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt /IC:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared /IC:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um /IC:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\include /DWIN32 /DWIN32_LEAN_AND_MEAN /D_USE_MATH_DEFINES=1 /D_UNICODE /DUNICODE /D_WIN64 C:\GrapicarStudio\Workspace\Needle_Gauge\src\speed_needle_pivot.h
+speed_needle_pivot.h
+Error occurred while processing header file: C:\\GrapicarStudio\\Workspace\\Needle_Gauge\\src\\speed_needle_pivot.h:18: parse error evaluating 'DisplayObject': unexpected 'DisplayObject', expected 'INT_CONST_DEC'
+
+[2026-02-12 17:40:59] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Needle_Gauge\Needle_Gauge.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 17:42:14] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Needle_Gauge\Needle_Gauge.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 17:42:42] [ERROR] 파싱 에러 (speed_needle_pivot.h): + C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cl.exe /E /TP /utf-8 /nologo /E /C /IC:\GrapicarStudio\include /IC:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt /IC:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared /IC:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um /IC:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\include /DWIN32 /DWIN32_LEAN_AND_MEAN /D_USE_MATH_DEFINES=1 /D_UNICODE /DUNICODE /D_WIN64 C:\GrapicarStudio\Workspace\Needle_Gauge\src\speed_needle_pivot.h
+speed_needle_pivot.h
+Error occurred while processing header file: C:\\GrapicarStudio\\Workspace\\Needle_Gauge\\src\\speed_needle_pivot.h:33: parse error evaluating 'ㄹ;  // 최대값에서 시작하여 아래로 움직임
+    vfloat direction_ = -1.0f;
+
+
+};
+
+#line 40 "C:\\GrapicarStudio\\Workspace\\Needle_Gauge\\src\\speed_needle_pivot.h"
+': Illegal character 'ㄹ;  // 최대값에서 시작하여 아래로 움직임\n    vfloat direction_ = -1.0f;\n\n\n};\n\n#line 40 "C:\\\\GrapicarStudio\\\\Workspace\\\\Needle_Gauge\\\\src\\\\speed_needle_pivot.h"\n'
+
+[2026-02-12 17:42:42] [WARNING] 다음 파일들에서 C++ 파싱 에러가 발생했습니다:
+파싱 에러 (speed_needle_pivot.h): + C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cl.exe /E /TP /utf-8 /nologo /E /C /IC:\GrapicarStudio\include /IC:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt /IC:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared /IC:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um /IC:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\include /DWIN32 /DWIN32_LEAN_AND_MEAN /D_USE_MATH_DEFINES=1 /D_UNICODE /DUNICODE /D_WIN64 C:\GrapicarStudio\Workspace\Needle_Gauge\src\speed_needle_pivot.h
+speed_needle_pivot.h
+Error occurred while processing header file: C:\\GrapicarStudio\\Workspace\\Needle_Gauge\\src\\speed_needle_pivot.h:33: parse error evaluating 'ㄹ;  // 최대값에서 시작하여 아래로 움직임
+    vfloat direction_ = -1.0f;
+
+
+};
+
+#line 40 "C:\\GrapicarStudio\\Workspace\\Needle_Gauge\\src\\speed_needle_pivot.h"
+': Illegal character 'ㄹ;  // 최대값에서 시작하여 아래로 움직임\n    vfloat direction_ = -1.0f;\n\n\n};\n\n#line 40 "C:\\\\GrapicarStudio\\\\Workspace\\\\Needle_Gauge\\\\src\\\\speed_needle_pivot.h"\n'
+
+[2026-02-12 17:42:53] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Needle_Gauge\Needle_Gauge.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 17:43:23] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Needle_Gauge\Needle_Gauge.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 17:43:41] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Needle_Gauge\Needle_Gauge.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 17:43:59] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Needle_Gauge\Needle_Gauge.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 17:45:02] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Needle_Gauge\Needle_Gauge.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 18:39:30] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Needle_Gauge\Needle_Gauge.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 18:39:51] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Needle_Gauge\Needle_Gauge.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 18:40:24] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Needle_Gauge\Needle_Gauge.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 18:41:12] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Needle_Gauge\Needle_Gauge.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 18:43:42] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Needle_Gauge\Needle_Gauge.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 18:45:21] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Needle_Gauge\Needle_Gauge.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 18:46:38] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Needle_Gauge\Needle_Gauge.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 18:47:39] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Needle_Gauge\Needle_Gauge.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 18:49:21] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Needle_Gauge\Needle_Gauge.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 18:49:35] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Needle_Gauge\Needle_Gauge.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 18:50:29] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Needle_Gauge\Needle_Gauge.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 18:51:44] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Needle_Gauge\Needle_Gauge.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 18:52:17] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Needle_Gauge\Needle_Gauge.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 18:52:59] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Needle_Gauge\Needle_Gauge.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 18:53:28] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Needle_Gauge\Needle_Gauge.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 18:53:52] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Needle_Gauge\Needle_Gauge.xpj. RenderBackend will default to OpenGL.
+

@@ -1,0 +1,451 @@
+[
+  {
+    "id": "16fd8af1-4a03-439a-8a0e-081b81a8849d",
+    "type": "Image",
+    "parent": "1a8d4724-a44b-44a3-819e-42bd9a9f2cf7",
+    "dimension": "G2D",
+    "name": "",
+    "path": "res/img/Cluster_all/Sport/Fuel_Level_2/Status_Fuel_Leve_base_Sport.png",
+    "width": 89,
+    "height": 272,
+    "depthTest": false,
+    "priority": 0
+  },
+  {
+    "id": "1a8d4724-a44b-44a3-819e-42bd9a9f2cf7",
+    "name": "Status_Fuel_Leve_base_Sport",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "6468bf1e-e244-4d3c-b2d1-f4b4d1677721",
+    "children": [],
+    "components": [
+      "16fd8af1-4a03-439a-8a0e-081b81a8849d"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G2D",
+    "isBone": false
+  },
+  {
+    "id": "6468bf1e-e244-4d3c-b2d1-f4b4d1677721",
+    "name": "Fuel_Level_2",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -66.00059409485775,
+        "y": 271.02889491073245,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "45ec25c8-7a8e-4c3e-9564-84fdb4b05f99",
+    "children": [
+      "1a8d4724-a44b-44a3-819e-42bd9a9f2cf7"
+    ],
+    "components": [],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G2D",
+    "isBone": false
+  },
+  {
+    "id": "45ec25c8-7a8e-4c3e-9564-84fdb4b05f99",
+    "name": "Cluster_all",
+    "type": "Canvas2D",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "ea736b32-80ce-42de-bc78-759250952de4",
+    "children": [
+      "6468bf1e-e244-4d3c-b2d1-f4b4d1677721"
+    ],
+    "components": [
+      "8c2dc5d5-67ad-458a-9c72-9f02bb62ee77"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G2D",
+    "isBone": false,
+    "scaleFactor": 100,
+    "width": 1920,
+    "height": 720
+  },
+  {
+    "id": "08d3cf16-d825-4001-ac47-ab91d98b46dd",
+    "type": "Image",
+    "parent": "384cf023-f7c0-4480-89bd-e607ec3438a7",
+    "dimension": "G2D",
+    "name": "",
+    "path": "res/img/status_Fuel_Level_Sport_mask.png",
+    "width": 73,
+    "height": 231,
+    "depthTest": false,
+    "priority": 0
+  },
+  {
+    "id": "384cf023-f7c0-4480-89bd-e607ec3438a7",
+    "name": "gc_object",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -54.59600423404925,
+        "y": 223.81251406264812,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 2,
+        "y": 1.95,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "c4ca1566-6bc6-4ee4-a44d-7650f4f459ce",
+    "children": [],
+    "components": [
+      "08d3cf16-d825-4001-ac47-ab91d98b46dd"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G2D",
+    "isBone": false
+  },
+  {
+    "id": "892b8ef0-16a6-4e51-b502-fe1318b31aea",
+    "type": "ImageMaskMask",
+    "parent": "c4ca1566-6bc6-4ee4-a44d-7650f4f459ce",
+    "dimension": "G2D",
+    "targetObjId": "89bcd9e4-aaa3-4fd5-8012-f5718f7b8d6c",
+    "maskId": "c4ca1566-6bc6-4ee4-a44d-7650f4f459ce",
+    "childrenIds": [
+      "384cf023-f7c0-4480-89bd-e607ec3438a7"
+    ]
+  },
+  {
+    "id": "c4ca1566-6bc6-4ee4-a44d-7650f4f459ce",
+    "name": "mask_canvas",
+    "type": "Canvas2D",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "ea736b32-80ce-42de-bc78-759250952de4",
+    "children": [
+      "384cf023-f7c0-4480-89bd-e607ec3438a7"
+    ],
+    "components": [
+      "ebceca75-1933-493c-a7e0-899616a306fa",
+      "892b8ef0-16a6-4e51-b502-fe1318b31aea"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G2D",
+    "isBone": false,
+    "scaleFactor": 100,
+    "width": 1920,
+    "height": 720
+  },
+  {
+    "id": "306146d8-0869-491d-8c8e-0b8b8bdf698c",
+    "type": "Action",
+    "parent": "f29b7ec2-b455-4c46-9988-6089a2e55c1e",
+    "dimension": "G2D",
+    "path": "src/fuel.h",
+    "className": "fuel",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "properties": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      },
+      {
+        "name": "gauge",
+        "type": "grapi::runtime::DisplayObject*",
+        "variableValue": "f29b7ec2-b455-4c46-9988-6089a2e55c1e"
+      },
+      {
+        "name": "current_y_",
+        "type": "vfloat"
+      },
+      {
+        "name": "direction_",
+        "type": "vfloat"
+      },
+      {
+        "name": "kDuration",
+        "type": "vfloat"
+      },
+      {
+        "name": "kMinY",
+        "type": "vfloat"
+      },
+      {
+        "name": "kMaxY",
+        "type": "vfloat"
+      }
+    ]
+  },
+  {
+    "id": "68cde32f-dee5-4f15-aef4-9833299fa54a",
+    "type": "Image",
+    "parent": "f29b7ec2-b455-4c46-9988-6089a2e55c1e",
+    "dimension": "G2D",
+    "name": "",
+    "path": "res/img/status_Fuel_Level_Sport_10.png",
+    "width": 73,
+    "height": 231,
+    "depthTest": false,
+    "priority": 0
+  },
+  {
+    "id": "f29b7ec2-b455-4c46-9988-6089a2e55c1e",
+    "name": "gc_object",
+    "type": "Object",
+    "transform": {
+      "position": {
+        "x": -53.27306286322806,
+        "y": 232.95898734552222,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "89bcd9e4-aaa3-4fd5-8012-f5718f7b8d6c",
+    "children": [],
+    "components": [
+      "306146d8-0869-491d-8c8e-0b8b8bdf698c",
+      "68cde32f-dee5-4f15-aef4-9833299fa54a"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G2D",
+    "isBone": false
+  },
+  {
+    "id": "e531a66f-f653-4314-aabe-8ba6956d2bbb",
+    "type": "ImageMaskTarget",
+    "parent": "89bcd9e4-aaa3-4fd5-8012-f5718f7b8d6c",
+    "dimension": "G2D",
+    "maskObjId": "c4ca1566-6bc6-4ee4-a44d-7650f4f459ce",
+    "targetId": "89bcd9e4-aaa3-4fd5-8012-f5718f7b8d6c",
+    "connectedMaskId": "c4ca1566-6bc6-4ee4-a44d-7650f4f459ce",
+    "stencilBufferNumber": 11,
+    "alphaTest": 0.5,
+    "childrenIds": [
+      "f29b7ec2-b455-4c46-9988-6089a2e55c1e"
+    ]
+  },
+  {
+    "id": "89bcd9e4-aaa3-4fd5-8012-f5718f7b8d6c",
+    "name": "gauges_canvas",
+    "type": "Canvas2D",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "ea736b32-80ce-42de-bc78-759250952de4",
+    "children": [
+      "f29b7ec2-b455-4c46-9988-6089a2e55c1e"
+    ],
+    "components": [
+      "652be985-60f6-4c78-a96b-6d0dd85bcee7",
+      "e531a66f-f653-4314-aabe-8ba6956d2bbb"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G2D",
+    "isBone": false,
+    "scaleFactor": 100,
+    "width": 1920,
+    "height": 720
+  },
+  {
+    "id": "68dbb2c1-45d9-42e5-8ac4-067a22fa6277",
+    "type": "ImageMaskTarget",
+    "parent": "ea736b32-80ce-42de-bc78-759250952de4",
+    "dimension": "G3D",
+    "maskObjId": "",
+    "targetId": "ea736b32-80ce-42de-bc78-759250952de4",
+    "connectedMaskId": "",
+    "stencilBufferNumber": 0,
+    "alphaTest": 0.5,
+    "childrenIds": [
+      "45ec25c8-7a8e-4c3e-9564-84fdb4b05f99",
+      "c4ca1566-6bc6-4ee4-a44d-7650f4f459ce",
+      "89bcd9e4-aaa3-4fd5-8012-f5718f7b8d6c"
+    ]
+  },
+  {
+    "id": "7c87fc29-fff1-4058-8003-4ad8a40cc406",
+    "type": "SkyBox",
+    "parent": "ea736b32-80ce-42de-bc78-759250952de4",
+    "dimension": "G3D",
+    "path": "",
+    "isActive": true
+  },
+  {
+    "id": "ea736b32-80ce-42de-bc78-759250952de4",
+    "name": "Scene",
+    "type": "Scene",
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "quaternion": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "parent": "",
+    "children": [
+      "45ec25c8-7a8e-4c3e-9564-84fdb4b05f99",
+      "c4ca1566-6bc6-4ee4-a44d-7650f4f459ce",
+      "89bcd9e4-aaa3-4fd5-8012-f5718f7b8d6c"
+    ],
+    "components": [
+      "68dbb2c1-45d9-42e5-8ac4-067a22fa6277",
+      "7c87fc29-fff1-4058-8003-4ad8a40cc406"
+    ],
+    "visible": true,
+    "opacity": 1,
+    "dimension": "G3D",
+    "isBone": false,
+    "backgroundColor": "#000000",
+    "viewSettings": "",
+    "formatVersion": 2
+  }
+]

@@ -1,0 +1,73 @@
+[2026-02-12 11:50:42] [ERROR] [Worker] Worker 오류: {
+  "isTrusted": true
+}
+[2026-02-12 12:03:29] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 12:04:07] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 12:04:32] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 12:51:46] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 12:53:06] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 12:53:38] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 12:54:13] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 12:54:41] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 12:55:01] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 12:56:11] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 12:56:51] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 12:57:09] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 12:57:29] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 12:57:49] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 12:58:09] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 12:58:32] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 13:00:36] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 13:01:03] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 13:02:24] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 13:04:47] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 13:06:15] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 13:07:18] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 13:07:47] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 13:08:34] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 13:09:37] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 13:10:28] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 13:11:58] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 13:12:17] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 15:58:50] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 15:59:23] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 16:00:08] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 16:00:30] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 16:03:12] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 16:04:26] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+
+[2026-02-12 16:05:17] [ERROR] [RunTime][stderr]: Warning: [GCApplication::LoadProjectSettings] 'RenderBackend' not found or not a string in C:\GrapicarStudio\Workspace\Digital_Gauges\Digital_Gauges.xpj. RenderBackend will default to OpenGL.
+

@@ -1,0 +1,12 @@
+{
+  "ProjectName": "Needle_Gauge",
+  "ScreenWidth": 1280,
+  "ScreenHeight": 480,
+  "IncludePaths": [],
+  "OutPath": "",
+  "Runtime": "cpp",
+  "LocalizationPath": "",
+  "LocalizationLanguage": "",
+  "Created": "2026-02-12T07:57:08.375Z",
+  "Modified": "2026-02-12T07:57:08.375Z"
+}

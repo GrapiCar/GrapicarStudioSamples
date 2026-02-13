@@ -1,0 +1,42 @@
+[
+  {
+    "class": "speed_needle_pivot",
+    "bases": [
+      "grapi::runtime::Action"
+    ],
+    "members": [
+      {
+        "name": "kTypeInfo",
+        "type": "grapi::base::TypeInfo"
+      },
+      {
+        "name": "kDuration",
+        "type": "vfloat"
+      },
+      {
+        "name": "kMinZ",
+        "type": "vfloat"
+      },
+      {
+        "name": "kMaxZ",
+        "type": "vfloat"
+      },
+      {
+        "name": "pivot",
+        "type": "grapi::runtime::DisplayObject*"
+      },
+      {
+        "name": "transform",
+        "type": "grapi::runtime::Transform*"
+      },
+      {
+        "name": "current_z_",
+        "type": "vfloat"
+      },
+      {
+        "name": "direction_",
+        "type": "vfloat"
+      }
+    ]
+  }
+]
